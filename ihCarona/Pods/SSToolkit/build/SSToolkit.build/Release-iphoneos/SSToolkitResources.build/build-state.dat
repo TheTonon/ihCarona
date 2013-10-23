@@ -1,0 +1,1277 @@
+TSSToolkitResources
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/Info.plist /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/SSToolkitResources-Info.plist
+cCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/it.lproj/SSToolkit.strings Resources/it.lproj/SSToolkit.strings
+cCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/id.lproj/SSToolkit.strings Resources/id.lproj/SSToolkit.strings
+cCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/es.lproj/SSToolkit.strings Resources/es.lproj/SSToolkit.strings
+cCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/fr.lproj/SSToolkit.strings Resources/fr.lproj/SSToolkit.strings
+cCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/ja.lproj/SSToolkit.strings Resources/ja.lproj/SSToolkit.strings
+cCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/en.lproj/SSToolkit.strings Resources/en.lproj/SSToolkit.strings
+cCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/de.lproj/SSToolkit.strings Resources/de.lproj/SSToolkit.strings
+cCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/ko.lproj/SSToolkit.strings Resources/ko.lproj/SSToolkit.strings
+cCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/ms.lproj/SSToolkit.strings Resources/ms.lproj/SSToolkit.strings
+cCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/nl.lproj/SSToolkit.strings Resources/nl.lproj/SSToolkit.strings
+cCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/pt_PT.lproj/SSToolkit.strings Resources/pt_PT.lproj/SSToolkit.strings
+cCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/pt.lproj/SSToolkit.strings Resources/pt.lproj/SSToolkit.strings
+cCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/ru.lproj/SSToolkit.strings Resources/ru.lproj/SSToolkit.strings
+cCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/sv.lproj/SSToolkit.strings Resources/sv.lproj/SSToolkit.strings
+cCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/zh_Hans.lproj/SSToolkit.strings Resources/zh_Hans.lproj/SSToolkit.strings
+cCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/zh_Hant.lproj/SSToolkit.strings Resources/zh_Hant.lproj/SSToolkit.strings
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/hud-check.png Resources/Images/hud-check.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/hud-check@2x.png Resources/Images/hud-check@2x.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/hud-x.png Resources/Images/hud-x.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/hud-x@2x.png Resources/Images/hud-x@2x.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/gray-star.png Resources/Images/gray-star.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/gray-star@2x.png Resources/Images/gray-star@2x.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/orange-star.png Resources/Images/orange-star.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/orange-star@2x.png Resources/Images/orange-star@2x.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png Resources/Images/SSAddressBarTextFieldBackground.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldBackground@2x.png Resources/Images/SSAddressBarTextFieldBackground@2x.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldReload.png Resources/Images/SSAddressBarTextFieldReload.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldReload@2x.png Resources/Images/SSAddressBarTextFieldReload@2x.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldStop.png Resources/Images/SSAddressBarTextFieldStop.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png Resources/Images/SSAddressBarTextFieldStop@2x.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButton.png Resources/Images/UISegmentBarButton.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButton@2x.png Resources/Images/UISegmentBarButton@2x.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png Resources/Images/UISegmentBarButtonHighlighted.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButtonHighlighted@2x.png Resources/Images/UISegmentBarButtonHighlighted@2x.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDivider.png Resources/Images/UISegmentBarDivider.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDivider@2x.png Resources/Images/UISegmentBarDivider@2x.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDividerHighlighted.png Resources/Images/UISegmentBarDividerHighlighted.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDividerHighlighted@2x.png Resources/Images/UISegmentBarDividerHighlighted@2x.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/action-button-mini.png Resources/Images/action-button-mini.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/action-button-mini@2x.png Resources/Images/action-button-mini@2x.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/action-button.png Resources/Images/action-button.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/action-button@2x.png Resources/Images/action-button@2x.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/back-button-mini.png Resources/Images/back-button-mini.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/back-button-mini@2x.png Resources/Images/back-button-mini@2x.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/back-button.png Resources/Images/back-button.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/back-button@2x.png Resources/Images/back-button@2x.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/forward-button-mini.png Resources/Images/forward-button-mini.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/forward-button-mini@2x.png Resources/Images/forward-button-mini@2x.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/forward-button.png Resources/Images/forward-button.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/forward-button@2x.png Resources/Images/forward-button@2x.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/reload-button-mini.png Resources/Images/reload-button-mini.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/reload-button-mini@2x.png Resources/Images/reload-button-mini@2x.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/reload-button.png Resources/Images/reload-button.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/reload-button@2x.png Resources/Images/reload-button@2x.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/safari-button-mini.png Resources/Images/safari-button-mini.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/safari-button-mini@2x.png Resources/Images/safari-button-mini@2x.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/safari-button.png Resources/Images/safari-button.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/safari-button@2x.png Resources/Images/safari-button@2x.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/stop-button-mini.png Resources/Images/stop-button-mini.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/stop-button-mini@2x.png Resources/Images/stop-button-mini@2x.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/stop-button.png Resources/Images/stop-button.png
+cCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/stop-button@2x.png Resources/Images/stop-button@2x.png
+cTouch /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/./SSToolkitResources.bundle
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldBackground.png
+c000000005267C8600000000000000100
+t1382533216
+s256
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldBackground@2x.png
+c000000005267C860000000000000015E
+t1382533216
+s350
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldReload.png
+c000000005267C860000000000000036F
+t1382533216
+s879
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldReload@2x.png
+c000000005267C86000000000000004E0
+t1382533216
+s1248
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldStop.png
+c000000005267C860000000000000027C
+t1382533216
+s636
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldStop@2x.png
+c000000005267C86000000000000003C9
+t1382533216
+s969
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/UISegmentBarButton.png
+c000000005267C8600000000000000240
+t1382533216
+s576
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/UISegmentBarButton@2x.png
+c000000005267C8600000000000000525
+t1382533216
+s1317
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/UISegmentBarButtonHighlighted.png
+c000000005267C8600000000000000248
+t1382533216
+s584
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/UISegmentBarButtonHighlighted@2x.png
+c000000005267C860000000000000053E
+t1382533216
+s1342
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/UISegmentBarDivider.png
+c000000005267C860000000000000008E
+t1382533216
+s142
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/UISegmentBarDivider@2x.png
+c000000005267C86000000000000000CC
+t1382533216
+s204
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/UISegmentBarDividerHighlighted.png
+c000000005267C860000000000000008E
+t1382533216
+s142
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/UISegmentBarDividerHighlighted@2x.png
+c000000005267C86000000000000000E7
+t1382533216
+s231
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/action-button-mini.png
+c000000005267C860000000000000012C
+t1382533216
+s300
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/action-button-mini@2x.png
+c000000005267C86000000000000001FE
+t1382533216
+s510
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/action-button.png
+c000000005267C860000000000000015F
+t1382533216
+s351
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/action-button@2x.png
+c000000005267C8600000000000000262
+t1382533216
+s610
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/back-button-mini.png
+c000000005267C860000000000000008E
+t1382533216
+s142
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/back-button-mini@2x.png
+c000000005267C86000000000000000FC
+t1382533216
+s252
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/back-button.png
+c000000005267C86000000000000000BB
+t1382533216
+s187
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/back-button@2x.png
+c000000005267C86000000000000000FD
+t1382533216
+s253
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/forward-button-mini.png
+c000000005267C8600000000000000094
+t1382533216
+s148
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/forward-button-mini@2x.png
+c000000005267C86000000000000000ED
+t1382533216
+s237
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/forward-button.png
+c000000005267C86000000000000000AE
+t1382533216
+s174
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/forward-button@2x.png
+c000000005267C8600000000000000104
+t1382533216
+s260
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/gray-star.png
+c000000005267C8600000000000000DC4
+t1382533216
+s3524
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/gray-star@2x.png
+c000000005267C860000000000000118E
+t1382533216
+s4494
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/hud-check.png
+c000000005267C86000000000000001A1
+t1382533216
+s417
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/hud-check@2x.png
+c000000005267C8600000000000000299
+t1382533216
+s665
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/hud-x.png
+c000000005267C86000000000000001BA
+t1382533216
+s442
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/hud-x@2x.png
+c000000005267C8600000000000000310
+t1382533216
+s784
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/orange-star.png
+c000000005267C8600000000000000EB3
+t1382533216
+s3763
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/orange-star@2x.png
+c000000005267C8600000000000001456
+t1382533216
+s5206
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/reload-button-mini.png
+c000000005267C8600000000000000106
+t1382533216
+s262
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/reload-button-mini@2x.png
+c000000005267C860000000000000020E
+t1382533216
+s526
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/reload-button.png
+c000000005267C8600000000000000175
+t1382533216
+s373
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/reload-button@2x.png
+c000000005267C86000000000000002AE
+t1382533216
+s686
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/safari-button-mini.png
+c000000005267C8600000000000000116
+t1382533216
+s278
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/safari-button-mini@2x.png
+c000000005267C86000000000000002A4
+t1382533216
+s676
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/safari-button.png
+c000000005267C86000000000000001A2
+t1382533216
+s418
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/safari-button@2x.png
+c000000005267C8600000000000000317
+t1382533216
+s791
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/stop-button-mini.png
+c000000005267C86000000000000000D2
+t1382533216
+s210
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/stop-button-mini@2x.png
+c000000005267C8600000000000000135
+t1382533216
+s309
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/stop-button.png
+c000000005267C86000000000000000FC
+t1382533216
+s252
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/stop-button@2x.png
+c000000005267C8600000000000000170
+t1382533216
+s368
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/SSToolkitResources-Info.plist
+c000000005267C8600000000000000572
+t1382533216
+s1394
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/de.lproj/SSToolkit.strings
+c000000005267C8600000000000000369
+t1382533216
+s873
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/en.lproj/SSToolkit.strings
+c000000005267C8600000000000000352
+t1382533216
+s850
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/es.lproj/SSToolkit.strings
+c000000005267C8600000000000000374
+t1382533216
+s884
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/fr.lproj/SSToolkit.strings
+c000000005267C8600000000000000361
+t1382533216
+s865
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/id.lproj/SSToolkit.strings
+c000000005267C8600000000000000361
+t1382533216
+s865
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/it.lproj/SSToolkit.strings
+c000000005267C860000000000000035C
+t1382533216
+s860
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/ja.lproj/SSToolkit.strings
+c000000005267C86000000000000005F0
+t1382533216
+s1520
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/ko.lproj/SSToolkit.strings
+c000000005267C860000000000000033A
+t1382533216
+s826
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/ms.lproj/SSToolkit.strings
+c000000005267C8600000000000000370
+t1382533216
+s880
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/nl.lproj/SSToolkit.strings
+c000000005267C8600000000000000376
+t1382533216
+s886
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/pt.lproj/SSToolkit.strings
+c000000005267C860000000000000035A
+t1382533216
+s858
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/pt_PT.lproj/SSToolkit.strings
+c000000005267C8600000000000000361
+t1382533216
+s865
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/ru.lproj/SSToolkit.strings
+c000000005267C8600000000000000382
+t1382533216
+s898
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/sv.lproj/SSToolkit.strings
+c000000005267C860000000000000036C
+t1382533216
+s876
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/zh_Hans.lproj/SSToolkit.strings
+c000000005267C860000000000000035A
+t1382533216
+s858
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/zh_Hant.lproj/SSToolkit.strings
+c000000005267C8600000000000000358
+t1382533216
+s856
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle
+t1382533235
+s2210
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/Info.plist
+t1382533235
+s1191
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png
+t1382533235
+s234
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldBackground@2x.png
+t1382533235
+s414
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldReload.png
+t1382533235
+s887
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldReload@2x.png
+t1382533235
+s1144
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldStop.png
+t1382533235
+s482
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png
+t1382533235
+s824
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButton.png
+t1382533235
+s623
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButton@2x.png
+t1382533235
+s1775
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png
+t1382533235
+s611
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButtonHighlighted@2x.png
+t1382533235
+s1623
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDivider.png
+t1382533235
+s183
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDivider@2x.png
+t1382533235
+s340
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDividerHighlighted.png
+t1382533235
+s182
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDividerHighlighted@2x.png
+t1382533235
+s346
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/action-button-mini.png
+t1382533235
+s466
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/action-button-mini@2x.png
+t1382533235
+s871
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/action-button.png
+t1382533235
+s575
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/action-button@2x.png
+t1382533235
+s1062
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/back-button-mini.png
+t1382533235
+s180
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/back-button-mini@2x.png
+t1382533235
+s395
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/back-button.png
+t1382533235
+s249
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/back-button@2x.png
+t1382533235
+s378
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/de.lproj/SSToolkit.strings
+t1382533235
+s581
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/en.lproj/SSToolkit.strings
+t1382533235
+s306
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/es.lproj/SSToolkit.strings
+t1382533235
+s548
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/forward-button-mini.png
+t1382533235
+s190
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/forward-button-mini@2x.png
+t1382533235
+s341
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/forward-button.png
+t1382533235
+s204
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/forward-button@2x.png
+t1382533235
+s349
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/fr.lproj/SSToolkit.strings
+t1382533235
+s489
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/gray-star.png
+t1382533235
+s3526
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/gray-star@2x.png
+t1382533235
+s4956
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/hud-check.png
+t1382533235
+s393
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/hud-check@2x.png
+t1382533235
+s629
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/hud-x.png
+t1382533235
+s442
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/hud-x@2x.png
+t1382533235
+s818
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/id.lproj/SSToolkit.strings
+t1382533235
+s481
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/it.lproj/SSToolkit.strings
+t1382533235
+s530
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/ja.lproj/SSToolkit.strings
+t1382533235
+s482
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/ko.lproj/SSToolkit.strings
+t1382533235
+s474
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/ms.lproj/SSToolkit.strings
+t1382533235
+s531
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/nl.lproj/SSToolkit.strings
+t1382533235
+s522
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/orange-star.png
+t1382533235
+s3704
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/orange-star@2x.png
+t1382533235
+s5221
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/pt.lproj/SSToolkit.strings
+t1382533235
+s496
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/pt_PT.lproj/SSToolkit.strings
+t1382533235
+s501
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/reload-button-mini.png
+t1382533235
+s262
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/reload-button-mini@2x.png
+t1382533235
+s935
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/reload-button.png
+t1382533235
+s610
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/reload-button@2x.png
+t1382533235
+s1223
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/ru.lproj/SSToolkit.strings
+t1382533235
+s608
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/safari-button-mini.png
+t1382533235
+s278
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/safari-button-mini@2x.png
+t1382533235
+s1167
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/safari-button.png
+t1382533235
+s705
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/safari-button@2x.png
+t1382533235
+s1371
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/stop-button-mini.png
+t1382533235
+s275
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/stop-button-mini@2x.png
+t1382533235
+s394
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/stop-button.png
+t1382533235
+s330
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/stop-button@2x.png
+t1382533235
+s456
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/sv.lproj/SSToolkit.strings
+t1382533235
+s597
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/zh_Hans.lproj/SSToolkit.strings
+t1382533235
+s515
+
+N/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/zh_Hant.lproj/SSToolkit.strings
+t1382533235
+s504
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies55bd74f3ff17b841^7b697ef3ff17b841^---0#1#1#--18"Check dependencies36"B8C16FFC-5F49-4C4B-8740-66A978F5D91A-
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png Resources/Images/SSAddressBarTextFieldBackground.png
+s404226035.555974
+e404226035.591132
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png
+xResources/Images/SSAddressBarTextFieldBackground.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png Resources/Images/SSAddressBarTextFieldBackground.png126"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png Resources/Images/SSAddressBarTextFieldBackground.png486d8ef3ff17b841^346997f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@142"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldBackground.png0000000000000000^785"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png Resources/Images/SSAddressBarTextFieldBackground.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldBackground.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldBackground.png36"9DA38F15-B087-4CFF-AEB8-49625CCDD075-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldBackground@2x.png Resources/Images/SSAddressBarTextFieldBackground@2x.png
+s404226035.556314
+e404226035.593967
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldBackground@2x.png
+xResources/Images/SSAddressBarTextFieldBackground@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldBackground@2x.png Resources/Images/SSAddressBarTextFieldBackground@2x.png132"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldBackground@2x.png Resources/Images/SSAddressBarTextFieldBackground@2x.png3c878ef3ff17b841^da1b98f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@145"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldBackground@2x.png0000000000000000^797"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldBackground@2x.png Resources/Images/SSAddressBarTextFieldBackground@2x.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldBackground@2x.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldBackground@2x.png36"E992F527-CF48-464B-8E27-A5AC64BA6D90-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldReload.png Resources/Images/SSAddressBarTextFieldReload.png
+s404226035.556936
+e404226035.591810
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldReload.png
+xResources/Images/SSAddressBarTextFieldReload.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldReload.png Resources/Images/SSAddressBarTextFieldReload.png118"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldReload.png Resources/Images/SSAddressBarTextFieldReload.pngcfa38ef3ff17b841^308197f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@138"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldReload.png0000000000000000^769"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldReload.png Resources/Images/SSAddressBarTextFieldReload.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldReload.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldReload.png36"538F342A-C523-4EAA-A125-FC37FCD9BBA1-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldReload@2x.png Resources/Images/SSAddressBarTextFieldReload@2x.png
+s404226035.561363
+e404226035.595058
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldReload@2x.png
+xResources/Images/SSAddressBarTextFieldReload@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldReload@2x.png Resources/Images/SSAddressBarTextFieldReload@2x.png124"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldReload@2x.png Resources/Images/SSAddressBarTextFieldReload@2x.png82c78ff3ff17b841^a75998f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@141"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldReload@2x.png0000000000000000^781"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldReload@2x.png Resources/Images/SSAddressBarTextFieldReload@2x.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldReload@2x.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldReload@2x.png36"91B1B644-321F-44A9-BB46-990F207C8BB6-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldStop.png Resources/Images/SSAddressBarTextFieldStop.png
+s404226035.567143
+e404226035.601968
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldStop.png
+xResources/Images/SSAddressBarTextFieldStop.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldStop.png Resources/Images/SSAddressBarTextFieldStop.png114"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldStop.png Resources/Images/SSAddressBarTextFieldStop.pngd84591f3ff17b841^d2369af3ff17b841^---0#0#1#-19%DVTDocumentLocation2@136"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldStop.png0000000000000000^761"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldStop.png Resources/Images/SSAddressBarTextFieldStop.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldStop.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldStop.png36"0E86FB65-7DEB-4BE0-AB07-EC20206270AD-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png Resources/Images/SSAddressBarTextFieldStop@2x.png
+s404226035.567958
+e404226035.605932
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png
+xResources/Images/SSAddressBarTextFieldStop@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png Resources/Images/SSAddressBarTextFieldStop@2x.png120"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png Resources/Images/SSAddressBarTextFieldStop@2x.png448691f3ff17b841^f31e9bf3ff17b841^---0#0#1#-19%DVTDocumentLocation2@139"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldStop@2x.png0000000000000000^773"CopyPNGFile SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png Resources/Images/SSAddressBarTextFieldStop@2x.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/SSAddressBarTextFieldStop@2x.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/SSAddressBarTextFieldStop@2x.png36"FD6EAC81-1445-47EB-AA69-87CD482D1BC0-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButton.png Resources/Images/UISegmentBarButton.png
+s404226035.570858
+e404226035.606218
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButton.png
+xResources/Images/UISegmentBarButton.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile SSToolkitResources.bundle/UISegmentBarButton.png Resources/Images/UISegmentBarButton.png100"CopyPNGFile SSToolkitResources.bundle/UISegmentBarButton.png Resources/Images/UISegmentBarButton.pngf73d92f3ff17b841^603c9bf3ff17b841^---0#0#1#-19%DVTDocumentLocation2@129"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/UISegmentBarButton.png0000000000000000^733"CopyPNGFile SSToolkitResources.bundle/UISegmentBarButton.png Resources/Images/UISegmentBarButton.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/UISegmentBarButton.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButton.png36"919E55AF-56AB-4AF5-9BE4-6E522E2CDC6B-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButton@2x.png Resources/Images/UISegmentBarButton@2x.png
+s404226035.575241
+e404226035.609902
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButton@2x.png
+xResources/Images/UISegmentBarButton@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"CopyPNGFile SSToolkitResources.bundle/UISegmentBarButton@2x.png Resources/Images/UISegmentBarButton@2x.png106"CopyPNGFile SSToolkitResources.bundle/UISegmentBarButton@2x.png Resources/Images/UISegmentBarButton@2x.pngb05493f3ff17b841^e6249cf3ff17b841^---0#0#1#-19%DVTDocumentLocation2@132"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/UISegmentBarButton@2x.png0000000000000000^745"CopyPNGFile SSToolkitResources.bundle/UISegmentBarButton@2x.png Resources/Images/UISegmentBarButton@2x.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/UISegmentBarButton@2x.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButton@2x.png36"4133E9A4-B70A-4678-B914-110C9AD577CB-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png Resources/Images/UISegmentBarButtonHighlighted.png
+s404226035.592457
+e404226035.626824
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png
+xResources/Images/UISegmentBarButtonHighlighted.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"CopyPNGFile SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png Resources/Images/UISegmentBarButtonHighlighted.png122"CopyPNGFile SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png Resources/Images/UISegmentBarButtonHighlighted.png05c197f3ff17b841^239ea0f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@140"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/UISegmentBarButtonHighlighted.png0000000000000000^777"CopyPNGFile SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png Resources/Images/UISegmentBarButtonHighlighted.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/UISegmentBarButtonHighlighted.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButtonHighlighted.png36"B5AC1E8B-3E13-4EFE-8354-5E33E8E3465C-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButtonHighlighted@2x.png Resources/Images/UISegmentBarButtonHighlighted@2x.png
+s404226035.593221
+e404226035.628968
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButtonHighlighted@2x.png
+xResources/Images/UISegmentBarButtonHighlighted@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"CopyPNGFile SSToolkitResources.bundle/UISegmentBarButtonHighlighted@2x.png Resources/Images/UISegmentBarButtonHighlighted@2x.png128"CopyPNGFile SSToolkitResources.bundle/UISegmentBarButtonHighlighted@2x.png Resources/Images/UISegmentBarButtonHighlighted@2x.png30f197f3ff17b841^7a38a1f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@143"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/UISegmentBarButtonHighlighted@2x.png0000000000000000^789"CopyPNGFile SSToolkitResources.bundle/UISegmentBarButtonHighlighted@2x.png Resources/Images/UISegmentBarButtonHighlighted@2x.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/UISegmentBarButtonHighlighted@2x.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarButtonHighlighted@2x.png36"093510C7-68C5-4B3E-AA50-083A1E44ACE4-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDivider.png Resources/Images/UISegmentBarDivider.png
+s404226035.595356
+e404226035.631105
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDivider.png
+xResources/Images/UISegmentBarDivider.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CopyPNGFile SSToolkitResources.bundle/UISegmentBarDivider.png Resources/Images/UISegmentBarDivider.png102"CopyPNGFile SSToolkitResources.bundle/UISegmentBarDivider.png Resources/Images/UISegmentBarDivider.pnge57d98f3ff17b841^9967a1f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@130"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/UISegmentBarDivider.png0000000000000000^737"CopyPNGFile SSToolkitResources.bundle/UISegmentBarDivider.png Resources/Images/UISegmentBarDivider.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/UISegmentBarDivider.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDivider.png36"F8583631-608D-42C7-8A44-1E4D06EB573F-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDivider@2x.png Resources/Images/UISegmentBarDivider@2x.png
+s404226035.595691
+e404226035.633070
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDivider@2x.png
+xResources/Images/UISegmentBarDivider@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"CopyPNGFile SSToolkitResources.bundle/UISegmentBarDivider@2x.png Resources/Images/UISegmentBarDivider@2x.png108"CopyPNGFile SSToolkitResources.bundle/UISegmentBarDivider@2x.png Resources/Images/UISegmentBarDivider@2x.png118f98f3ff17b841^2a1fa2f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@133"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/UISegmentBarDivider@2x.png0000000000000000^749"CopyPNGFile SSToolkitResources.bundle/UISegmentBarDivider@2x.png Resources/Images/UISegmentBarDivider@2x.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/UISegmentBarDivider@2x.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDivider@2x.png36"5D936320-A3FA-4F4A-A8A2-75A1D2C97393-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDividerHighlighted.png Resources/Images/UISegmentBarDividerHighlighted.png
+s404226035.603438
+e404226035.642462
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDividerHighlighted.png
+xResources/Images/UISegmentBarDividerHighlighted.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"CopyPNGFile SSToolkitResources.bundle/UISegmentBarDividerHighlighted.png Resources/Images/UISegmentBarDividerHighlighted.png124"CopyPNGFile SSToolkitResources.bundle/UISegmentBarDividerHighlighted.png Resources/Images/UISegmentBarDividerHighlighted.pngbaa49af3ff17b841^e17ea4f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@141"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/UISegmentBarDividerHighlighted.png0000000000000000^781"CopyPNGFile SSToolkitResources.bundle/UISegmentBarDividerHighlighted.png Resources/Images/UISegmentBarDividerHighlighted.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/UISegmentBarDividerHighlighted.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDividerHighlighted.png36"E55A3384-CBD5-4D0F-BC1B-0D9DCBDC0C55-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDividerHighlighted@2x.png Resources/Images/UISegmentBarDividerHighlighted@2x.png
+s404226035.607231
+e404226035.643026
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDividerHighlighted@2x.png
+xResources/Images/UISegmentBarDividerHighlighted@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"CopyPNGFile SSToolkitResources.bundle/UISegmentBarDividerHighlighted@2x.png Resources/Images/UISegmentBarDividerHighlighted@2x.png130"CopyPNGFile SSToolkitResources.bundle/UISegmentBarDividerHighlighted@2x.png Resources/Images/UISegmentBarDividerHighlighted@2x.png8b879bf3ff17b841^7d91a4f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@144"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/UISegmentBarDividerHighlighted@2x.png0000000000000000^793"CopyPNGFile SSToolkitResources.bundle/UISegmentBarDividerHighlighted@2x.png Resources/Images/UISegmentBarDividerHighlighted@2x.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/UISegmentBarDividerHighlighted@2x.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/UISegmentBarDividerHighlighted@2x.png36"8176DB97-21AA-4105-A0F1-07270EC45B67-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/action-button-mini.png Resources/Images/action-button-mini.png
+s404226035.607663
+e404226035.652134
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/action-button-mini.png
+xResources/Images/action-button-mini.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile SSToolkitResources.bundle/action-button-mini.png Resources/Images/action-button-mini.png100"CopyPNGFile SSToolkitResources.bundle/action-button-mini.png Resources/Images/action-button-mini.png1fbf9bf3ff17b841^0ef6a6f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@129"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/action-button-mini.png0000000000000000^733"CopyPNGFile SSToolkitResources.bundle/action-button-mini.png Resources/Images/action-button-mini.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/action-button-mini.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/action-button-mini.png36"DA9E3DE5-7F0F-4F80-AC43-3E45EC117BFB-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/action-button-mini@2x.png Resources/Images/action-button-mini@2x.png
+s404226035.611794
+e404226035.655425
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/action-button-mini@2x.png
+xResources/Images/action-button-mini@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"CopyPNGFile SSToolkitResources.bundle/action-button-mini@2x.png Resources/Images/action-button-mini@2x.png106"CopyPNGFile SSToolkitResources.bundle/action-button-mini@2x.png Resources/Images/action-button-mini@2x.png3eb39cf3ff17b841^f6d3a7f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@132"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/action-button-mini@2x.png0000000000000000^745"CopyPNGFile SSToolkitResources.bundle/action-button-mini@2x.png Resources/Images/action-button-mini@2x.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/action-button-mini@2x.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/action-button-mini@2x.png36"BD214755-F3D8-48E2-9B98-B2BA3E08E670-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/action-button.png Resources/Images/action-button.png
+s404226035.630214
+e404226035.669863
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/action-button.png
+xResources/Images/action-button.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile SSToolkitResources.bundle/action-button.png Resources/Images/action-button.png90"CopyPNGFile SSToolkitResources.bundle/action-button.png Resources/Images/action-button.pngf0a4a1f3ff17b841^588fabf3ff17b841^---0#0#1#-19%DVTDocumentLocation2@124"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/action-button.png0000000000000000^713"CopyPNGFile SSToolkitResources.bundle/action-button.png Resources/Images/action-button.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/action-button.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/action-button.png36"07FE1492-FE46-4CA7-B985-7865F148CF30-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/action-button@2x.png Resources/Images/action-button@2x.png
+s404226035.630312
+e404226035.673272
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/action-button@2x.png
+xResources/Images/action-button@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile SSToolkitResources.bundle/action-button@2x.png Resources/Images/action-button@2x.png96"CopyPNGFile SSToolkitResources.bundle/action-button@2x.png Resources/Images/action-button@2x.png81b2a1f3ff17b841^0377acf3ff17b841^---0#0#1#-19%DVTDocumentLocation2@127"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/action-button@2x.png0000000000000000^725"CopyPNGFile SSToolkitResources.bundle/action-button@2x.png Resources/Images/action-button@2x.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/action-button@2x.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/action-button@2x.png36"D7A97D98-6DAA-410D-AAEE-C840F04790C6-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/back-button-mini.png Resources/Images/back-button-mini.png
+s404226035.632451
+e404226035.675925
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/back-button-mini.png
+xResources/Images/back-button-mini.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile SSToolkitResources.bundle/back-button-mini.png Resources/Images/back-button-mini.png96"CopyPNGFile SSToolkitResources.bundle/back-button-mini.png Resources/Images/back-button-mini.png54fea1f3ff17b841^7e18adf3ff17b841^---0#0#1#-19%DVTDocumentLocation2@127"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/back-button-mini.png0000000000000000^725"CopyPNGFile SSToolkitResources.bundle/back-button-mini.png Resources/Images/back-button-mini.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/back-button-mini.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/back-button-mini.png36"B6DC2554-A772-4585-8945-9D49768C7DFC-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/back-button-mini@2x.png Resources/Images/back-button-mini@2x.png
+s404226035.634345
+e404226035.677120
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/back-button-mini@2x.png
+xResources/Images/back-button-mini@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CopyPNGFile SSToolkitResources.bundle/back-button-mini@2x.png Resources/Images/back-button-mini@2x.png102"CopyPNGFile SSToolkitResources.bundle/back-button-mini@2x.png Resources/Images/back-button-mini@2x.pngd976a2f3ff17b841^cc63adf3ff17b841^---0#0#1#-19%DVTDocumentLocation2@130"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/back-button-mini@2x.png0000000000000000^737"CopyPNGFile SSToolkitResources.bundle/back-button-mini@2x.png Resources/Images/back-button-mini@2x.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/back-button-mini@2x.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/back-button-mini@2x.png36"0AD0BA8E-8062-4AE6-9E12-59B5B7110157-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/back-button.png Resources/Images/back-button.png
+s404226035.643710
+e404226035.685133
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/back-button.png
+xResources/Images/back-button.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile SSToolkitResources.bundle/back-button.png Resources/Images/back-button.png86"CopyPNGFile SSToolkitResources.bundle/back-button.png Resources/Images/back-button.png09dea4f3ff17b841^2787aff3ff17b841^---0#0#1#-19%DVTDocumentLocation2@122"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/back-button.png0000000000000000^705"CopyPNGFile SSToolkitResources.bundle/back-button.png Resources/Images/back-button.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/back-button.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/back-button.png36"CBD453BD-83FF-4E61-855C-F6E02C80A304-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/back-button@2x.png Resources/Images/back-button@2x.png
+s404226035.644735
+e404226035.687141
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/back-button@2x.png
+xResources/Images/back-button@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile SSToolkitResources.bundle/back-button@2x.png Resources/Images/back-button@2x.png92"CopyPNGFile SSToolkitResources.bundle/back-button@2x.png Resources/Images/back-button@2x.pngac1da5f3ff17b841^6af7aff3ff17b841^---0#0#1#-19%DVTDocumentLocation2@125"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/back-button@2x.png0000000000000000^717"CopyPNGFile SSToolkitResources.bundle/back-button@2x.png Resources/Images/back-button@2x.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/back-button@2x.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/back-button@2x.png36"D7C4614C-43AD-44D8-B16A-8D4EA7B1FE54-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/forward-button-mini.png Resources/Images/forward-button-mini.png
+s404226035.654209
+e404226035.697865
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/forward-button-mini.png
+xResources/Images/forward-button-mini.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CopyPNGFile SSToolkitResources.bundle/forward-button-mini.png Resources/Images/forward-button-mini.png102"CopyPNGFile SSToolkitResources.bundle/forward-button-mini.png Resources/Images/forward-button-mini.pngb491a7f3ff17b841^49bab2f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@130"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/forward-button-mini.png0000000000000000^737"CopyPNGFile SSToolkitResources.bundle/forward-button-mini.png Resources/Images/forward-button-mini.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/forward-button-mini.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/forward-button-mini.png36"E4CBDAC1-7FAA-4DCB-BA95-89BE6845161A-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/forward-button-mini@2x.png Resources/Images/forward-button-mini@2x.png
+s404226035.658063
+e404226035.699143
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/forward-button-mini@2x.png
+xResources/Images/forward-button-mini@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"CopyPNGFile SSToolkitResources.bundle/forward-button-mini@2x.png Resources/Images/forward-button-mini@2x.png108"CopyPNGFile SSToolkitResources.bundle/forward-button-mini@2x.png Resources/Images/forward-button-mini@2x.png959ba8f3ff17b841^1137b3f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@133"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/forward-button-mini@2x.png0000000000000000^749"CopyPNGFile SSToolkitResources.bundle/forward-button-mini@2x.png Resources/Images/forward-button-mini@2x.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/forward-button-mini@2x.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/forward-button-mini@2x.png36"3C107740-EE72-4B7F-9F91-7C85B068F704-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/forward-button.png Resources/Images/forward-button.png
+s404226035.671241
+e404226035.712167
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/forward-button.png
+xResources/Images/forward-button.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile SSToolkitResources.bundle/forward-button.png Resources/Images/forward-button.png92"CopyPNGFile SSToolkitResources.bundle/forward-button.png Resources/Images/forward-button.pngeeecabf3ff17b841^d750b6f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@125"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/forward-button.png0000000000000000^717"CopyPNGFile SSToolkitResources.bundle/forward-button.png Resources/Images/forward-button.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/forward-button.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/forward-button.png36"3BF60D41-E7CF-4810-9BD8-666F41050741-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/forward-button@2x.png Resources/Images/forward-button@2x.png
+s404226035.675646
+e404226035.711441
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/forward-button@2x.png
+xResources/Images/forward-button@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile SSToolkitResources.bundle/forward-button@2x.png Resources/Images/forward-button@2x.png98"CopyPNGFile SSToolkitResources.bundle/forward-button@2x.png Resources/Images/forward-button@2x.png8c15adf3ff17b841^2733b6f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@128"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/forward-button@2x.png0000000000000000^729"CopyPNGFile SSToolkitResources.bundle/forward-button@2x.png Resources/Images/forward-button@2x.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/forward-button@2x.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/forward-button@2x.png36"12C7E923-503E-44D9-9ACA-0611E31C24EA-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/gray-star.png Resources/Images/gray-star.png
+s404226035.524689
+e404226035.565668
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/gray-star.png
+xResources/Images/gray-star.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"CopyPNGFile SSToolkitResources.bundle/gray-star.png Resources/Images/gray-star.png82"CopyPNGFile SSToolkitResources.bundle/gray-star.png Resources/Images/gray-star.pngff5e86f3ff17b841^bedb90f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@120"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/gray-star.png0000000000000000^697"CopyPNGFile SSToolkitResources.bundle/gray-star.png Resources/Images/gray-star.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/gray-star.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/gray-star.png36"C696ED11-50DA-4E42-BF6E-305AAA5ECDF1-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/gray-star@2x.png Resources/Images/gray-star@2x.png
+s404226035.525831
+e404226035.565389
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/gray-star@2x.png
+xResources/Images/gray-star@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CopyPNGFile SSToolkitResources.bundle/gray-star@2x.png Resources/Images/gray-star@2x.png88"CopyPNGFile SSToolkitResources.bundle/gray-star@2x.png Resources/Images/gray-star@2x.png60ad86f3ff17b841^fbcd90f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@123"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/gray-star@2x.png0000000000000000^709"CopyPNGFile SSToolkitResources.bundle/gray-star@2x.png Resources/Images/gray-star@2x.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/gray-star@2x.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/gray-star@2x.png36"626836E6-7EE2-44E1-83AF-CFAFB9625312-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/hud-check.png Resources/Images/hud-check.png
+s404226035.520268
+e404226035.554413
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/hud-check.png
+xResources/Images/hud-check.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"CopyPNGFile SSToolkitResources.bundle/hud-check.png Resources/Images/hud-check.png82"CopyPNGFile SSToolkitResources.bundle/hud-check.png Resources/Images/hud-check.png9e4385f3ff17b841^730e8ef3ff17b841^---0#0#1#-19%DVTDocumentLocation2@120"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/hud-check.png0000000000000000^697"CopyPNGFile SSToolkitResources.bundle/hud-check.png Resources/Images/hud-check.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/hud-check.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/hud-check.png36"5DBD3D46-36B8-4491-9F84-16B6042C86C0-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/hud-check@2x.png Resources/Images/hud-check@2x.png
+s404226035.521324
+e404226035.555792
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/hud-check@2x.png
+xResources/Images/hud-check@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CopyPNGFile SSToolkitResources.bundle/hud-check@2x.png Resources/Images/hud-check@2x.png88"CopyPNGFile SSToolkitResources.bundle/hud-check@2x.png Resources/Images/hud-check@2x.png7b8585f3ff17b841^61548ef3ff17b841^---0#0#1#-19%DVTDocumentLocation2@123"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/hud-check@2x.png0000000000000000^709"CopyPNGFile SSToolkitResources.bundle/hud-check@2x.png Resources/Images/hud-check@2x.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/hud-check@2x.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/hud-check@2x.png36"7613174F-9152-4E06-B054-9074F9EA79CB-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/hud-x.png Resources/Images/hud-x.png
+s404226035.522487
+e404226035.555157
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/hud-x.png
+xResources/Images/hud-x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"CopyPNGFile SSToolkitResources.bundle/hud-x.png Resources/Images/hud-x.png74"CopyPNGFile SSToolkitResources.bundle/hud-x.png Resources/Images/hud-x.pngc0ce85f3ff17b841^a5168ef3ff17b841^---0#0#1#-19%DVTDocumentLocation2@116"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/hud-x.png0000000000000000^681"CopyPNGFile SSToolkitResources.bundle/hud-x.png Resources/Images/hud-x.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/hud-x.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/hud-x.png36"589B6846-2151-40FA-BE77-EBF708E3525B-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/hud-x@2x.png Resources/Images/hud-x@2x.png
+s404226035.523556
+e404226035.560136
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/hud-x@2x.png
+xResources/Images/hud-x@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CopyPNGFile SSToolkitResources.bundle/hud-x@2x.png Resources/Images/hud-x@2x.png80"CopyPNGFile SSToolkitResources.bundle/hud-x@2x.png Resources/Images/hud-x@2x.png3c1386f3ff17b841^08738ff3ff17b841^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/hud-x@2x.png0000000000000000^693"CopyPNGFile SSToolkitResources.bundle/hud-x@2x.png Resources/Images/hud-x@2x.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/hud-x@2x.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/hud-x@2x.png36"975E5310-3D30-4F01-A04B-5A4D6AA87918-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/orange-star.png Resources/Images/orange-star.png
+s404226035.527044
+e404226035.568881
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/orange-star.png
+xResources/Images/orange-star.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile SSToolkitResources.bundle/orange-star.png Resources/Images/orange-star.png86"CopyPNGFile SSToolkitResources.bundle/orange-star.png Resources/Images/orange-star.png1efa86f3ff17b841^6dab91f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@122"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/orange-star.png0000000000000000^705"CopyPNGFile SSToolkitResources.bundle/orange-star.png Resources/Images/orange-star.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/orange-star.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/orange-star.png36"31D92860-D831-46A0-8CCE-A2AE57F61DC1-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/orange-star@2x.png Resources/Images/orange-star@2x.png
+s404226035.528207
+e404226035.573439
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/orange-star@2x.png
+xResources/Images/orange-star@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile SSToolkitResources.bundle/orange-star@2x.png Resources/Images/orange-star@2x.png92"CopyPNGFile SSToolkitResources.bundle/orange-star@2x.png Resources/Images/orange-star@2x.pngc84387f3ff17b841^3acd92f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@125"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/orange-star@2x.png0000000000000000^717"CopyPNGFile SSToolkitResources.bundle/orange-star@2x.png Resources/Images/orange-star@2x.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/orange-star@2x.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/orange-star@2x.png36"F7EBB3D6-28C5-4E58-9470-06CC0D2D1698-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/reload-button-mini.png Resources/Images/reload-button-mini.png
+s404226035.677605
+e404226035.714721
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/reload-button-mini.png
+xResources/Images/reload-button-mini.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile SSToolkitResources.bundle/reload-button-mini.png Resources/Images/reload-button-mini.png100"CopyPNGFile SSToolkitResources.bundle/reload-button-mini.png Resources/Images/reload-button-mini.png158dadf3ff17b841^5243b7f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@129"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/reload-button-mini.png0000000000000000^733"CopyPNGFile SSToolkitResources.bundle/reload-button-mini.png Resources/Images/reload-button-mini.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/reload-button-mini.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/reload-button-mini.png36"7CA949F3-4D7E-40BF-927D-7EC2F3822956-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/reload-button-mini@2x.png Resources/Images/reload-button-mini@2x.png
+s404226035.678538
+e404226035.719508
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/reload-button-mini@2x.png
+xResources/Images/reload-button-mini@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"CopyPNGFile SSToolkitResources.bundle/reload-button-mini@2x.png Resources/Images/reload-button-mini@2x.png106"CopyPNGFile SSToolkitResources.bundle/reload-button-mini@2x.png Resources/Images/reload-button-mini@2x.png7ac7adf3ff17b841^5169b8f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@132"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/reload-button-mini@2x.png0000000000000000^745"CopyPNGFile SSToolkitResources.bundle/reload-button-mini@2x.png Resources/Images/reload-button-mini@2x.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/reload-button-mini@2x.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/reload-button-mini@2x.png36"AEA9D1DA-8C67-40D5-BD41-C246BEB69542-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/reload-button.png Resources/Images/reload-button.png
+s404226035.686445
+e404226035.725981
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/reload-button.png
+xResources/Images/reload-button.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile SSToolkitResources.bundle/reload-button.png Resources/Images/reload-button.png90"CopyPNGFile SSToolkitResources.bundle/reload-button.png Resources/Images/reload-button.png7dd0aff3ff17b841^eeeab9f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@124"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/reload-button.png0000000000000000^713"CopyPNGFile SSToolkitResources.bundle/reload-button.png Resources/Images/reload-button.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/reload-button.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/reload-button.png36"B7951846-E4E1-42C0-BA4B-D56D08409FE3-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/reload-button@2x.png Resources/Images/reload-button@2x.png
+s404226035.688765
+e404226035.739663
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/reload-button@2x.png
+xResources/Images/reload-button@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile SSToolkitResources.bundle/reload-button@2x.png Resources/Images/reload-button@2x.png96"CopyPNGFile SSToolkitResources.bundle/reload-button@2x.png Resources/Images/reload-button@2x.pnge869b0f3ff17b841^895fbdf3ff17b841^---0#0#1#-19%DVTDocumentLocation2@127"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/reload-button@2x.png0000000000000000^725"CopyPNGFile SSToolkitResources.bundle/reload-button@2x.png Resources/Images/reload-button@2x.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/reload-button@2x.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/reload-button@2x.png36"F4837FCC-5A1A-4B4E-A56A-3E5DAA010F46-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/safari-button-mini.png Resources/Images/safari-button-mini.png
+s404226035.699840
+e404226035.737541
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/safari-button-mini.png
+xResources/Images/safari-button-mini.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile SSToolkitResources.bundle/safari-button-mini.png Resources/Images/safari-button-mini.png100"CopyPNGFile SSToolkitResources.bundle/safari-button-mini.png Resources/Images/safari-button-mini.png293db3f3ff17b841^96d1bcf3ff17b841^---0#0#1#-19%DVTDocumentLocation2@129"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/safari-button-mini.png0000000000000000^733"CopyPNGFile SSToolkitResources.bundle/safari-button-mini.png Resources/Images/safari-button-mini.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/safari-button-mini.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/safari-button-mini.png36"344907D9-1F94-4449-8103-64B3CD30860B-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/safari-button-mini@2x.png Resources/Images/safari-button-mini@2x.png
+s404226035.700327
+e404226035.739033
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/safari-button-mini@2x.png
+xResources/Images/safari-button-mini@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"CopyPNGFile SSToolkitResources.bundle/safari-button-mini@2x.png Resources/Images/safari-button-mini@2x.png106"CopyPNGFile SSToolkitResources.bundle/safari-button-mini@2x.png Resources/Images/safari-button-mini@2x.png705bb3f3ff17b841^0856bdf3ff17b841^---0#0#1#-19%DVTDocumentLocation2@132"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/safari-button-mini@2x.png0000000000000000^745"CopyPNGFile SSToolkitResources.bundle/safari-button-mini@2x.png Resources/Images/safari-button-mini@2x.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/safari-button-mini@2x.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/safari-button-mini@2x.png36"B56DBC36-2C50-43D5-96D9-86ED2848F043-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/safari-button.png Resources/Images/safari-button.png
+s404226035.712836
+e404226035.746443
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/safari-button.png
+xResources/Images/safari-button.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile SSToolkitResources.bundle/safari-button.png Resources/Images/safari-button.png90"CopyPNGFile SSToolkitResources.bundle/safari-button.png Resources/Images/safari-button.pngf78eb6f3ff17b841^f226bff3ff17b841^---0#0#1#-19%DVTDocumentLocation2@124"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/safari-button.png0000000000000000^713"CopyPNGFile SSToolkitResources.bundle/safari-button.png Resources/Images/safari-button.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/safari-button.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/safari-button.png36"2499BFDC-6281-45C5-AFEA-8DC91FFEA965-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/safari-button@2x.png Resources/Images/safari-button@2x.png
+s404226035.713433
+e404226035.748477
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/safari-button@2x.png
+xResources/Images/safari-button@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile SSToolkitResources.bundle/safari-button@2x.png Resources/Images/safari-button@2x.png96"CopyPNGFile SSToolkitResources.bundle/safari-button@2x.png Resources/Images/safari-button@2x.pngf2b6b6f3ff17b841^b79cbff3ff17b841^---0#0#1#-19%DVTDocumentLocation2@127"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/safari-button@2x.png0000000000000000^725"CopyPNGFile SSToolkitResources.bundle/safari-button@2x.png Resources/Images/safari-button@2x.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/safari-button@2x.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/safari-button@2x.png36"61036465-BEDA-4A59-A46B-7A1EFD659146-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/stop-button-mini.png Resources/Images/stop-button-mini.png
+s404226035.716871
+e404226035.750078
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/stop-button-mini.png
+xResources/Images/stop-button-mini.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile SSToolkitResources.bundle/stop-button-mini.png Resources/Images/stop-button-mini.png96"CopyPNGFile SSToolkitResources.bundle/stop-button-mini.png Resources/Images/stop-button-mini.png8598b7f3ff17b841^8105c0f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@127"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/stop-button-mini.png0000000000000000^725"CopyPNGFile SSToolkitResources.bundle/stop-button-mini.png Resources/Images/stop-button-mini.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/stop-button-mini.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/stop-button-mini.png36"FA58DB8E-7CAA-4A2B-921D-EA427E6090B6-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/stop-button-mini@2x.png Resources/Images/stop-button-mini@2x.png
+s404226035.722418
+e404226035.756033
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/stop-button-mini@2x.png
+xResources/Images/stop-button-mini@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CopyPNGFile SSToolkitResources.bundle/stop-button-mini@2x.png Resources/Images/stop-button-mini@2x.png102"CopyPNGFile SSToolkitResources.bundle/stop-button-mini@2x.png Resources/Images/stop-button-mini@2x.pnga707b9f3ff17b841^a48bc1f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@130"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/stop-button-mini@2x.png0000000000000000^737"CopyPNGFile SSToolkitResources.bundle/stop-button-mini@2x.png Resources/Images/stop-button-mini@2x.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/stop-button-mini@2x.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/stop-button-mini@2x.png36"D05828CB-6331-4293-A3BB-8846973EAB90-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/stop-button.png Resources/Images/stop-button.png
+s404226035.727386
+e404226035.755504
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/stop-button.png
+xResources/Images/stop-button.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile SSToolkitResources.bundle/stop-button.png Resources/Images/stop-button.png86"CopyPNGFile SSToolkitResources.bundle/stop-button.png Resources/Images/stop-button.png9b5abaf3ff17b841^f968c1f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@122"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/stop-button.png0000000000000000^705"CopyPNGFile SSToolkitResources.bundle/stop-button.png Resources/Images/stop-button.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/stop-button.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/stop-button.png36"9B544EA9-6D25-4C3E-8367-57059214CDCB-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyPNGFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/stop-button@2x.png Resources/Images/stop-button@2x.png
+s404226035.739046
+e404226035.762990
+r1
+xCopyPNGFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/stop-button@2x.png
+xResources/Images/stop-button@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile SSToolkitResources.bundle/stop-button@2x.png Resources/Images/stop-button@2x.png92"CopyPNGFile SSToolkitResources.bundle/stop-button@2x.png Resources/Images/stop-button@2x.png6b47bdf3ff17b841^b553c3f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@125"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/stop-button@2x.png0000000000000000^717"CopyPNGFile SSToolkitResources.bundle/stop-button@2x.png Resources/Images/stop-button@2x.png    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/Images/stop-button@2x.png /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/stop-button@2x.png36"B1AA3C33-4DD3-49D7-80E3-99117B241A78-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/de.lproj/SSToolkit.strings Resources/de.lproj/SSToolkit.strings
+s404226035.508219
+e404226035.516850
+r1
+xCopyStringsFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/de.lproj/SSToolkit.strings
+xResources/de.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/de.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/de.lproj/SSToolkit.strings Resources/de.lproj/SSToolkit.strings1e3582f3ff17b841^ad5084f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/de.lproj/SSToolkit.strings0000000000000000^629"CopyStringsFile SSToolkitResources.bundle/de.lproj/SSToolkit.strings Resources/de.lproj/SSToolkit.strings    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/de.lproj -- Resources/de.lproj/SSToolkit.strings36"DBA2DCB3-5B9E-4DAE-A808-223F8674A58A-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/en.lproj/SSToolkit.strings Resources/en.lproj/SSToolkit.strings
+s404226035.508211
+e404226035.514674
+r1
+xCopyStringsFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/en.lproj/SSToolkit.strings
+xResources/en.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/en.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/en.lproj/SSToolkit.strings Resources/en.lproj/SSToolkit.stringsba3082f3ff17b841^dfc183f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/en.lproj/SSToolkit.strings0000000000000000^629"CopyStringsFile SSToolkitResources.bundle/en.lproj/SSToolkit.strings Resources/en.lproj/SSToolkit.strings    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/en.lproj -- Resources/en.lproj/SSToolkit.strings36"5E9467BB-2C4A-4AB1-9D64-C8434C9FA6CA-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/es.lproj/SSToolkit.strings Resources/es.lproj/SSToolkit.strings
+s404226035.508172
+e404226035.515827
+r1
+xCopyStringsFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/es.lproj/SSToolkit.strings
+xResources/es.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/es.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/es.lproj/SSToolkit.strings Resources/es.lproj/SSToolkit.stringsc63182f3ff17b841^800d84f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/es.lproj/SSToolkit.strings0000000000000000^629"CopyStringsFile SSToolkitResources.bundle/es.lproj/SSToolkit.strings Resources/es.lproj/SSToolkit.strings    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/es.lproj -- Resources/es.lproj/SSToolkit.strings36"780465E0-81BC-4D23-9A5A-BB76F799B94C-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/fr.lproj/SSToolkit.strings Resources/fr.lproj/SSToolkit.strings
+s404226035.508184
+e404226035.513473
+r1
+xCopyStringsFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/fr.lproj/SSToolkit.strings
+xResources/fr.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/fr.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/fr.lproj/SSToolkit.strings Resources/fr.lproj/SSToolkit.strings663082f3ff17b841^7e7383f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/fr.lproj/SSToolkit.strings0000000000000000^629"CopyStringsFile SSToolkitResources.bundle/fr.lproj/SSToolkit.strings Resources/fr.lproj/SSToolkit.strings    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/fr.lproj -- Resources/fr.lproj/SSToolkit.strings36"C88C9B4A-F66E-414A-AE95-CB4A24BF61A7-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/id.lproj/SSToolkit.strings Resources/id.lproj/SSToolkit.strings
+s404226035.508149
+e404226035.510350
+r1
+xCopyStringsFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/id.lproj/SSToolkit.strings
+xResources/id.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/id.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/id.lproj/SSToolkit.strings Resources/id.lproj/SSToolkit.strings6f2e82f3ff17b841^a0a682f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/id.lproj/SSToolkit.strings0000000000000000^629"CopyStringsFile SSToolkitResources.bundle/id.lproj/SSToolkit.strings Resources/id.lproj/SSToolkit.strings    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/id.lproj -- Resources/id.lproj/SSToolkit.strings36"A10C0B43-4417-4EFE-9600-C9A5EDF648C7-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/it.lproj/SSToolkit.strings Resources/it.lproj/SSToolkit.strings
+s404226035.508134
+e404226035.511274
+r1
+xCopyStringsFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/it.lproj/SSToolkit.strings
+xResources/it.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/it.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/it.lproj/SSToolkit.strings Resources/it.lproj/SSToolkit.strings123082f3ff17b841^3fe382f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/it.lproj/SSToolkit.strings0000000000000000^629"CopyStringsFile SSToolkitResources.bundle/it.lproj/SSToolkit.strings Resources/it.lproj/SSToolkit.strings    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/it.lproj -- Resources/it.lproj/SSToolkit.strings36"FF56F9FF-0D2D-4396-90B7-121FD57B554B-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/ja.lproj/SSToolkit.strings Resources/ja.lproj/SSToolkit.strings
+s404226035.508201
+e404226035.512371
+r1
+xCopyStringsFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/ja.lproj/SSToolkit.strings
+xResources/ja.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/ja.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/ja.lproj/SSToolkit.strings Resources/ja.lproj/SSToolkit.strings343082f3ff17b841^132b83f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/ja.lproj/SSToolkit.strings0000000000000000^629"CopyStringsFile SSToolkitResources.bundle/ja.lproj/SSToolkit.strings Resources/ja.lproj/SSToolkit.strings    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/ja.lproj -- Resources/ja.lproj/SSToolkit.strings36"430CC3C9-A17E-41E6-AB4B-D9A0CEBE99B9-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/ko.lproj/SSToolkit.strings Resources/ko.lproj/SSToolkit.strings
+s404226035.509213
+e404226035.517932
+r1
+xCopyStringsFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/ko.lproj/SSToolkit.strings
+xResources/ko.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/ko.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/ko.lproj/SSToolkit.strings Resources/ko.lproj/SSToolkit.stringsc36482f3ff17b841^859784f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/ko.lproj/SSToolkit.strings0000000000000000^629"CopyStringsFile SSToolkitResources.bundle/ko.lproj/SSToolkit.strings Resources/ko.lproj/SSToolkit.strings    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/ko.lproj -- Resources/ko.lproj/SSToolkit.strings36"AEB05B48-EF2C-41D3-BFAC-815562AAB3FA-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/ms.lproj/SSToolkit.strings Resources/ms.lproj/SSToolkit.strings
+s404226035.511497
+e404226035.519077
+r1
+xCopyStringsFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/ms.lproj/SSToolkit.strings
+xResources/ms.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/ms.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/ms.lproj/SSToolkit.strings Resources/ms.lproj/SSToolkit.stringse3fb82f3ff17b841^8fe284f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/ms.lproj/SSToolkit.strings0000000000000000^629"CopyStringsFile SSToolkitResources.bundle/ms.lproj/SSToolkit.strings Resources/ms.lproj/SSToolkit.strings    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/ms.lproj -- Resources/ms.lproj/SSToolkit.strings36"215DA268-356C-4E03-A71B-A744FC0D18DA-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/nl.lproj/SSToolkit.strings Resources/nl.lproj/SSToolkit.strings
+s404226035.511576
+e404226035.520164
+r1
+xCopyStringsFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/nl.lproj/SSToolkit.strings
+xResources/nl.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/nl.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/nl.lproj/SSToolkit.strings Resources/nl.lproj/SSToolkit.strings260083f3ff17b841^ed2985f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/nl.lproj/SSToolkit.strings0000000000000000^629"CopyStringsFile SSToolkitResources.bundle/nl.lproj/SSToolkit.strings Resources/nl.lproj/SSToolkit.strings    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/nl.lproj -- Resources/nl.lproj/SSToolkit.strings36"92E80C9A-C28E-47CD-9C34-61F3845BB29E-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/pt.lproj/SSToolkit.strings Resources/pt.lproj/SSToolkit.strings
+s404226035.514640
+e404226035.522393
+r1
+xCopyStringsFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/pt.lproj/SSToolkit.strings
+xResources/pt.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/pt.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/pt.lproj/SSToolkit.strings Resources/pt.lproj/SSToolkit.stringsbccd83f3ff17b841^e0bb85f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/pt.lproj/SSToolkit.strings0000000000000000^629"CopyStringsFile SSToolkitResources.bundle/pt.lproj/SSToolkit.strings Resources/pt.lproj/SSToolkit.strings    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/pt.lproj -- Resources/pt.lproj/SSToolkit.strings36"BD7A6C14-C82F-4353-A15D-054C44254ABD-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/pt_PT.lproj/SSToolkit.strings Resources/pt_PT.lproj/SSToolkit.strings
+s404226035.513558
+e404226035.521344
+r1
+xCopyStringsFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/pt_PT.lproj/SSToolkit.strings
+xResources/pt_PT.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy Resources/pt_PT.lproj/SSToolkit.strings111"CopyStringsFile SSToolkitResources.bundle/pt_PT.lproj/SSToolkit.strings Resources/pt_PT.lproj/SSToolkit.stringsa58583f3ff17b841^327785f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@129"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/pt_PT.lproj/SSToolkit.strings0000000000000000^641"CopyStringsFile SSToolkitResources.bundle/pt_PT.lproj/SSToolkit.strings Resources/pt_PT.lproj/SSToolkit.strings    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/pt_PT.lproj -- Resources/pt_PT.lproj/SSToolkit.strings36"FFEC486A-B41E-470F-8779-B0BD5B4C960D-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/ru.lproj/SSToolkit.strings Resources/ru.lproj/SSToolkit.strings
+s404226035.515882
+e404226035.523519
+r1
+xCopyStringsFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/ru.lproj/SSToolkit.strings
+xResources/ru.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/ru.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/ru.lproj/SSToolkit.strings Resources/ru.lproj/SSToolkit.strings4f2084f3ff17b841^cd0586f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/ru.lproj/SSToolkit.strings0000000000000000^629"CopyStringsFile SSToolkitResources.bundle/ru.lproj/SSToolkit.strings Resources/ru.lproj/SSToolkit.strings    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/ru.lproj -- Resources/ru.lproj/SSToolkit.strings36"866D3649-B5B8-4E65-BE4A-F3DE97881076-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/sv.lproj/SSToolkit.strings Resources/sv.lproj/SSToolkit.strings
+s404226035.516951
+e404226035.524661
+r1
+xCopyStringsFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/sv.lproj/SSToolkit.strings
+xResources/sv.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Resources/sv.lproj/SSToolkit.strings105"CopyStringsFile SSToolkitResources.bundle/sv.lproj/SSToolkit.strings Resources/sv.lproj/SSToolkit.stringsbf6384f3ff17b841^835086f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/sv.lproj/SSToolkit.strings0000000000000000^629"CopyStringsFile SSToolkitResources.bundle/sv.lproj/SSToolkit.strings Resources/sv.lproj/SSToolkit.strings    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/sv.lproj -- Resources/sv.lproj/SSToolkit.strings36"17EE4550-386F-4773-9A8C-B8B614E55AB0-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/zh_Hans.lproj/SSToolkit.strings Resources/zh_Hans.lproj/SSToolkit.strings
+s404226035.517074
+e404226035.525856
+r1
+xCopyStringsFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/zh_Hans.lproj/SSToolkit.strings
+xResources/zh_Hans.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy Resources/zh_Hans.lproj/SSToolkit.strings115"CopyStringsFile SSToolkitResources.bundle/zh_Hans.lproj/SSToolkit.strings Resources/zh_Hans.lproj/SSToolkit.stringscb6884f3ff17b841^e49e86f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@131"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/zh_Hans.lproj/SSToolkit.strings0000000000000000^649"CopyStringsFile SSToolkitResources.bundle/zh_Hans.lproj/SSToolkit.strings Resources/zh_Hans.lproj/SSToolkit.strings    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/zh_Hans.lproj -- Resources/zh_Hans.lproj/SSToolkit.strings36"B8FF5901-1274-468A-AF8E-42ED47219785-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CCopyStringsFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/zh_Hant.lproj/SSToolkit.strings Resources/zh_Hant.lproj/SSToolkit.strings
+s404226035.519088
+e404226035.527026
+r1
+xCopyStringsFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/zh_Hant.lproj/SSToolkit.strings
+xResources/zh_Hant.lproj/SSToolkit.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy Resources/zh_Hant.lproj/SSToolkit.strings115"CopyStringsFile SSToolkitResources.bundle/zh_Hant.lproj/SSToolkit.strings Resources/zh_Hant.lproj/SSToolkit.stringsbbef84f3ff17b841^b3eb86f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@131"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/zh_Hant.lproj/SSToolkit.strings0000000000000000^649"CopyStringsFile SSToolkitResources.bundle/zh_Hant.lproj/SSToolkit.strings Resources/zh_Hant.lproj/SSToolkit.strings    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/zh_Hant.lproj -- Resources/zh_Hant.lproj/SSToolkit.strings36"9E045BB3-B20F-431E-9DB9-50B6A6A5DB05-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CProcessInfoPlistFile /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/Info.plist /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/SSToolkitResources-Info.plist
+s404226035.497486
+e404226035.500405
+r1
+xProcessInfoPlistFile
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/Info.plist
+x/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/SSToolkitResources-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Process /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/SSToolkitResources-Info.plist97"ProcessInfoPlistFile SSToolkitResources.bundle/Info.plist Resources/SSToolkitResources-Info.pliste57a7ff3ff17b841^9c1a80f3ff17b841^---0#0#1#-19%DVTDocumentLocation2@129"file://localhost/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/SSToolkitResources-Info.plist0000000000000000^694"ProcessInfoPlistFile SSToolkitResources.bundle/Info.plist Resources/SSToolkitResources-Info.plist    cd /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/Resources/SSToolkitResources-Info.plist -expandbuildsettings -format binary -platform iphoneos -o /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/SSToolkitResources.bundle/Info.plist36"23F3D69C-508B-4DFE-B4D4-BA1A994D3A70-
+b85720C1B-779F-4623-909F-BCA8A07CEEE8
+
+CTouch /Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona/Pods/SSToolkit/./SSToolkitResources.bundle
+r0
+
