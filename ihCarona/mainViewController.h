@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 
-@interface mainViewController : UIViewController
+@interface mainViewController : UIViewController <MKMapViewDelegate>
 
 @property (strong, nonatomic) NSMutableDictionary *mapLocations;
 
@@ -17,7 +17,8 @@
 
 -(IBAction)bOpenInAppleMaps:(id)sender;
 
-@property (weak, nonatomic) IBOutlet UITextField *textAddress;
-@property (weak, nonatomic) IBOutlet MKMapView *mapView;
+@property (strong, nonatomic) IBOutlet UITextField *textAddress;
+@property (strong, nonatomic) IBOutlet MKMapView *mapView;
+@property (strong, nonatomic) MKMapItem *destination;
 
 @end
