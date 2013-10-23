@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A3F15E318180A61001D28F8 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3F15E218180A61001D28F8 /* FacebookSDK.framework */; };
 		B021D8BD1816FD6D00B9852C /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B021D8AB1816FD6D00B9852C /* AFHTTPRequestOperation.m */; };
 		B021D8BE1816FD6D00B9852C /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B021D8AD1816FD6D00B9852C /* AFHTTPRequestOperationManager.m */; };
 		B021D8BF1816FD6D00B9852C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B021D8AF1816FD6D00B9852C /* AFHTTPSessionManager.m */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A3F15E218180A61001D28F8 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../FacebookSDK.framework; sourceTree = "<group>"; };
 		B021D8AA1816FD6D00B9852C /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		B021D8AB1816FD6D00B9852C /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		B021D8AC1816FD6D00B9852C /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0878796181561BE001832E4 /* CoreGraphics.framework in Frameworks */,
+				7A3F15E318180A61001D28F8 /* FacebookSDK.framework in Frameworks */,
 				B0878798181561BE001832E4 /* UIKit.framework in Frameworks */,
 				B08787CA1816D640001832E4 /* MapKit.framework in Frameworks */,
 				B0878794181561BE001832E4 /* Foundation.framework in Frameworks */,
@@ -159,6 +162,7 @@
 		B0878792181561BE001832E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7A3F15E218180A61001D28F8 /* FacebookSDK.framework */,
 				B021D8A91816FD6D00B9852C /* AFNetworking */,
 				B08787C91816D640001832E4 /* MapKit.framework */,
 				B0878793181561BE001832E4 /* Foundation.framework */,
@@ -450,6 +454,7 @@
 					"$(inherited)",
 					/Users/guilheme/Documents/BEPiD/SDKs/FacebookSDK,
 					/Users/viniciustonon/Dev/iOS/ihCarona/ihCarona,
+					/Users/guilheme/Documents/BEPiD/Projetos/ihCarona,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ihCarona/ihCarona-Prefix.pch";
@@ -468,6 +473,7 @@
 					"$(inherited)",
 					/Users/guilheme/Documents/BEPiD/SDKs/FacebookSDK,
 					/Users/viniciustonon/Dev/iOS/ihCarona/ihCarona,
+					/Users/guilheme/Documents/BEPiD/Projetos/ihCarona,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ihCarona/ihCarona-Prefix.pch";
