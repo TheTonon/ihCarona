@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RidesViewController : UIViewController
+@interface RidesViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (nonatomic, strong) NSMutableString *rideName;
+@property (nonatomic, strong) NSMutableString *rideLocation;
 
 @end
