@@ -10,6 +10,19 @@
 
 @interface MapsViewController ()
 
+@property int cont;
+@property (strong, nonatomic) IBOutlet UITextField *textAddress;
+
+@property(nonatomic) CLLocationCoordinate2D drawPoints;
+@property(nonatomic, strong) CLGeocoder *geocoder;
+@property(nonatomic, strong) MKDirectionsRequest *request;
+@property (strong, nonatomic) IBOutlet MKMapView *mapView;
+@property(nonatomic, strong) NSMutableArray *mapLocations;
+
+#pragma mark - Variáveis de localização
+@property (strong, nonatomic) MKMapItem *destination;
+@property (strong, nonatomic) MKMapItem *origin;
+
 @end
 
 @implementation MapsViewController
@@ -26,13 +39,24 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
-    self.routeMap.showsUserLocation = YES;
-  /*  MKUserLocation *userLocation = self.routeMap.userLocation;
-    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(userLocation.location.coordinate, 200, 200);
-    [self.routeMap setRegion:region animated:NO];
-    self.routeMap.delegate = self;
-    [self requestRoute];*/
+    _mapView.showsUserLocation = YES;
+    MKUserLocation *userLocation = _mapView.userLocation;
+    _mapView.delegate = self;
+    
+    UIActivityIndicatorView *ai = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
+    ai.center = self.view.center;
+    [self.view addSubview:ai];
+    
+    HUD = [[MBProgressHUD alloc] initWithView:self.view];
+    HUD.labelText = @"Resolvendo tretas.";
+    HUD.detailsLabelText = @"Segura os paranauê que já termina.";
+    HUD.mode = MBProgressHUDModeAnnularDeterminate;
+    [self.view addSubview:HUD];
+    
+    self.request = [[MKDirectionsRequest alloc] init];
+    self.mapLocations = [[NSMutableArray alloc] init];
+    self.cont = 0;
+    
     
 }
 
@@ -42,32 +66,105 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void)requestRoute
+- (void)mapView:(MKMapView *)mapView
+didUpdateUserLocation:
+(MKUserLocation *)userLocation
 {
-    MKDirectionsRequest *request = [[MKDirectionsRequest alloc] init];
-    
-    request.source = [MKMapItem mapItemForCurrentLocation];
-    
-    request.destination = self.destination;
-    request.requestsAlternateRoutes = YES;
-    MKDirections *directions =
-    [[MKDirections alloc] initWithRequest:request];
-    
-    [directions calculateDirectionsWithCompletionHandler:
-     ^(MKDirectionsResponse *response, NSError *error) {
-         if (error) {
-             // Handle Error
-         } else {
-             [self showRoute:response];
-         }
-     }];
+    _mapView.centerCoordinate =
+    userLocation.location.coordinate;
 }
 
--(void)showRoute: (MKDirectionsResponse *)response{
+#pragma mark - Botões
+-(IBAction)gRoute:(id)sender
+{
+    NSLog(@"PEDIU AS CORDENATA");
+    [self coordWithAdress:[self.textAddress text]];
+    [self.view endEditing:YES];
+}
+
+#pragma mark - Aquisição da rota
+-(void)coordWithAdress:(NSString *)address
+{
+    NSLog(@"GEOCODER");
+    CLGeocoder *geocoder = [[CLGeocoder alloc] init];
+    [geocoder geocodeAddressString:address
+                 completionHandler:^(NSArray *placemarks, NSError* error){
+                     NSLog(@"ENTREI NO GEOCODER");
+                     if (placemarks && [placemarks count] > 0) {
+                         CLPlacemark *topResult = [placemarks objectAtIndex:0];
+                         MKPlacemark *placemark = [[MKPlacemark alloc] initWithPlacemark:topResult];
+                         
+                         MKCoordinateRegion region = self.mapView.region;
+                         region.center = placemark.region.center;
+                         region.span.longitudeDelta /= 3000.0;
+                         region.span.latitudeDelta /= 3000.0;
+                         
+                         MKCoordinateRegion adjustedRegion = [self.mapView regionThatFits:region];
+                         
+                         //adjustedRegion.span.latitudeDelta = 0.005;
+                         //adjustedRegion.span.longitudeDelta = 0.005;
+                         
+                         [self.mapLocations addObject:placemark];
+                         NSLog(@"COORDENADAS ATUAIS");
+                         //NSLog(@"%@", [self.mapLocations description]);
+                         
+                         [self.mapView setRegion:adjustedRegion animated:YES];
+                         
+                         [self.mapView addAnnotation:placemark];
+                         NSLog(@"%@", [placemarks objectAtIndex:0]);
+                         
+                         MKMapItem *destinationItem = [[MKMapItem alloc] initWithPlacemark:placemark];
+                         self.destination = destinationItem;
+                         self.request.source = [MKMapItem mapItemForCurrentLocation];
+                         
+                         if(self.cont == 0)
+                         {
+                             self.request.source = [MKMapItem mapItemForCurrentLocation];
+                         }
+                         else
+                         {
+                             MKMapItem *sourceItem = [[MKMapItem alloc] initWithPlacemark:self.mapLocations[self.cont - 1]];
+                             self.request.source = sourceItem;
+                         }
+                         self.cont ++;
+                         [self getDirections];
+                     }
+                 }
+     ];
+}
+
+- (void)getDirections
+{
+    NSLog(@"ROTA ROTA ROTA");
+    
+    self.request.destination = _destination;
+    NSLog(@"DESTINATION");
+    self.request.requestsAlternateRoutes = NO;
+    NSLog(@"Alternate routes");
+    MKDirections *directions = [[MKDirections alloc] initWithRequest:self.request];
+    [HUD show:YES];
+    [directions calculateDirectionsWithCompletionHandler:
+     ^(MKDirectionsResponse *response, NSError *error) {
+         [HUD hide:YES];
+         NSLog(@"ROTA ROTA ROTA");
+         [self showRoute:response];
+     }];
+}
+#pragma mark - Desenho da rota
+-(void)showRoute:(MKDirectionsResponse *)response
+{
+    NSLog(@"IM FIRING MY ROUTE!");
     for (MKRoute *route in response.routes)
     {
-        [self.routeMap
+        NSLog(@"IM FIRING MY ROUTE! TWICE!");
+        
+        [_mapView
          addOverlay:route.polyline level:MKOverlayLevelAboveRoads];
+        
+        for (MKRouteStep *step in route.steps)
+        {
+            NSLog(@"%@", step.instructions);
+        }
     }
 }
 

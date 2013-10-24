@@ -8,13 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
+#import "MBProgressHUD.h"
+
 
 
 @interface MapsViewController : UIViewController <MKMapViewDelegate>
+{
+    MBProgressHUD *HUD;
+}
 
-@property (nonatomic, strong) MKMapItem *destination;
-@property (weak, nonatomic) IBOutlet MKMapView *routeMap;
-
-
+-(IBAction)gRoute:(id)sender;
 
 @end
