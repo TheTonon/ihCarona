@@ -17,7 +17,7 @@
 
 
 
-@property (strong, nonatomic) NSMutableDictionary *mapLocations;
+@property (strong, nonatomic) NSMutableArray *mapLocations;
 
 -(void)openInAppleMaps;
 
