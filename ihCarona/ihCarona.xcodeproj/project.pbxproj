@@ -17,6 +17,7 @@
 		B021D8C31816FD6D00B9852C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B021D8B81816FD6D00B9852C /* AFURLRequestSerialization.m */; };
 		B021D8C41816FD6D00B9852C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B021D8BA1816FD6D00B9852C /* AFURLResponseSerialization.m */; };
 		B021D8C51816FD6D00B9852C /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B021D8BC1816FD6D00B9852C /* AFURLSessionManager.m */; };
+		B021D8C81817FD0D00B9852C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B021D8C71817FD0D00B9852C /* MBProgressHUD.m */; };
 		B0878794181561BE001832E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0878793181561BE001832E4 /* Foundation.framework */; };
 		B0878796181561BE001832E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0878795181561BE001832E4 /* CoreGraphics.framework */; };
 		B0878798181561BE001832E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0878797181561BE001832E4 /* UIKit.framework */; };
@@ -65,6 +66,8 @@
 		B021D8BA1816FD6D00B9852C /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		B021D8BB1816FD6D00B9852C /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		B021D8BC1816FD6D00B9852C /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		B021D8C61817FD0D00B9852C /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		B021D8C71817FD0D00B9852C /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		B0878790181561BE001832E4 /* ihCarona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ihCarona.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0878793181561BE001832E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B0878795181561BE001832E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -176,6 +179,8 @@
 		B0878799181561BE001832E4 /* ihCarona */ = {
 			isa = PBXGroup;
 			children = (
+				B021D8C61817FD0D00B9852C /* MBProgressHUD.h */,
+				B021D8C71817FD0D00B9852C /* MBProgressHUD.m */,
 				B08787C61816CFEB001832E4 /* mainViewController.h */,
 				B08787C71816CFEB001832E4 /* mainViewController.m */,
 				B08787A2181561BE001832E4 /* AppDelegate.h */,
@@ -327,6 +332,7 @@
 				B021D8C31816FD6D00B9852C /* AFURLRequestSerialization.m in Sources */,
 				B021D8BF1816FD6D00B9852C /* AFHTTPSessionManager.m in Sources */,
 				B021D8C01816FD6D00B9852C /* AFNetworkReachabilityManager.m in Sources */,
+				B021D8C81817FD0D00B9852C /* MBProgressHUD.m in Sources */,
 				B021D8C41816FD6D00B9852C /* AFURLResponseSerialization.m in Sources */,
 				B021D8C51816FD6D00B9852C /* AFURLSessionManager.m in Sources */,
 				B08787A0181561BE001832E4 /* main.m in Sources */,

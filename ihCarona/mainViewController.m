@@ -11,9 +11,12 @@
 @interface mainViewController ()
 @property int cont;
 @property(nonatomic) CLLocationCoordinate2D drawPoints;
+@property(nonatomic, strong) CLGeocoder *geocoder;
 @end
 
 @implementation mainViewController
+
+@synthesize geocoder = geocoder;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,13 +32,23 @@
     [super viewDidLoad];
     _mapView.showsUserLocation = YES;
     MKUserLocation *userLocation = _mapView.userLocation;
-    MKCoordinateRegion region =
-    MKCoordinateRegionMakeWithDistance(userLocation.location.coordinate,
-                                       20000, 20000);
-    [_mapView setRegion:region animated:NO];
     _mapView.delegate = self;
+    
+    UIActivityIndicatorView *ai = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
+    ai.center = self.view.center;
+    [self.view addSubview:ai];
+    
+    HUD = [[MBProgressHUD alloc] initWithView:self.view];
+    HUD.labelText = @"Resolvendo tretas.";
+    HUD.detailsLabelText = @"Segura os paranauê que já termina.";
+    HUD.mode = MBProgressHUDModeAnnularDeterminate;
+    [self.view addSubview:HUD];
 }
 
+-(void)waiting
+{
+    
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -44,16 +57,25 @@
 
 -(IBAction)bOpenInAppleMaps:(id)sender
 {
+    NSLog(@"PEDIU AS CORDENATA");
     [self coordWithAdress:[self.textAddress text]];
+}
+
+- (void)mapView:(MKMapView *)mapView
+didUpdateUserLocation:
+(MKUserLocation *)userLocation
+{
+    _mapView.centerCoordinate =
+    userLocation.location.coordinate;
 }
 
 -(void)coordWithAdress:(NSString *)address
 {
-    
+    NSLog(@"GEOCODER");
     CLGeocoder *geocoder = [[CLGeocoder alloc] init];
-    
     [geocoder geocodeAddressString:address
                  completionHandler:^(NSArray *placemarks, NSError* error){
+                     NSLog(@"ENTREI NO GEOCODER");
                      if (placemarks && placemarks.count > 0) {
                          CLPlacemark *topResult = [placemarks objectAtIndex:self.cont];
                          MKPlacemark *placemark = [[MKPlacemark alloc] initWithPlacemark:topResult];
@@ -77,39 +99,10 @@
                          [self.mapView addAnnotation:placemark];
                          NSLog(@"%@", [placemarks objectAtIndex:self.cont]);
                          
-                         /*self.drawPoints = CLLocationCoordinate2D drawPoints[20];
-                         self.drawPoints[self.cont] = CLLocationCoordinate2DMake(adjustedRegion.center.latitude, adjustedRegion.center.longitude);
-                         self.cont ++;
-                         
-                         MKGeodesicPolyline *polyLine = [MKGeodesicPolyline polylineWithCoordinates:self.drawPoints count:20];
-                         [self.mapView addOverlay:polyLine];*/
-                         
-                         MKDirectionsRequest *dRequest = [[MKDirectionsRequest alloc] init];
-                         MKMapItem *carItem = [[MKMapItem alloc] initWithPlacemark:placemark];
-                         MKMapItem *actualPos = [MKMapItem mapItemForCurrentLocation];
-                         dRequest.source = actualPos;
-                         dRequest.destination = carItem;
-                         dRequest.requestsAlternateRoutes = NO;
-                         
-                         MKDirections *directions = [[MKDirections alloc] initWithRequest:dRequest];
-                         [directions calculateDirectionsWithCompletionHandler:^(MKDirectionsResponse *response, NSError *error) {
-                             if (error) {
-                                 NSLog(@"Error : %@", error);
-                             }
-                             else {
-                                 [self showDirections:response];
-                             }
-                         }];
+                         [self getDirections];
                      }
                  }
      ];
-}
-
--(void)showDirections:(MKDirectionsResponse *)response
-{
-    for (MKRoute *route in response.routes) {
-        [self.mapView addOverlay:route.polyline level:MKOverlayLevelAboveRoads];
-    }
 }
 
 -(void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
@@ -119,30 +112,33 @@
 
 - (void)getDirections
 {
+    NSLog(@"ROTA ROTA ROTA");
+    
     MKDirectionsRequest *request =
     [[MKDirectionsRequest alloc] init];
     
-    request.source = [MKMapItem mapItemForCurrentLocation];
-    
     request.destination = _destination;
+    request.source = [MKMapItem mapItemForCurrentLocation];
+    NSLog(@"DESTINATION");
     request.requestsAlternateRoutes = NO;
-    MKDirections *directions =
-    [[MKDirections alloc] initWithRequest:request];
-    
+    NSLog(@"Alternate routes");
+    MKDirections *directions = [[MKDirections alloc] initWithRequest:request];
+    [HUD show:YES];
     [directions calculateDirectionsWithCompletionHandler:
      ^(MKDirectionsResponse *response, NSError *error) {
-         if (error) {
-             // Handle error
-         } else {
-             [self showRoute:response];
-         }
+         [HUD hide:YES];
+         NSLog(@"ROTA ROTA ROTA");
+         [self showRoute:response];
      }];
 }
 
 -(void)showRoute:(MKDirectionsResponse *)response
 {
+    NSLog(@"IM FIRING MY ROUTE!");
     for (MKRoute *route in response.routes)
     {
+        NSLog(@"IM FIRING MY ROUTE! TWICE!");
+   
         [_mapView
          addOverlay:route.polyline level:MKOverlayLevelAboveRoads];
         
