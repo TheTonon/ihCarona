@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7AA27396181564BB00B3A194 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA27395181564BB00B3A194 /* FacebookSDK.framework */; };
+		212E236F1817EE1F00D73E3A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212E236E1817EE1F00D73E3A /* MapKit.framework */; };
+		212E23701817FDE500D73E3A /* MapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212E236C1817EAC500D73E3A /* MapsViewController.m */; };
+		21E6355218193797007AF0CD /* LandPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E6355118193797007AF0CD /* LandPageViewController.m */; };
+		21E6355818193955007AF0CD /* user.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E6355718193955007AF0CD /* user.m */; };
+		21E6355B1819485A007AF0CD /* FbFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E6355A1819485A007AF0CD /* FbFriendsViewController.m */; };
+		21E6355F1819550A007AF0CD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E6355E1819550A007AF0CD /* LoginViewController.m */; };
+		21E63562181957D4007AF0CD /* RidesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E63561181957D4007AF0CD /* RidesViewController.m */; };
 		B0878794181561BE001832E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0878793181561BE001832E4 /* Foundation.framework */; };
 		B0878796181561BE001832E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0878795181561BE001832E4 /* CoreGraphics.framework */; };
 		B0878798181561BE001832E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0878797181561BE001832E4 /* UIKit.framework */; };
@@ -21,7 +27,6 @@
 		B08787B7181561BE001832E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B08787B5181561BE001832E4 /* InfoPlist.strings */; };
 		B08787B9181561BE001832E4 /* ihCaronaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B08787B8181561BE001832E4 /* ihCaronaTests.m */; };
 		B08787C3181561DD001832E4 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08787C2181561DD001832E4 /* main.storyboard */; };
-		B08787C51815661B001832E4 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08787C41815661B001832E4 /* GoogleMaps.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +40,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7AA27395181564BB00B3A194 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../SDKs/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		212E236B1817EAC500D73E3A /* MapsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapsViewController.h; sourceTree = "<group>"; };
+		212E236C1817EAC500D73E3A /* MapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapsViewController.m; sourceTree = "<group>"; };
+		212E236E1817EE1F00D73E3A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		21E6355018193797007AF0CD /* LandPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandPageViewController.h; sourceTree = "<group>"; };
+		21E6355118193797007AF0CD /* LandPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandPageViewController.m; sourceTree = "<group>"; };
+		21E6355618193955007AF0CD /* user.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = user.h; sourceTree = "<group>"; };
+		21E6355718193955007AF0CD /* user.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = user.m; sourceTree = "<group>"; };
+		21E635591819485A007AF0CD /* FbFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FbFriendsViewController.h; sourceTree = "<group>"; };
+		21E6355A1819485A007AF0CD /* FbFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FbFriendsViewController.m; sourceTree = "<group>"; };
+		21E6355D1819550A007AF0CD /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		21E6355E1819550A007AF0CD /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		21E63560181957D4007AF0CD /* RidesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RidesViewController.h; sourceTree = "<group>"; };
+		21E63561181957D4007AF0CD /* RidesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RidesViewController.m; sourceTree = "<group>"; };
 		B0878790181561BE001832E4 /* ihCarona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ihCarona.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0878793181561BE001832E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B0878795181561BE001832E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,7 +70,6 @@
 		B08787B6181561BE001832E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B08787B8181561BE001832E4 /* ihCaronaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ihCaronaTests.m; sourceTree = "<group>"; };
 		B08787C2181561DD001832E4 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
-		B08787C41815661B001832E4 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +78,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0878796181561BE001832E4 /* CoreGraphics.framework in Frameworks */,
-				7AA27396181564BB00B3A194 /* FacebookSDK.framework in Frameworks */,
 				B0878798181561BE001832E4 /* UIKit.framework in Frameworks */,
-				B08787C51815661B001832E4 /* GoogleMaps.framework in Frameworks */,
+				212E236F1817EE1F00D73E3A /* MapKit.framework in Frameworks */,
 				B0878794181561BE001832E4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -105,8 +120,7 @@
 		B0878792181561BE001832E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B08787C41815661B001832E4 /* GoogleMaps.framework */,
-				7AA27395181564BB00B3A194 /* FacebookSDK.framework */,
+				212E236E1817EE1F00D73E3A /* MapKit.framework */,
 				B0878793181561BE001832E4 /* Foundation.framework */,
 				B0878795181561BE001832E4 /* CoreGraphics.framework */,
 				B0878797181561BE001832E4 /* UIKit.framework */,
@@ -122,6 +136,18 @@
 				B08787A3181561BE001832E4 /* AppDelegate.m */,
 				B08787A5181561BE001832E4 /* Images.xcassets */,
 				B087879A181561BE001832E4 /* Supporting Files */,
+				212E236B1817EAC500D73E3A /* MapsViewController.h */,
+				212E236C1817EAC500D73E3A /* MapsViewController.m */,
+				21E6355018193797007AF0CD /* LandPageViewController.h */,
+				21E6355118193797007AF0CD /* LandPageViewController.m */,
+				21E6355618193955007AF0CD /* user.h */,
+				21E6355718193955007AF0CD /* user.m */,
+				21E635591819485A007AF0CD /* FbFriendsViewController.h */,
+				21E6355A1819485A007AF0CD /* FbFriendsViewController.m */,
+				21E6355D1819550A007AF0CD /* LoginViewController.h */,
+				21E6355E1819550A007AF0CD /* LoginViewController.m */,
+				21E63560181957D4007AF0CD /* RidesViewController.h */,
+				21E63561181957D4007AF0CD /* RidesViewController.m */,
 			);
 			path = ihCarona;
 			sourceTree = "<group>";
@@ -202,6 +228,13 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Vinicius Tonon";
 				TargetAttributes = {
+					B087878F181561BE001832E4 = {
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					B08787AA181561BE001832E4 = {
 						TestTargetID = B087878F181561BE001832E4;
 					};
@@ -251,8 +284,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21E6355F1819550A007AF0CD /* LoginViewController.m in Sources */,
 				B08787A4181561BE001832E4 /* AppDelegate.m in Sources */,
+				21E6355B1819485A007AF0CD /* FbFriendsViewController.m in Sources */,
+				21E63562181957D4007AF0CD /* RidesViewController.m in Sources */,
 				B08787A0181561BE001832E4 /* main.m in Sources */,
+				21E6355218193797007AF0CD /* LandPageViewController.m in Sources */,
+				21E6355818193955007AF0CD /* user.m in Sources */,
+				212E23701817FDE500D73E3A /* MapsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,11 +412,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/guilheme/Documents/BEPiD/SDKs/FacebookSDK,
-					/Users/viniciustonon/Dev/iOS/ihCarona/ihCarona,
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ihCarona/ihCarona-Prefix.pch";
 				INFOPLIST_FILE = "ihCarona/ihCarona-Info.plist";
@@ -391,11 +425,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/guilheme/Documents/BEPiD/SDKs/FacebookSDK,
-					/Users/viniciustonon/Dev/iOS/ihCarona/ihCarona,
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ihCarona/ihCarona-Prefix.pch";
 				INFOPLIST_FILE = "ihCarona/ihCarona-Info.plist";
