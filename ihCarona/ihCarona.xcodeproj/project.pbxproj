@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A3F15E318180A61001D28F8 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3F15E218180A61001D28F8 /* FacebookSDK.framework */; };
+		B021D8BD1816FD6D00B9852C /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B021D8AB1816FD6D00B9852C /* AFHTTPRequestOperation.m */; };
+		B021D8BE1816FD6D00B9852C /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B021D8AD1816FD6D00B9852C /* AFHTTPRequestOperationManager.m */; };
+		B021D8BF1816FD6D00B9852C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B021D8AF1816FD6D00B9852C /* AFHTTPSessionManager.m */; };
+		B021D8C01816FD6D00B9852C /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B021D8B21816FD6D00B9852C /* AFNetworkReachabilityManager.m */; };
+		B021D8C11816FD6D00B9852C /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = B021D8B41816FD6D00B9852C /* AFSecurityPolicy.m */; };
+		B021D8C21816FD6D00B9852C /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B021D8B61816FD6D00B9852C /* AFURLConnectionOperation.m */; };
+		B021D8C31816FD6D00B9852C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B021D8B81816FD6D00B9852C /* AFURLRequestSerialization.m */; };
+		B021D8C41816FD6D00B9852C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B021D8BA1816FD6D00B9852C /* AFURLResponseSerialization.m */; };
+		B021D8C51816FD6D00B9852C /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B021D8BC1816FD6D00B9852C /* AFURLSessionManager.m */; };
+		B021D8C81817FD0D00B9852C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B021D8C71817FD0D00B9852C /* MBProgressHUD.m */; };
 		B0878794181561BE001832E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0878793181561BE001832E4 /* Foundation.framework */; };
 		B0878796181561BE001832E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0878795181561BE001832E4 /* CoreGraphics.framework */; };
 		B0878798181561BE001832E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0878797181561BE001832E4 /* UIKit.framework */; };
@@ -35,6 +46,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A3F15E218180A61001D28F8 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../FacebookSDK.framework; sourceTree = "<group>"; };
+		B021D8AA1816FD6D00B9852C /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		B021D8AB1816FD6D00B9852C /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		B021D8AC1816FD6D00B9852C /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		B021D8AD1816FD6D00B9852C /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		B021D8AE1816FD6D00B9852C /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		B021D8AF1816FD6D00B9852C /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		B021D8B01816FD6D00B9852C /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		B021D8B11816FD6D00B9852C /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		B021D8B21816FD6D00B9852C /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		B021D8B31816FD6D00B9852C /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		B021D8B41816FD6D00B9852C /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		B021D8B51816FD6D00B9852C /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		B021D8B61816FD6D00B9852C /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		B021D8B71816FD6D00B9852C /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		B021D8B81816FD6D00B9852C /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		B021D8B91816FD6D00B9852C /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		B021D8BA1816FD6D00B9852C /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		B021D8BB1816FD6D00B9852C /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		B021D8BC1816FD6D00B9852C /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		B021D8C61817FD0D00B9852C /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		B021D8C71817FD0D00B9852C /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		B0878790181561BE001832E4 /* ihCarona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ihCarona.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0878793181561BE001832E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B0878795181561BE001832E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,6 +96,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0878796181561BE001832E4 /* CoreGraphics.framework in Frameworks */,
+				7A3F15E318180A61001D28F8 /* FacebookSDK.framework in Frameworks */,
 				B0878798181561BE001832E4 /* UIKit.framework in Frameworks */,
 				B08787CA1816D640001832E4 /* MapKit.framework in Frameworks */,
 				B0878794181561BE001832E4 /* Foundation.framework in Frameworks */,
@@ -82,6 +116,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B021D8A91816FD6D00B9852C /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				B021D8AA1816FD6D00B9852C /* AFHTTPRequestOperation.h */,
+				B021D8AB1816FD6D00B9852C /* AFHTTPRequestOperation.m */,
+				B021D8AC1816FD6D00B9852C /* AFHTTPRequestOperationManager.h */,
+				B021D8AD1816FD6D00B9852C /* AFHTTPRequestOperationManager.m */,
+				B021D8AE1816FD6D00B9852C /* AFHTTPSessionManager.h */,
+				B021D8AF1816FD6D00B9852C /* AFHTTPSessionManager.m */,
+				B021D8B01816FD6D00B9852C /* AFNetworking.h */,
+				B021D8B11816FD6D00B9852C /* AFNetworkReachabilityManager.h */,
+				B021D8B21816FD6D00B9852C /* AFNetworkReachabilityManager.m */,
+				B021D8B31816FD6D00B9852C /* AFSecurityPolicy.h */,
+				B021D8B41816FD6D00B9852C /* AFSecurityPolicy.m */,
+				B021D8B51816FD6D00B9852C /* AFURLConnectionOperation.h */,
+				B021D8B61816FD6D00B9852C /* AFURLConnectionOperation.m */,
+				B021D8B71816FD6D00B9852C /* AFURLRequestSerialization.h */,
+				B021D8B81816FD6D00B9852C /* AFURLRequestSerialization.m */,
+				B021D8B91816FD6D00B9852C /* AFURLResponseSerialization.h */,
+				B021D8BA1816FD6D00B9852C /* AFURLResponseSerialization.m */,
+				B021D8BB1816FD6D00B9852C /* AFURLSessionManager.h */,
+				B021D8BC1816FD6D00B9852C /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
 		B0878787181561BE001832E4 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +165,8 @@
 		B0878792181561BE001832E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7A3F15E218180A61001D28F8 /* FacebookSDK.framework */,
+				B021D8A91816FD6D00B9852C /* AFNetworking */,
 				B08787C91816D640001832E4 /* MapKit.framework */,
 				B0878793181561BE001832E4 /* Foundation.framework */,
 				B0878795181561BE001832E4 /* CoreGraphics.framework */,
@@ -117,6 +179,8 @@
 		B0878799181561BE001832E4 /* ihCarona */ = {
 			isa = PBXGroup;
 			children = (
+				B021D8C61817FD0D00B9852C /* MBProgressHUD.h */,
+				B021D8C71817FD0D00B9852C /* MBProgressHUD.m */,
 				B08787C61816CFEB001832E4 /* mainViewController.h */,
 				B08787C71816CFEB001832E4 /* mainViewController.m */,
 				B08787A2181561BE001832E4 /* AppDelegate.h */,
@@ -259,8 +323,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B021D8C11816FD6D00B9852C /* AFSecurityPolicy.m in Sources */,
 				B08787C81816CFEB001832E4 /* mainViewController.m in Sources */,
+				B021D8BE1816FD6D00B9852C /* AFHTTPRequestOperationManager.m in Sources */,
+				B021D8C21816FD6D00B9852C /* AFURLConnectionOperation.m in Sources */,
+				B021D8BD1816FD6D00B9852C /* AFHTTPRequestOperation.m in Sources */,
 				B08787A4181561BE001832E4 /* AppDelegate.m in Sources */,
+				B021D8C31816FD6D00B9852C /* AFURLRequestSerialization.m in Sources */,
+				B021D8BF1816FD6D00B9852C /* AFHTTPSessionManager.m in Sources */,
+				B021D8C01816FD6D00B9852C /* AFNetworkReachabilityManager.m in Sources */,
+				B021D8C81817FD0D00B9852C /* MBProgressHUD.m in Sources */,
+				B021D8C41816FD6D00B9852C /* AFURLResponseSerialization.m in Sources */,
+				B021D8C51816FD6D00B9852C /* AFURLSessionManager.m in Sources */,
 				B08787A0181561BE001832E4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,6 +460,7 @@
 					"$(inherited)",
 					/Users/guilheme/Documents/BEPiD/SDKs/FacebookSDK,
 					/Users/viniciustonon/Dev/iOS/ihCarona/ihCarona,
+					/Users/guilheme/Documents/BEPiD/Projetos/ihCarona,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ihCarona/ihCarona-Prefix.pch";
@@ -404,6 +479,7 @@
 					"$(inherited)",
 					/Users/guilheme/Documents/BEPiD/SDKs/FacebookSDK,
 					/Users/viniciustonon/Dev/iOS/ihCarona/ihCarona,
+					/Users/guilheme/Documents/BEPiD/Projetos/ihCarona,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ihCarona/ihCarona-Prefix.pch";

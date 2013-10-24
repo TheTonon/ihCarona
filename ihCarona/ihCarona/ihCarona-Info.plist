@@ -37,7 +37,13 @@
 	<true/>
 	<key>MKDirectionsApplicationSupportedModes</key>
 	<array>
+		<string>MKDirectionsModeBike</string>
+		<string>MKDirectionsModeBus</string>
 		<string>MKDirectionsModeCar</string>
+		<string>MKDirectionsModeOther</string>
+		<string>MKDirectionsModePedestrian</string>
+		<string>MKDirectionsModeStreetCar</string>
+		<string>MKDirectionsModeTaxi</string>
 	</array>
 	<key>UIMainStoryboardFile</key>
 	<string>main</string>
