@@ -42,23 +42,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		212E236B1817EAC500D73E3A /* MapsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapsViewController.h; sourceTree = "<group>"; };
-		212E236C1817EAC500D73E3A /* MapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapsViewController.m; sourceTree = "<group>"; };
+		212E236B1817EAC500D73E3A /* MapsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapsViewController.h; path = ../MapsViewController.h; sourceTree = "<group>"; };
+		212E236C1817EAC500D73E3A /* MapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapsViewController.m; path = ../MapsViewController.m; sourceTree = "<group>"; };
 		212E236E1817EE1F00D73E3A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		2168AA6A1819898100F08BBA /* Rider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rider.h; sourceTree = "<group>"; };
-		2168AA6B1819898100F08BBA /* Rider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rider.m; sourceTree = "<group>"; };
-		21E6355018193797007AF0CD /* LandPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandPageViewController.h; sourceTree = "<group>"; };
-		21E6355118193797007AF0CD /* LandPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandPageViewController.m; sourceTree = "<group>"; };
-		21E6355618193955007AF0CD /* user.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = user.h; sourceTree = "<group>"; };
-		21E6355718193955007AF0CD /* user.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = user.m; sourceTree = "<group>"; };
-		21E635591819485A007AF0CD /* FbFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FbFriendsViewController.h; sourceTree = "<group>"; };
-		21E6355A1819485A007AF0CD /* FbFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FbFriendsViewController.m; sourceTree = "<group>"; };
-		21E6355D1819550A007AF0CD /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		21E6355E1819550A007AF0CD /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		21E63560181957D4007AF0CD /* RidesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RidesViewController.h; sourceTree = "<group>"; };
-		21E63561181957D4007AF0CD /* RidesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RidesViewController.m; sourceTree = "<group>"; };
-		B074F9BD181979E3005A05B7 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		B074F9BE181979E3005A05B7 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		2168AA6A1819898100F08BBA /* Rider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rider.h; path = ../Rider.h; sourceTree = "<group>"; };
+		2168AA6B1819898100F08BBA /* Rider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Rider.m; path = ../Rider.m; sourceTree = "<group>"; };
+		21E6355018193797007AF0CD /* LandPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LandPageViewController.h; path = ../LandPageViewController.h; sourceTree = "<group>"; };
+		21E6355118193797007AF0CD /* LandPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LandPageViewController.m; path = ../LandPageViewController.m; sourceTree = "<group>"; };
+		21E6355618193955007AF0CD /* user.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = user.h; path = ../user.h; sourceTree = "<group>"; };
+		21E6355718193955007AF0CD /* user.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = user.m; path = ../user.m; sourceTree = "<group>"; };
+		21E635591819485A007AF0CD /* FbFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FbFriendsViewController.h; path = ../FbFriendsViewController.h; sourceTree = "<group>"; };
+		21E6355A1819485A007AF0CD /* FbFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FbFriendsViewController.m; path = ../FbFriendsViewController.m; sourceTree = "<group>"; };
+		21E6355D1819550A007AF0CD /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ../LoginViewController.h; sourceTree = "<group>"; };
+		21E6355E1819550A007AF0CD /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../LoginViewController.m; sourceTree = "<group>"; };
+		21E63560181957D4007AF0CD /* RidesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RidesViewController.h; path = ../RidesViewController.h; sourceTree = "<group>"; };
+		21E63561181957D4007AF0CD /* RidesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RidesViewController.m; path = ../RidesViewController.m; sourceTree = "<group>"; };
+		B074F9BD181979E3005A05B7 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = ../../MBProgressHUD.h; sourceTree = "<group>"; };
+		B074F9BE181979E3005A05B7 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = ../../MBProgressHUD.m; sourceTree = "<group>"; };
 		B0878790181561BE001832E4 /* ihCarona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ihCarona.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0878793181561BE001832E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B0878795181561BE001832E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -103,11 +103,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B0878787181561BE001832E4 = {
+		7A7AC9A4181A99130058F640 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				212E236B1817EAC500D73E3A /* MapsViewController.h */,
+				212E236C1817EAC500D73E3A /* MapsViewController.m */,
+				21E6355018193797007AF0CD /* LandPageViewController.h */,
+				21E6355118193797007AF0CD /* LandPageViewController.m */,
+				21E635591819485A007AF0CD /* FbFriendsViewController.h */,
+				21E6355A1819485A007AF0CD /* FbFriendsViewController.m */,
+				21E6355D1819550A007AF0CD /* LoginViewController.h */,
+				21E6355E1819550A007AF0CD /* LoginViewController.m */,
+				21E63560181957D4007AF0CD /* RidesViewController.h */,
+				21E63561181957D4007AF0CD /* RidesViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7A7AC9A5181A99130058F640 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
 				B074F9BD181979E3005A05B7 /* MBProgressHUD.h */,
 				B074F9BE181979E3005A05B7 /* MBProgressHUD.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7A7AC9A6181A99130058F640 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				21E6355618193955007AF0CD /* user.h */,
+				21E6355718193955007AF0CD /* user.m */,
+				2168AA6A1819898100F08BBA /* Rider.h */,
+				2168AA6B1819898100F08BBA /* Rider.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B0878787181561BE001832E4 = {
+			isa = PBXGroup;
+			children = (
 				B08787C2181561DD001832E4 /* main.storyboard */,
 				B0878799181561BE001832E4 /* ihCarona */,
 				B08787B2181561BE001832E4 /* ihCaronaTests */,
@@ -140,24 +175,13 @@
 		B0878799181561BE001832E4 /* ihCarona */ = {
 			isa = PBXGroup;
 			children = (
+				7A7AC9A4181A99130058F640 /* Controllers */,
+				7A7AC9A5181A99130058F640 /* Helpers */,
+				7A7AC9A6181A99130058F640 /* Models */,
 				B08787A2181561BE001832E4 /* AppDelegate.h */,
 				B08787A3181561BE001832E4 /* AppDelegate.m */,
 				B08787A5181561BE001832E4 /* Images.xcassets */,
 				B087879A181561BE001832E4 /* Supporting Files */,
-				212E236B1817EAC500D73E3A /* MapsViewController.h */,
-				212E236C1817EAC500D73E3A /* MapsViewController.m */,
-				21E6355018193797007AF0CD /* LandPageViewController.h */,
-				21E6355118193797007AF0CD /* LandPageViewController.m */,
-				21E6355618193955007AF0CD /* user.h */,
-				21E6355718193955007AF0CD /* user.m */,
-				21E635591819485A007AF0CD /* FbFriendsViewController.h */,
-				21E6355A1819485A007AF0CD /* FbFriendsViewController.m */,
-				21E6355D1819550A007AF0CD /* LoginViewController.h */,
-				21E6355E1819550A007AF0CD /* LoginViewController.m */,
-				21E63560181957D4007AF0CD /* RidesViewController.h */,
-				21E63561181957D4007AF0CD /* RidesViewController.m */,
-				2168AA6A1819898100F08BBA /* Rider.h */,
-				2168AA6B1819898100F08BBA /* Rider.m */,
 			);
 			path = ihCarona;
 			sourceTree = "<group>";
