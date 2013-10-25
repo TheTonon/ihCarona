@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Rider.h"
+#import "MapsViewController.h"
 
-@interface RidesViewController : UIViewController
+@interface RidesViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (nonatomic, strong)Rider* theRider;
+
 
 @end

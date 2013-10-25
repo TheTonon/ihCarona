@@ -189,11 +189,14 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="aKP-5J-ZCL" kind="push" id="Lma-qL-bg8"/>
+                                    <segue destination="aKP-5J-ZCL" kind="push" identifier="segueToMap" id="Lma-qL-bg8"/>
                                 </connections>
                             </button>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="ridesTable" destination="66y-UK-t2k" id="UWb-rc-Yba"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0m7-wN-nHU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

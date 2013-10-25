@@ -82,6 +82,14 @@ didUpdateUserLocation:
     [self.view endEditing:YES];
 }
 
+-(void)genMap
+{
+    for(int i = 0; i<[self.ridersLocation count]; i++)
+    {
+        [self coordWithAdress:self.ridersLocation[i]];
+    }
+}
+
 #pragma mark - Aquisição da rota
 -(void)coordWithAdress:(NSString *)address
 {
