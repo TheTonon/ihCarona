@@ -77,10 +77,6 @@
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if([[segue identifier] isEqualToString:@"LoginSegue"]){
-        
-        LandPageViewController *landPage = [segue destinationViewController];
-    }
     
 }
 
