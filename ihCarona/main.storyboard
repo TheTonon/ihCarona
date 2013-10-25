@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="eha-Lq-Peh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="eha-Lq-Peh">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
@@ -59,27 +59,47 @@
                         <viewControllerLayoutGuide type="top" id="ImB-Pk-dN8"/>
                         <viewControllerLayoutGuide type="bottom" id="GMI-uw-NnX"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="SLn-Wv-bMh">
+                    <view key="view" contentMode="scaleToFill" id="SLn-Wv-bMh" customClass="LoginView">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SI6-mM-Or3">
-                                <rect key="frame" x="129" y="419" width="62" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SI6-mM-Or3">
+                                <rect key="frame" x="31" y="408" width="258" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="FB Login">
+                                <state key="normal" image="FBLogin.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="WJk-GT-UL4" kind="modal" id="OKU-Qe-w2S"/>
+                                    <action selector="loginPressed:" destination="eha-Lq-Peh" eventType="touchUpInside" id="XR3-AA-aMD"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Ih Carona" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FGr-5N-dfS">
+                                <rect key="frame" x="106" y="197" width="108" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="1QA-aQ-Lel">
+                                <rect key="frame" x="142" y="291" width="37" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.094117656350135803" green="0.5215686559677124" blue="0.54901963472366333" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="GMI-uw-NnX" firstAttribute="top" secondItem="SI6-mM-Or3" secondAttribute="bottom" constant="116" id="Bnr-Ja-mE1"/>
+                            <constraint firstItem="SI6-mM-Or3" firstAttribute="top" secondItem="1QA-aQ-Lel" secondAttribute="bottom" constant="80" id="Pqz-xA-rmS"/>
+                            <constraint firstItem="1QA-aQ-Lel" firstAttribute="top" secondItem="FGr-5N-dfS" secondAttribute="bottom" constant="73" id="tAR-z9-bw5"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="activityLogin" destination="1QA-aQ-Lel" id="eMC-cj-LMO"/>
+                        <outlet property="btnLogin" destination="SI6-mM-Or3" id="83Y-lW-btJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hNZ-in-HH3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1244" y="248"/>
+            <point key="canvasLocation" x="-1402" y="248"/>
         </scene>
         <!--Land Page View Controller-->
         <scene sceneID="svg-Mk-JEs">
@@ -123,7 +143,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hWR-fX-bfN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-864" y="248"/>
+            <point key="canvasLocation" x="-928" y="248"/>
         </scene>
         <!--Fb Friends View Controller-->
         <scene sceneID="mxA-Co-72H">
@@ -221,6 +241,9 @@
             <point key="canvasLocation" x="-29" y="243"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="FBLogin.png" width="202" height="44"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

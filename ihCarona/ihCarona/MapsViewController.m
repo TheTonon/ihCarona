@@ -41,7 +41,6 @@
 {
     [super viewDidLoad];
     _mapView.showsUserLocation = YES;
-    MKUserLocation *userLocation = _mapView.userLocation;
     _mapView.delegate = self;
     
     UIActivityIndicatorView *ai = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
@@ -90,7 +89,7 @@ didUpdateUserLocation:
     for(int i =0; i<[self.ridersLocation count]; i++)
     {
         NSLog(@"@@@@@@@@@@@@@@@@@ %u", i);
-        NSLog(self.ridersLocation[i]);
+        NSLog(@" %@", self.ridersLocation[i]);
         NSLog(@"@@@@@@@@@@@@@@@@@");
         
         [self coordWithAdress:self.ridersLocation[i]];
