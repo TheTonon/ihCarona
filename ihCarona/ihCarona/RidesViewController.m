@@ -29,15 +29,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    
+    NSArray *end = @[@"Rua francisco de barros barao geraldo campinas brasil", @"PUCC Campinas", @"Rua das acacias 303 valinhos brasil"];
     self.ridersList = [[NSMutableArray alloc]init];
     for(NSInteger i = 0; i<3; i++){
         self.theRider = [[Rider alloc]init];
         
         self.theRider.riderName = [NSString stringWithFormat: @"Nome %d", i ];
-    self.theRider.riderLocation = @"Rua das acacias 303 valinhos brasil";
+        self.theRider.riderLocation = end[i];
     
-    [self.ridersList addObject:self.theRider];
+        [self.ridersList addObject:self.theRider];
     }
     [self.ridesTable setDelegate:self];
     [self.ridesTable setDataSource:self];
@@ -64,11 +64,11 @@
         
         MapsViewController *goToMaps = [segue destinationViewController];
         
-        
+        NSMutableArray *passa = [[NSMutableArray alloc] init];
         for (Rider *rider in self.ridersList) {
-           
-        [goToMaps.ridersLocation addObject:rider.riderLocation];
+            [passa addObject:rider.riderLocation];
         }
+        goToMaps.ridersLocation = passa;
     }
     
 }

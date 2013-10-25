@@ -18,6 +18,7 @@
 @property(nonatomic, strong) MKDirectionsRequest *request;
 @property (strong, nonatomic) IBOutlet MKMapView *mapView;
 @property(nonatomic, strong) NSMutableArray *mapLocations;
+@property(nonatomic) CLLocationCoordinate2D coordinate;
 
 #pragma mark - Variáveis de localização
 @property (strong, nonatomic) MKMapItem *destination;
@@ -72,20 +73,26 @@ didUpdateUserLocation:
 {
     _mapView.centerCoordinate =
     userLocation.location.coordinate;
+    self.coordinate = userLocation.location.coordinate;
 }
 
 #pragma mark - Botões
 -(IBAction)gRoute:(id)sender
 {
     NSLog(@"PEDIU AS CORDENATA");
-    [self coordWithAdress:[self.textAddress text]];
+    [self genMap];
     [self.view endEditing:YES];
 }
 
 -(void)genMap
 {
-    for(int i = 0; i<[self.ridersLocation count]; i++)
+    self.cont = 0;
+    for(int i =0; i<[self.ridersLocation count]; i++)
     {
+        NSLog(@"@@@@@@@@@@@@@@@@@ %u", i);
+        NSLog(self.ridersLocation[i]);
+        NSLog(@"@@@@@@@@@@@@@@@@@");
+        
         [self coordWithAdress:self.ridersLocation[i]];
     }
 }
@@ -123,19 +130,28 @@ didUpdateUserLocation:
                          
                          MKMapItem *destinationItem = [[MKMapItem alloc] initWithPlacemark:placemark];
                          self.destination = destinationItem;
-                         self.request.source = [MKMapItem mapItemForCurrentLocation];
-                         
+                    
+                         MKMapItem *sourceItem = nil;
                          if(self.cont == 0)
                          {
-                             self.request.source = [MKMapItem mapItemForCurrentLocation];
+                             MKPlacemark *localPlaceMark = [[MKPlacemark alloc] initWithCoordinate:self.coordinate addressDictionary:nil];
+                             sourceItem = [[MKMapItem alloc]initWithPlacemark:localPlaceMark];
+                             self.request.source =sourceItem;
                          }
                          else
                          {
-                             MKMapItem *sourceItem = [[MKMapItem alloc] initWithPlacemark:self.mapLocations[self.cont - 1]];
+                              sourceItem= [[MKMapItem alloc] initWithPlacemark:self.mapLocations[self.cont - 1]];
                              self.request.source = sourceItem;
                          }
+                         
+                         NSLog(@"################# %@",sourceItem.description);
+                         
                          self.cont ++;
                          [self getDirections];
+                         
+                         if(self.cont == 1)
+                            [self coordWithAdress:address];
+                         
                      }
                  }
      ];
