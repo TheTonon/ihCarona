@@ -102,4 +102,28 @@
     return newCell;
 }
 
+#pragma mark - TableView didSelected
+//Active editing at selecting row
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [self.ridesTable setEditing:YES animated: YES];
+}
+
+-(BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath{
+    return YES;
+}
+
+-(void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath{
+
+    Rider *move = [self.ridersList objectAtIndex:[sourceIndexPath row]];
+    
+    [self.ridersList removeObjectAtIndex:[sourceIndexPath row]];
+    [self.ridersList insertObject:move atIndex:[destinationIndexPath row]];
+    
+    [self.ridesTable setEditing:NO animated:YES];
+}
+
+-(UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return UITableViewCellEditingStyleNone;
+}
+
 @end
