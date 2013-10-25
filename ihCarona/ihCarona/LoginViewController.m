@@ -72,9 +72,16 @@
 }
 
 -(void) openLandPage{
+    [self performSegueWithIdentifier:@"LoginSegue" sender:self];
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if([[segue identifier] isEqualToString:@"LoginSegue"]){
+        
+        LandPageViewController *landPage = [segue destinationViewController];
+    }
     
-    LandPageViewController *landPage = [self.storyboard instantiateViewControllerWithIdentifier:@"LandPageViewController"];
-    [self presentViewController:landPage animated:YES completion:nil];
 }
 
 

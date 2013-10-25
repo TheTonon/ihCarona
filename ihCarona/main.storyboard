@@ -95,6 +95,7 @@
                     <connections>
                         <outlet property="activityLogin" destination="1QA-aQ-Lel" id="eMC-cj-LMO"/>
                         <outlet property="btnLogin" destination="SI6-mM-Or3" id="83Y-lW-btJ"/>
+                        <segue destination="WJk-GT-UL4" kind="modal" identifier="LoginSegue" id="hsI-9M-aay"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hNZ-in-HH3" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -140,6 +141,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="89F-HZ-LpW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hWR-fX-bfN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
