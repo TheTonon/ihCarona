@@ -73,7 +73,7 @@
 
 -(void) openLandPage{
     
-    LandPageViewController *landPage = [[LandPageViewController alloc] init];
+    LandPageViewController *landPage = [self.storyboard instantiateViewControllerWithIdentifier:@"LandPageViewController"];
     [self presentViewController:landPage animated:YES completion:nil];
 }
 

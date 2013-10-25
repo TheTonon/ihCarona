@@ -104,7 +104,7 @@
         <!--Land Page View Controller-->
         <scene sceneID="svg-Mk-JEs">
             <objects>
-                <viewController id="WJk-GT-UL4" customClass="LandPageViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LandPageViewController" id="WJk-GT-UL4" customClass="LandPageViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NQ0-3v-Bli"/>
                         <viewControllerLayoutGuide type="bottom" id="V3H-2J-TDs"/>
