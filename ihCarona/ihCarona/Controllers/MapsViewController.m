@@ -20,6 +20,10 @@
 @property(nonatomic, strong) NSMutableArray *mapLocations;
 @property(nonatomic) CLLocationCoordinate2D coordinate;
 
+#pragma mark - Bedelho do Emil
+//(Prepare to segue intruction)
+@property (nonatomic, strong) NSMutableArray *segueIntructions;
+
 #pragma mark - Variáveis de localização
 @property (strong, nonatomic) MKMapItem *destination;
 @property (strong, nonatomic) MKMapItem *origin;
@@ -58,6 +62,9 @@
     self.cont = 0;
     
     
+    [self genMap];
+    [self.view endEditing:YES];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -76,12 +83,12 @@ didUpdateUserLocation:
 }
 
 #pragma mark - Botões
--(IBAction)gRoute:(id)sender
+/*-(IBAction)gRoute:(id)sender
 {
     NSLog(@"PEDIU AS CORDENATA");
     [self genMap];
     [self.view endEditing:YES];
-}
+}*/
 
 -(void)genMap
 {
@@ -177,6 +184,7 @@ didUpdateUserLocation:
 -(void)showRoute:(MKDirectionsResponse *)response
 {
     NSLog(@"IM FIRING MY ROUTE!");
+    self.segueIntructions = [[NSMutableArray alloc]init];
     for (MKRoute *route in response.routes)
     {
         NSLog(@"IM FIRING MY ROUTE! TWICE!");
@@ -187,6 +195,7 @@ didUpdateUserLocation:
         for (MKRouteStep *step in route.steps)
         {
             NSLog(@"%@", step.instructions);
+            [self.segueIntructions addObject:step.instructions];
         }
     }
 }
@@ -198,6 +207,17 @@ didUpdateUserLocation:
     renderer.strokeColor = [UIColor blueColor];
     renderer.lineWidth = 5.0;
     return renderer;
+}
+
+#pragma mark - Bedelho do Emil PrepareToSegue
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+
+    if([[segue identifier] isEqualToString:@"segueToInstructions"]){
+        InstructionsViewController *goToInstructions = [segue destinationViewController];
+        
+        goToInstructions.instructions = self.segueIntructions;
+    }
+    
 }
 
 @end
