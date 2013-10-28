@@ -44,7 +44,6 @@
     
     
     #pragma mark - setting list apearence
-    self.ridesTable.backgroundColor = [UIColor blackColor];
     [self.ridesTable reloadData];
     
     
@@ -87,7 +86,7 @@
         newCell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"newCell"];
         newCell.backgroundColor = [UIColor clearColor];
         
-        UIColor *textColor = [UIColor whiteColor];
+        UIColor *textColor = [UIColor blackColor];
         NSIndexPath *selectedIndexPath = [tableView indexPathForSelectedRow];
         if (selectedIndexPath && [indexPath row] == [selectedIndexPath row]) {
             textColor = [UIColor blackColor];
