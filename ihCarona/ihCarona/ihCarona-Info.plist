@@ -4,8 +4,24 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>FacebookAppID</key>
+	<string>392449850858387</string>
 	<key>CFBundleDisplayName</key>
 	<string>${PRODUCT_NAME}</string>
+<<<<<<< HEAD
+=======
+	<key>FacebookDisplayName</key>
+	<string>IhCarona</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb392449850858387</string>
+			</array>
+		</dict>
+	</array>
+>>>>>>> 92b5f612d8d64c02936c44c2c40cbeb881dd10c3
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -43,7 +59,10 @@
 		<string>MKDirectionsModeOther</string>
 		<string>MKDirectionsModePedestrian</string>
 		<string>MKDirectionsModeStreetCar</string>
+<<<<<<< HEAD
 		<string>MKDirectionsModeTaxi</string>
+=======
+>>>>>>> 92b5f612d8d64c02936c44c2c40cbeb881dd10c3
 	</array>
 	<key>UIMainStoryboardFile</key>
 	<string>main</string>
