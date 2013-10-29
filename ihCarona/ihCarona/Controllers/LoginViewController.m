@@ -71,7 +71,8 @@
 	}
 }
 
--(void) openLandPage{
+-(void) openLandPage
+{
     [self performSegueWithIdentifier:@"LoginSegue" sender:self];
 }
 

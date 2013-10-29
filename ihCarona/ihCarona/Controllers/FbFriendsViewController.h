@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FbFriendsViewController : UIViewController
+@interface FbFriendsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (nonatomic, strong)NSMutableArray *friendsList;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end

@@ -45,7 +45,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0bC-na-KXe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="898" y="243"/>
+            <point key="canvasLocation" x="958" y="243"/>
         </scene>
         <!--Instructions View Controller-->
         <scene sceneID="Fb1-jc-ZC1">
@@ -89,7 +89,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SI6-mM-Or3">
-                                <rect key="frame" x="31" y="408" width="258" height="44"/>
+                                <rect key="frame" x="31" y="409" width="258" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="FBLogin.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -175,6 +175,7 @@
         <!--Fb Friends View Controller-->
         <scene sceneID="mxA-Co-72H">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yc4-tz-2vy" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="vJJ-3n-fWg" customClass="FbFriendsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3g1-db-zEG"/>
@@ -191,9 +192,18 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="0sL-cG-VH5" kind="modal" id="1Qm-mE-m1U"/>
+                                    <segue destination="0sL-cG-VH5" kind="modal" identifier="segueForRide" id="1Qm-mE-m1U"/>
                                 </connections>
                             </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="WAy-zs-dQM">
+                                <rect key="frame" x="0.0" y="32" width="320" height="489"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="vJJ-3n-fWg" id="qBW-EU-yJK"/>
+                                    <outlet property="delegate" destination="vJJ-3n-fWg" id="pnO-gK-OKV"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -201,10 +211,12 @@
                             <constraint firstItem="IkF-rk-YvO" firstAttribute="top" secondItem="eay-Jc-l1R" secondAttribute="bottom" constant="20" id="XdI-ZU-rmv"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="WAy-zs-dQM" id="hXU-BN-sVq"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Yc4-tz-2vy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-456" y="248"/>
+            <point key="canvasLocation" x="-456" y="238"/>
         </scene>
         <!--Rides View Controller-->
         <scene sceneID="KnP-Mi-63N">
