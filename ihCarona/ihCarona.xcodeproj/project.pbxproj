@@ -17,7 +17,6 @@
 		7A19179D181AACFA00C4F7EB /* Rider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A19179A181AACFA00C4F7EB /* Rider.m */; };
 		7A19179E181AACFA00C4F7EB /* user.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A19179C181AACFA00C4F7EB /* user.m */; };
 		7A7AC9AD181A99D20058F640 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7AC9AB181A99D20058F640 /* FacebookSDK.framework */; };
-		7A7AC9AE181A99D20058F640 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7AC9AC181A99D20058F640 /* Parse.framework */; };
 		7A7AC9B1181A9AB70058F640 /* Comms.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7AC9B0181A9AB70058F640 /* Comms.m */; };
 		7A7AC9B6181A9D670058F640 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7AC9B2181A9D670058F640 /* Accounts.framework */; };
 		7A7AC9B7181A9D670058F640 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7AC9B3181A9D670058F640 /* AdSupport.framework */; };
@@ -29,6 +28,7 @@
 		7A7AC9C4181A9E760058F640 /* FBLogin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7AC9C0181A9E760058F640 /* FBLogin@2x.png */; };
 		7A7AC9C5181A9E760058F640 /* FBShare.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7AC9C1181A9E760058F640 /* FBShare.png */; };
 		7A7AC9C6181A9E760058F640 /* FBShare@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7AC9C2181A9E760058F640 /* FBShare@2x.png */; };
+		B074F9C1181FC574005A05B7 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B074F9C0181FC574005A05B7 /* Parse.framework */; };
 		B0878794181561BE001832E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0878793181561BE001832E4 /* Foundation.framework */; };
 		B0878796181561BE001832E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0878795181561BE001832E4 /* CoreGraphics.framework */; };
 		B0878798181561BE001832E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0878797181561BE001832E4 /* UIKit.framework */; };
@@ -73,7 +73,6 @@
 		7A19179B181AACFA00C4F7EB /* user.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = user.h; sourceTree = "<group>"; };
 		7A19179C181AACFA00C4F7EB /* user.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = user.m; sourceTree = "<group>"; };
 		7A7AC9AB181A99D20058F640 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
-		7A7AC9AC181A99D20058F640 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		7A7AC9AF181A9AB70058F640 /* Comms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comms.h; sourceTree = "<group>"; };
 		7A7AC9B0181A9AB70058F640 /* Comms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comms.m; sourceTree = "<group>"; };
 		7A7AC9B2181A9D670058F640 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
@@ -86,6 +85,7 @@
 		7A7AC9C0181A9E760058F640 /* FBLogin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FBLogin@2x.png"; sourceTree = "<group>"; };
 		7A7AC9C1181A9E760058F640 /* FBShare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBShare.png; sourceTree = "<group>"; };
 		7A7AC9C2181A9E760058F640 /* FBShare@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FBShare@2x.png"; sourceTree = "<group>"; };
+		B074F9C0181FC574005A05B7 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		B0878790181561BE001832E4 /* ihCarona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ihCarona.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0878793181561BE001832E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B0878795181561BE001832E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -120,7 +120,7 @@
 				7A7AC9AD181A99D20058F640 /* FacebookSDK.framework in Frameworks */,
 				B0878798181561BE001832E4 /* UIKit.framework in Frameworks */,
 				212E236F1817EE1F00D73E3A /* MapKit.framework in Frameworks */,
-				7A7AC9AE181A99D20058F640 /* Parse.framework in Frameworks */,
+				B074F9C1181FC574005A05B7 /* Parse.framework in Frameworks */,
 				B0878794181561BE001832E4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,6 +211,7 @@
 		B0878792181561BE001832E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B074F9C0181FC574005A05B7 /* Parse.framework */,
 				7A7AC9BC181A9DEC0058F640 /* MobileCoreServices.framework */,
 				7A7AC9BA181A9DB40058F640 /* SystemConfiguration.framework */,
 				7A7AC9B2181A9D670058F640 /* Accounts.framework */,
@@ -218,7 +219,6 @@
 				7A7AC9B4181A9D670058F640 /* AudioToolbox.framework */,
 				7A7AC9B5181A9D670058F640 /* CFNetwork.framework */,
 				7A7AC9AB181A99D20058F640 /* FacebookSDK.framework */,
-				7A7AC9AC181A99D20058F640 /* Parse.framework */,
 				212E236E1817EE1F00D73E3A /* MapKit.framework */,
 				B0878793181561BE001832E4 /* Foundation.framework */,
 				B0878795181561BE001832E4 /* CoreGraphics.framework */,
@@ -514,6 +514,7 @@
 					"$(inherited)",
 					/Users/guilheme/Documents/BEPiD/Projetos/ihCarona,
 					/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona,
+					/Users/viniciustonon/Dev/iOS/ihCarona/ihCarona,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ihCarona/ihCarona-Prefix.pch";
@@ -532,6 +533,7 @@
 					"$(inherited)",
 					/Users/guilheme/Documents/BEPiD/Projetos/ihCarona,
 					/Users/guilheme/Documents/BEPiD/Projetos/ihCarona/ihCarona,
+					/Users/viniciustonon/Dev/iOS/ihCarona/ihCarona,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ihCarona/ihCarona-Prefix.pch";

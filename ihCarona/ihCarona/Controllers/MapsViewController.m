@@ -57,7 +57,7 @@
     self.mapLocations = [[NSMutableArray alloc] init];
     self.cont = 0;
     
-    
+    [self genMap];
 }
 
 - (void)didReceiveMemoryWarning
