@@ -7,6 +7,7 @@
 //
 
 #import "Comms.h"
+#import "Repository.h"
 
 @implementation Comms
 
@@ -41,13 +42,29 @@
                     // Store the Facebook Id
                     [[PFUser currentUser] setObject:me.id forKey:@"fbId"];
                     [[PFUser currentUser] saveInBackground];
+                    //add user in the list of friends
+                    [[Repository instance].fbFriends setObject:me forKey:me.id];
+                }
+            }];
+            
+            //request all friends
+            FBRequest *friendsRequest = [FBRequest requestForMyFriends];
+            [friendsRequest startWithCompletionHandler: ^(FBRequestConnection *connection,
+                                                          NSDictionary* result,
+                                                          NSError *error) {
+                NSArray *friends = result[@"data"];
+                for (NSDictionary<FBGraphUser>* friend in friends) {
+                    // Add the friend to the list of friends in the Repository
+                    [[Repository instance].fbFriends setObject:friend forKey:friend.id];
                 }
                 
-                // Callback - login successful
+                //call delegate for sucessul login
                 if ([delegate respondsToSelector:@selector(userDidLogin:)]) {
                     [delegate userDidLogin:YES];
                 }
             }];
+            
+            
 		}
 	}];
 }

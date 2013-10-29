@@ -7,6 +7,7 @@
 //
 
 #import "FbFriendsViewController.h"
+#import "Repository.h"
 
 @interface FbFriendsViewController ()
 
@@ -18,7 +19,6 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
     }
     return self;
 }

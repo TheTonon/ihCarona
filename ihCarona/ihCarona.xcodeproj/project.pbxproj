@@ -18,6 +18,7 @@
 		7A191798181AACE300C4F7EB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A191797181AACE300C4F7EB /* MBProgressHUD.m */; };
 		7A19179D181AACFA00C4F7EB /* Rider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A19179A181AACFA00C4F7EB /* Rider.m */; };
 		7A19179E181AACFA00C4F7EB /* user.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A19179C181AACFA00C4F7EB /* user.m */; };
+		7A6401DA181FE34100A42A16 /* Repository.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6401D9181FE34100A42A16 /* Repository.m */; };
 		7A7AC9AD181A99D20058F640 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7AC9AB181A99D20058F640 /* FacebookSDK.framework */; };
 		7A7AC9B1181A9AB70058F640 /* Comms.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7AC9B0181A9AB70058F640 /* Comms.m */; };
 		7A7AC9B6181A9D670058F640 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7AC9B2181A9D670058F640 /* Accounts.framework */; };
@@ -76,6 +77,8 @@
 		7A19179A181AACFA00C4F7EB /* Rider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rider.m; sourceTree = "<group>"; };
 		7A19179B181AACFA00C4F7EB /* user.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = user.h; sourceTree = "<group>"; };
 		7A19179C181AACFA00C4F7EB /* user.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = user.m; sourceTree = "<group>"; };
+		7A6401D8181FE34100A42A16 /* Repository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repository.h; sourceTree = "<group>"; };
+		7A6401D9181FE34100A42A16 /* Repository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repository.m; sourceTree = "<group>"; };
 		7A7AC9AB181A99D20058F640 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		7A7AC9AF181A9AB70058F640 /* Comms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comms.h; sourceTree = "<group>"; };
 		7A7AC9B0181A9AB70058F640 /* Comms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comms.m; sourceTree = "<group>"; };
@@ -141,6 +144,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A6401D7181FE33000A42A16 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				7A6401D8181FE34100A42A16 /* Repository.h */,
+				7A6401D9181FE34100A42A16 /* Repository.m */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
 		7A7AC9A4181A99130058F640 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,6 +248,7 @@
 		B0878799181561BE001832E4 /* ihCarona */ = {
 			isa = PBXGroup;
 			children = (
+				7A6401D7181FE33000A42A16 /* Repository */,
 				7A7AC9BE181A9E760058F640 /* Resources */,
 				7A7AC9A4181A99130058F640 /* Controllers */,
 				7A7AC9A5181A99130058F640 /* Helpers */,
@@ -396,6 +409,7 @@
 				7A191798181AACE300C4F7EB /* MBProgressHUD.m in Sources */,
 				B08787A0181561BE001832E4 /* main.m in Sources */,
 				2168AA77181EC95100F08BBA /* InstructionsViewController.m in Sources */,
+				7A6401DA181FE34100A42A16 /* Repository.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
