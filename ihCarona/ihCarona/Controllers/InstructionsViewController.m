@@ -69,13 +69,19 @@
         newCell.selectionStyle = UITableViewCellSelectionStyleNone;
         newCell.userInteractionEnabled = NO;
         
+        newCell.textLabel.lineBreakMode = NSLineBreakByWordWrapping;
+        newCell.textLabel.numberOfLines = 0;
+        
     }
     return newCell;
 }
 
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+/*-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    }
+ 
+    CGSize labelSize =
+ 
+}*/
 
 
 @end
