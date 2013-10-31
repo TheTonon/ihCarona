@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HikingViewController : UIViewController
+@interface HikingViewController : UIViewController <UIAlertViewDelegate>
 
 @end
