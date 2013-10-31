@@ -55,7 +55,7 @@
 -(NSURL *)getImageUrl:(APIUser *)user
 {
     //url default para usuario do facebook
-    NSString *strUrl =[NSString stringWithFormat:@"https://graph.facebook.com/%@/picture",user.id];
+    NSString *strUrl =[NSString stringWithFormat:@"https://graph.facebook.com/%@/picture",user.Id];
     
     return [[NSURL alloc]initWithString:strUrl];
 }
@@ -90,7 +90,7 @@
         UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:imageUrl]];
         
         newCell.imageView.image = image;
-        newCell.textLabel.text = user.name;
+        newCell.textLabel.text = user.Name;
     }
     return newCell;
 }

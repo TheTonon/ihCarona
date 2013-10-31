@@ -8,6 +8,7 @@
 
 #import "LoginViewController.h"
 #import "LandPageViewController.h"
+#import "APIUser.h"
 
 @interface LoginViewController() <FbUserDelegate>
 @property (nonatomic, strong) IBOutlet UIButton *btnLogin;

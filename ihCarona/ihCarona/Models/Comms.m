@@ -8,6 +8,7 @@
 
 #import "Comms.h"
 #import "Repository.h"
+#import "APIUser.h"
 
 @implementation Comms
 
@@ -44,6 +45,11 @@
                     [[PFUser currentUser] saveInBackground];
                     //add user in the list of friends
                     [[Repository instance].fbFriends setObject:me forKey:me.id];
+                    
+                    
+                    //Saves user in the database
+                    APIUser *user = [[APIUser alloc] initWithFBGraphUser:me];
+                    [APIUser insertUser:user];
                 }
             }];
             
