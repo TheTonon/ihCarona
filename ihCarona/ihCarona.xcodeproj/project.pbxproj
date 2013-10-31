@@ -10,6 +10,7 @@
 		212E236F1817EE1F00D73E3A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212E236E1817EE1F00D73E3A /* MapKit.framework */; };
 		2168AA70181E7D6A00F08BBA /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2168AA6F181E7D6A00F08BBA /* Parse.framework */; };
 		2168AA77181EC95100F08BBA /* InstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2168AA76181EC95100F08BBA /* InstructionsViewController.m */; };
+		21FC9C7818227005006ED6CE /* HikingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FC9C7718227005006ED6CE /* HikingViewController.m */; };
 		7A191791181AACCD00C4F7EB /* FbFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A191788181AACCD00C4F7EB /* FbFriendsViewController.m */; };
 		7A191792181AACCD00C4F7EB /* LandPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A19178A181AACCD00C4F7EB /* LandPageViewController.m */; };
 		7A191793181AACCD00C4F7EB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A19178C181AACCD00C4F7EB /* LoginViewController.m */; };
@@ -61,6 +62,8 @@
 		2168AA6F181E7D6A00F08BBA /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		2168AA75181EC95100F08BBA /* InstructionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionsViewController.h; sourceTree = "<group>"; };
 		2168AA76181EC95100F08BBA /* InstructionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionsViewController.m; sourceTree = "<group>"; };
+		21FC9C7618227005006ED6CE /* HikingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HikingViewController.h; sourceTree = "<group>"; };
+		21FC9C7718227005006ED6CE /* HikingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HikingViewController.m; sourceTree = "<group>"; };
 		7A191787181AACCD00C4F7EB /* FbFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FbFriendsViewController.h; sourceTree = "<group>"; };
 		7A191788181AACCD00C4F7EB /* FbFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FbFriendsViewController.m; sourceTree = "<group>"; };
 		7A191789181AACCD00C4F7EB /* LandPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandPageViewController.h; sourceTree = "<group>"; };
@@ -168,6 +171,8 @@
 				7A191790181AACCD00C4F7EB /* RidesViewController.m */,
 				2168AA75181EC95100F08BBA /* InstructionsViewController.h */,
 				2168AA76181EC95100F08BBA /* InstructionsViewController.m */,
+				21FC9C7618227005006ED6CE /* HikingViewController.h */,
+				21FC9C7718227005006ED6CE /* HikingViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -397,6 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21FC9C7818227005006ED6CE /* HikingViewController.m in Sources */,
 				7A19179E181AACFA00C4F7EB /* user.m in Sources */,
 				7A19179D181AACFA00C4F7EB /* Rider.m in Sources */,
 				B08787A4181561BE001832E4 /* AppDelegate.m in Sources */,
