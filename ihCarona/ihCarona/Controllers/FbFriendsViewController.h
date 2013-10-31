@@ -10,7 +10,11 @@
 
 @interface FbFriendsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
+/**
+ *  lista de amigos para selecionar o carona
+ */
 @property (nonatomic, strong)NSMutableArray *friendsList;
+
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end

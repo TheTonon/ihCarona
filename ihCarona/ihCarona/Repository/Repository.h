@@ -11,19 +11,25 @@
 @interface Repository : NSObject
 
 /**
- *  Dictionary of facebook friends
+ *  Dicionario de amigos do facebook
  */
 @property (nonatomic, strong) NSMutableDictionary *fbFriends;
 
 /**
- *  Alocate unique repository for all application
+ *  define se o usuário é motorista ou nao
+ */
+@property (nonatomic, getter = isDriver) Boolean driver;
+
+
+/**
+ *  aloca um unico repositorio para toda a aplicacao
  *
- *  @return Single isntace of Repository
+ *  @return instancia singleton de Repository
  */
 + (Repository *) instance;
 
 /**
- *  Clear all Repository
+ *  limpa todas as propriedades do Repository
  */
 - (void) reset;
 

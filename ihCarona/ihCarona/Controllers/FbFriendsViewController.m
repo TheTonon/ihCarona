@@ -27,12 +27,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    
     self.friendsList = [[NSMutableArray alloc]init];
     
+    //recupera os amigos que vao para a mesa cidade
     for(NSString *key in [Repository instance].fbFriends)
     {
         NSDictionary<FBGraphUser> *friend =[[Repository instance].fbFriends objectForKey:key];
+        //popula a lista
         [self.friendsList addObject:friend];
     }
     
@@ -49,6 +51,7 @@
 
 -(NSURL *)getImageUrl:(NSDictionary<FBGraphUser> *)user
 {
+    //url default para usuario do facebook
     NSString *strUrl =[NSString stringWithFormat:@"https://graph.facebook.com/%@/picture",user.id];
     
     return [[NSURL alloc]initWithString:strUrl];
@@ -80,6 +83,7 @@
         
         NSURL *imageUrl = [self getImageUrl:user];
         
+        //baixa a imagem da web para a listagem.
         UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:imageUrl]];
         
         newCell.imageView.image = image;

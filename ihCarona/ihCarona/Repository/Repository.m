@@ -25,14 +25,15 @@ static Repository *instance = nil;
 {
     self = [super init];
     if (self) {
-        _fbFriends = [[NSMutableDictionary alloc] init];
+        self.fbFriends = [[NSMutableDictionary alloc] init];
     }
     return self;
 }
 
 - (void) reset
 {
-    [_fbFriends removeAllObjects];
+    [self.fbFriends removeAllObjects];
+    self.driver = false;
  }
 
 @end
