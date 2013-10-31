@@ -17,4 +17,6 @@
 @property (nonatomic)Boolean isDriver;
 @property (nonatomic)NSDecimal latitude;
 @property (nonatomic)NSDecimal longitude;
+
+-(id)init;
 @end

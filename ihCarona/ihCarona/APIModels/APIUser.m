@@ -10,4 +10,18 @@
 
 @implementation APIUser
 
+- (id)initWithFBGraphUser:(NSDictionary<FBGraphUser> *)user
+{
+    self = [super init];
+    if (self) {
+        self.id = user.id;
+        self.name = user.name;
+        self.lastName = user.last_name;
+        self.firstName = user.first_name;
+        self.link = user.link;
+    }
+    return self;
+}
+
+
 @end
