@@ -21,6 +21,4 @@
 @property (nonatomic, strong) NSMutableArray *ridersLocation;
 
 
--(IBAction)gRoute:(id)sender;
-
 @end
