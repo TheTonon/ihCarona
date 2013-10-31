@@ -8,6 +8,7 @@
 
 #import "FbFriendsViewController.h"
 #import "Repository.h"
+#import "APIUser.h"
 
 @interface FbFriendsViewController ()
 
@@ -35,7 +36,9 @@
     {
         NSDictionary<FBGraphUser> *friend =[[Repository instance].fbFriends objectForKey:key];
         //popula a lista
-        [self.friendsList addObject:friend];
+        APIUser *user = [[APIUser alloc]initWithFBGraphUser:friend];
+        
+        [self.friendsList addObject:user];
     }
     
     [self.tableView reloadData];
@@ -49,7 +52,7 @@
 
 
 
--(NSURL *)getImageUrl:(NSDictionary<FBGraphUser> *)user
+-(NSURL *)getImageUrl:(APIUser *)user
 {
     //url default para usuario do facebook
     NSString *strUrl =[NSString stringWithFormat:@"https://graph.facebook.com/%@/picture",user.id];
@@ -79,7 +82,7 @@
         newCell.textLabel.textColor = textColor;
         newCell.detailTextLabel.textColor = textColor;
         
-        NSDictionary<FBGraphUser> *user = [self.friendsList objectAtIndex:[indexPath row]];
+        APIUser *user = [self.friendsList objectAtIndex:[indexPath row]];
         
         NSURL *imageUrl = [self getImageUrl:user];
         

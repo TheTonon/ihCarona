@@ -16,4 +16,5 @@
 @property (nonatomic, strong)NSString *lastName;
 @property (nonatomic, strong)NSString *link;
 
+-(id)initWithFBGraphUser:(NSDictionary<FBGraphUser> *) user;
 @end

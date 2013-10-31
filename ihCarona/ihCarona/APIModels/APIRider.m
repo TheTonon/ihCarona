@@ -9,6 +9,11 @@
 #import "APIRider.h"
 
 @implementation APIRider
+- (id)init
+{
+    self = [super init];
+    return self;
+}
 
 
 
