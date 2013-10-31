@@ -15,8 +15,11 @@
 @property (nonatomic, strong)NSString *City;
 @property (nonatomic, strong)NSString *DesiredDate;
 @property (nonatomic)Boolean IsDriver;
-@property (nonatomic)NSDecimal Latitude;
-@property (nonatomic)NSDecimal Longitude;
+@property (nonatomic)double Latitude;
+@property (nonatomic)double Longitude;
 
 -(id)init;
+
+-(void)JSONData;
+
 @end

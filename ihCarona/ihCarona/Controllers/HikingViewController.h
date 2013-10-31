@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface HikingViewController : UIViewController <UIAlertViewDelegate>
+-(IBAction)buttonJSONRider:(id)sender;
 
+-(void)buttonJSONRider;
 @end
