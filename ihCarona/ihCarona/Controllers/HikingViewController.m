@@ -62,15 +62,16 @@ didUpdateUserLocation:
 
 -(void)jsonTestMethod
 {
+    NSError *error = nil;
     NSString *url = [NSString stringWithFormat:@"http://s3.amazonaws.com/ihCarona/testData.json"];
     NSData *jsonData = [NSData dataWithContentsOfURL:[NSURL URLWithString:url]];
     
-    NSDictionary *retornoJSON = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:nil];
-    
-    NSString *nome = [retornoJSON objectForKey:@"nome"];
-    NSString *endereco = [retornoJSON objectForKey:@"descricao"];
-    
-    NSLog(@"Nome: %@, Endereço: %@", nome, endereco);
+    NSDictionary *retornoJSON = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:&error];
+    if(!error){
+        NSString *nome = [retornoJSON objectForKey:@"nome"];
+        NSString *endereco = [retornoJSON objectForKey:@"descricao"];
+        NSLog(@"Nome: %@, Endereço: %@", nome, endereco);
+    }
 }
 
 #pragma mark - UIAlertViewDelegate
