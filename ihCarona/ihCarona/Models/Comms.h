@@ -15,4 +15,6 @@
 
 @interface Comms : NSObject
 + (void) login:(id<FbUserDelegate>)delegate;
+
++ (NSUrl *)apiUrl;
 @end

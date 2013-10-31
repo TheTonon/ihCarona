@@ -32,6 +32,9 @@
 		7A7AC9C4181A9E760058F640 /* FBLogin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7AC9C0181A9E760058F640 /* FBLogin@2x.png */; };
 		7A7AC9C5181A9E760058F640 /* FBShare.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7AC9C1181A9E760058F640 /* FBShare.png */; };
 		7A7AC9C6181A9E760058F640 /* FBShare@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A7AC9C2181A9E760058F640 /* FBShare@2x.png */; };
+		7AE5866D18227D3400CA7CBA /* APIUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5866C18227D3400CA7CBA /* APIUser.m */; };
+		7AE5867018227D5D00CA7CBA /* APIRider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5866F18227D5D00CA7CBA /* APIRider.m */; };
+		7AE5867318227E5500CA7CBA /* APIRide.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5867218227E5500CA7CBA /* APIRide.m */; };
 		B0878794181561BE001832E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0878793181561BE001832E4 /* Foundation.framework */; };
 		B0878796181561BE001832E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0878795181561BE001832E4 /* CoreGraphics.framework */; };
 		B0878798181561BE001832E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0878797181561BE001832E4 /* UIKit.framework */; };
@@ -95,6 +98,12 @@
 		7A7AC9C0181A9E760058F640 /* FBLogin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FBLogin@2x.png"; sourceTree = "<group>"; };
 		7A7AC9C1181A9E760058F640 /* FBShare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBShare.png; sourceTree = "<group>"; };
 		7A7AC9C2181A9E760058F640 /* FBShare@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FBShare@2x.png"; sourceTree = "<group>"; };
+		7AE5866B18227D3400CA7CBA /* APIUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIUser.h; sourceTree = "<group>"; };
+		7AE5866C18227D3400CA7CBA /* APIUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIUser.m; sourceTree = "<group>"; };
+		7AE5866E18227D5D00CA7CBA /* APIRider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIRider.h; sourceTree = "<group>"; };
+		7AE5866F18227D5D00CA7CBA /* APIRider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIRider.m; sourceTree = "<group>"; };
+		7AE5867118227E5500CA7CBA /* APIRide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIRide.h; sourceTree = "<group>"; };
+		7AE5867218227E5500CA7CBA /* APIRide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIRide.m; sourceTree = "<group>"; };
 		B0878790181561BE001832E4 /* ihCarona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ihCarona.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0878793181561BE001832E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B0878795181561BE001832E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -210,6 +219,19 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		7AE5866A18227D2300CA7CBA /* APIModels */ = {
+			isa = PBXGroup;
+			children = (
+				7AE5866B18227D3400CA7CBA /* APIUser.h */,
+				7AE5866C18227D3400CA7CBA /* APIUser.m */,
+				7AE5866E18227D5D00CA7CBA /* APIRider.h */,
+				7AE5866F18227D5D00CA7CBA /* APIRider.m */,
+				7AE5867118227E5500CA7CBA /* APIRide.h */,
+				7AE5867218227E5500CA7CBA /* APIRide.m */,
+			);
+			path = APIModels;
+			sourceTree = "<group>";
+		};
 		B0878787181561BE001832E4 = {
 			isa = PBXGroup;
 			children = (
@@ -253,6 +275,7 @@
 		B0878799181561BE001832E4 /* ihCarona */ = {
 			isa = PBXGroup;
 			children = (
+				7AE5866A18227D2300CA7CBA /* APIModels */,
 				7A6401D7181FE33000A42A16 /* Repository */,
 				7A7AC9BE181A9E760058F640 /* Resources */,
 				7A7AC9A4181A99130058F640 /* Controllers */,
@@ -407,14 +430,17 @@
 				7A19179D181AACFA00C4F7EB /* Rider.m in Sources */,
 				B08787A4181561BE001832E4 /* AppDelegate.m in Sources */,
 				7A191791181AACCD00C4F7EB /* FbFriendsViewController.m in Sources */,
+				7AE5867018227D5D00CA7CBA /* APIRider.m in Sources */,
 				7A191792181AACCD00C4F7EB /* LandPageViewController.m in Sources */,
 				7A191793181AACCD00C4F7EB /* LoginViewController.m in Sources */,
 				7A191795181AACCD00C4F7EB /* RidesViewController.m in Sources */,
 				7A7AC9B1181A9AB70058F640 /* Comms.m in Sources */,
+				7AE5867318227E5500CA7CBA /* APIRide.m in Sources */,
 				7A191794181AACCD00C4F7EB /* MapsViewController.m in Sources */,
 				7A191798181AACE300C4F7EB /* MBProgressHUD.m in Sources */,
 				B08787A0181561BE001832E4 /* main.m in Sources */,
 				2168AA77181EC95100F08BBA /* InstructionsViewController.m in Sources */,
+				7AE5866D18227D3400CA7CBA /* APIUser.m in Sources */,
 				7A6401DA181FE34100A42A16 /* Repository.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
