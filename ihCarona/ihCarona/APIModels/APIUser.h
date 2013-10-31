@@ -10,11 +10,13 @@
 
 @interface APIUser : NSObject
 
-@property (nonatomic, strong)NSString *id;
-@property (nonatomic, strong)NSString *name;
-@property (nonatomic, strong)NSString *firstName;
-@property (nonatomic, strong)NSString *lastName;
-@property (nonatomic, strong)NSString *link;
+@property (nonatomic, strong)NSString *Id;
+@property (nonatomic, strong)NSString *Name;
+@property (nonatomic, strong)NSString *FirstName;
+@property (nonatomic, strong)NSString *LastName;
+@property (nonatomic, strong)NSString *Link;
 
 -(id)initWithFBGraphUser:(NSDictionary<FBGraphUser> *) user;
+
++(void)insertUser:(APIUser *)user;
 @end

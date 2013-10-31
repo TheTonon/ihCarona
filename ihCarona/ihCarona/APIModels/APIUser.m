@@ -7,6 +7,7 @@
 //
 
 #import "APIUser.h"
+#import <RestKit/RestKit.h>
 
 @implementation APIUser
 
@@ -14,14 +15,17 @@
 {
     self = [super init];
     if (self) {
-        self.id = user.id;
-        self.name = user.name;
-        self.lastName = user.last_name;
-        self.firstName = user.first_name;
-        self.link = user.link;
+        self.Id = user.id;
+        self.Name = user.name;
+        self.LastName = user.last_name;
+        self.FirstName = user.first_name;
+        self.Link = user.link;
     }
     return self;
 }
 
-
++(void)insertUser:(APIUser *)user
+{
+    RKObjectMapping * dataMapping
+}
 @end
