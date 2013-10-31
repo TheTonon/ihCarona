@@ -54,7 +54,6 @@
 didUpdateUserLocation:
 (MKUserLocation *)userLocation
 {
-    userLocation.location.coordinate;
     self.userLocat = userLocation.location.coordinate;
 }
 

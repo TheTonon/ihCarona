@@ -83,12 +83,6 @@ didUpdateUserLocation:
 }
 
 #pragma mark - Botões
-/*-(IBAction)gRoute:(id)sender
-{
-    NSLog(@"PEDIU AS CORDENATA");
-    [self genMap];
-    [self.view endEditing:YES];
-}*/
 
 -(void)genMap
 {

@@ -1,0 +1,8 @@
+platform :ios, '7.0'
+
+pod 'RestKit', '~> 0.20.0'
+
+#Componentes opcionais
+
+#pod 'RestKit/Testing', '~> 0.20.0'
+#pod 'RestKit/Search', '˜> 0.20.0'
