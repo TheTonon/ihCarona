@@ -7,7 +7,7 @@
 //
 
 #import "FbFriendsViewController.h"
-#import "APIUser.h"
+#import "APIRider.h"
 
 @interface FbFriendsViewController ()
 
@@ -39,10 +39,10 @@
 
 
 
--(NSURL *)getImageUrl:(APIUser *)user
+-(NSURL *)getImageUrl:(APIRider *)rider
 {
-    //url default para usuario do facebook
-    NSString *strUrl =[NSString stringWithFormat:@"https://graph.facebook.com/%@/picture",user.id];
+    //url default para imagem do usuario do facebook
+    NSString *strUrl =[NSString stringWithFormat:@"https://graph.facebook.com/%@/picture",rider.userId];
     
     return [[NSURL alloc]initWithString:strUrl];
 }
@@ -69,15 +69,16 @@
         newCell.textLabel.textColor = textColor;
         newCell.detailTextLabel.textColor = textColor;
         
-        APIUser *user = [self.friendsList objectAtIndex:[indexPath row]];
+        //recupera o rider da mesma cidade selecinada no hikingViewController
+        APIRider *rider = [self.friendsList objectAtIndex:[indexPath row]];
         
-        NSURL *imageUrl = [self getImageUrl:user];
+        NSURL *imageUrl = [self getImageUrl:rider];
         
         //baixa a imagem da web para a listagem.
         UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:imageUrl]];
         
         newCell.imageView.image = image;
-        newCell.textLabel.text = user.name;
+        newCell.textLabel.text = rider.user.name;
     }
     return newCell;
 }
