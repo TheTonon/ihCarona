@@ -176,7 +176,7 @@ didUpdateUserLocation:
             MKPlacemark *localPlaceMark = [[MKPlacemark alloc] initWithCoordinate:self.coordinate addressDictionary:nil];
             MKMapItem *sourceItem = [[MKMapItem alloc]initWithPlacemark:localPlaceMark];
             self.request.source = sourceItem;
-            self.request.destination = self.mapLocations[1];
+            self.request.destination = self.mapLocations[0];
         }
         else
         {

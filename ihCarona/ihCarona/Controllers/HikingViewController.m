@@ -45,7 +45,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
     [self startStandardUpdates];
     //[self.locationManager startUpdatingLocation];
     
@@ -55,8 +54,6 @@
     self.apiRider.isDriver = [Repository instance].isDriver;
     self.apiRider.userId = [Repository instance].user.id;
     self.apiRider.id = 0;
-    self.apiRider.latitude = self.locationManager.location.coordinate.latitude;
-    self.apiRider.longitude = self.locationManager.location.coordinate.longitude;
     alert.alertViewStyle = UIAlertViewStylePlainTextInput;
     alert.delegate = self;
     [alert show];
@@ -66,9 +63,7 @@
 {
     self.apiRider.City = [alertView textFieldAtIndex:0].text;
     if(buttonIndex == 0)
-    {
-        [APIRider insertRider:self.apiRider];
-        
+    {        
         [self performSegueWithIdentifier:@"segueForFbFriends" sender:self];
     }
 }
@@ -85,9 +80,10 @@
     // Create the location manager if this object does not
     // already have one.
     if (nil == self.locationManager)
+        
     self.locationManager = [[CLLocationManager alloc] init];
     self.locationManager.delegate = self;
-    self.locationManager.desiredAccuracy = kCLLocationAccuracyKilometer;
+    self.locationManager.desiredAccuracy = kCLLocationAccuracyBest;
     
     // Set a movement threshold for new events.
     self.locationManager.distanceFilter = 500; // meters
@@ -97,7 +93,9 @@
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation {
     self.currentLocation = newLocation;
-    
+    self.apiRider.latitude = self.locationManager.location.coordinate.latitude;
+    self.apiRider.longitude = self.locationManager.location.coordinate.longitude;
+    [APIRider insertRider:self.apiRider];
     if(newLocation.horizontalAccuracy <= 100.0f) { [locationManager stopUpdatingLocation]; }
 }
 
