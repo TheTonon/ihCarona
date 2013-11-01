@@ -26,31 +26,53 @@
     return self;
 }
 
--(void)JSONData
+-(void)insertRider:(APIRider *)rider
 {
-    NSURL *url = [[NSURL alloc] initWithString:@"http://ihCarona.cloudapp.net"];
     
-    RKObjectMapping *dataMapping = [RKObjectMapping requestMapping];
-    [dataMapping addAttributeMappingsFromArray:@[@"Id", @"UserId",@"DesiredDate",@"City",@"IsDriver",@"Latitude",@"Longitude"]];
-    RKRequestDescriptor *requestDescriptor = [RKRequestDescriptor requestDescriptorWithMapping:dataMapping objectClass:[APIRider class] rootKeyPath:nil method:RKRequestMethodPOST];
-    RKObjectManager *manager =[RKObjectManager managerWithBaseURL:url];
-    [manager addRequestDescriptor:requestDescriptor];
-    
-    RKObjectMapping *responseMapping = [RKObjectMapping mappingForClass:[APIRider class]];
-    [responseMapping addAttributeMappingsFromArray:@[@"Id", @"UserId",@"DesiredDate",@"City",@"IsDriver",@"Latitude",@"Longitude"]];
-    RKResponseDescriptor *responseDescriptor = [RKResponseDescriptor responseDescriptorWithMapping:responseMapping method:RKRequestMethodAny pathPattern:nil keyPath:nil statusCodes:nil];
-    [manager addResponseDescriptor:responseDescriptor];
+    /*
+     @property (nonatomic)int id;
+     @property (nonatomic, strong)NSString *userId;
+     @property (nonatomic, strong)NSString *city;
+     @property (nonatomic, strong)NSString *desiredDate;
+     @property (nonatomic)Boolean isDriver;
+     @property (nonatomic)double latitude;
+     @property (nonatomic)double longitude;
 
+     */
+    NSString *jsonRequest = [NSString stringWithFormat:@"{\"Id\":\"%d\",\"UserID\":\"%@\",\"City\":\"%@\",\"desiredDate\":\"%@\",\"isDriver\":\"%@\", \"Latitude\":\"%f\",\"Longitude\":\"%f\"}",
+                             rider.id,rider.userId, rider.city,rider.desiredDate,rider.isDriver,rider.latitude,rider.longitude];
+    NSLog(@"Request: %@", jsonRequest);
     
-    manager.requestSerializationMIMEType = RKMIMETypeJSON;
-    [manager postObject:[APIRider class] path:@"API/Rider" parameters:nil success:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
-        
-    } failure:^(RKObjectRequestOperation *operation, NSError *error) {
-        
-    }];
+    NSURL *url = [NSURL URLWithString:@"http://ihcarona.cloudapp.net/Rider"];
+    
+    NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:url];
+    NSData *requestData = [NSData dataWithBytes:[jsonRequest UTF8String] length:[jsonRequest length]];
+    
+    NSLog(@"jsonRequest is %@", jsonRequest);
+    
+    [request setHTTPMethod:@"POST"];
+    [request setValue:@"application/json" forHTTPHeaderField:@"Accept"];
+    [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+    [request setValue:[NSString stringWithFormat:@"%d", [requestData length]] forHTTPHeaderField:@"Content-Length"];
+    [request setHTTPBody: requestData];
+    
+    NSURLConnection *connection = [[NSURLConnection alloc]initWithRequest:request delegate:self];
+    [connection start];
+    
 }
 
+-(void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data
+{
+    if (connection) {
+        NSLog(@"%@",data);
+        NSLog(@"##########Sucesso!");
+    }
+}
 
+-(void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
+{
+    NSLog(@"%@",error.localizedDescription);
+}
 
 +(NSMutableArray *) getRidersForCity:(NSString *)city;
 {
@@ -76,7 +98,5 @@
     return array;
 }
 
-
-
-
+    
 @end
