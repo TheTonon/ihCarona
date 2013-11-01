@@ -28,18 +28,6 @@
 {
     [super viewDidLoad];
     
-    self.friendsList = [[NSMutableArray alloc]init];
-    
-    //recupera os amigos que vao para a mesa cidade
-    for(NSString *key in [Repository instance].fbFriends)
-    {
-        NSDictionary<FBGraphUser> *friend =[[Repository instance].fbFriends objectForKey:key];
-        //popula a lista
-        APIUser *user = [[APIUser alloc]initWithFBGraphUser:friend];
-        
-        [self.friendsList addObject:user];
-    }
-    
     [self.tableView reloadData];
 }
 

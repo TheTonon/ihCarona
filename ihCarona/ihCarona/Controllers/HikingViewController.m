@@ -11,6 +11,7 @@
 #import "APIRider.h"
 #import <CoreLocation/CoreLocation.h>
 #import <MapKit/MapKit.h>
+#import "FbFriendsViewController.h"
 
 @interface HikingViewController ()
 
@@ -64,6 +65,8 @@
     if(buttonIndex == 0)
     {
         [self buttonJSONRider];
+        
+        [self performSegueWithIdentifier:@"segueForFbFriends" sender:self];
     }
 }
 - (void)didReceiveMemoryWarning
@@ -80,8 +83,20 @@ didUpdateUserLocation:
     self.coordinate = userLocation.location.coordinate;
 }
 
-
 #pragma mark - UIAlertViewDelegate
+
+
+#pragma mark - segue elements
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if([[segue identifier] isEqualToString:@"segueForFbFriends"]){
+        
+        FbFriendsViewController *friendsController = [segue destinationViewController];
+        
+        goToMaps.ridersLocation = [APIRider getRidersForCity:self.apiRider.city];
+    }
+}
 
 
 @end

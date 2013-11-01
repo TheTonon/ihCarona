@@ -222,7 +222,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yc4-tz-2vy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-456" y="238"/>
+            <point key="canvasLocation" x="-75" y="968"/>
         </scene>
         <!--Hiking View Controller-->
         <scene sceneID="kZa-ll-mBA">
@@ -237,10 +237,13 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <segue destination="vJJ-3n-fWg" kind="modal" identifier="segueForFbFriends" id="4cC-3T-Gin"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Av7-0J-cda" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-456" y="929"/>
+            <point key="canvasLocation" x="-503" y="975"/>
         </scene>
         <!--Rides View Controller-->
         <scene sceneID="KnP-Mi-63N">
