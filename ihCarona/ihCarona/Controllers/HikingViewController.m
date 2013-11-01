@@ -23,7 +23,9 @@
 @property (strong, nonatomic) IBOutlet MKMapView *mapView;
 @property (strong, nonatomic) CLLocationManager *locationManager;
 @property (strong, nonatomic) CLLocation *currentLocation;
-
+@property (nonatomic) BOOL locationRecovered;
+@property (nonatomic) BOOL destinationCitySetted;
+@property (nonatomic) BOOL isRiderInserted;
 
 
 @end
@@ -73,8 +75,10 @@
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
     self.apiRider.city = [alertView textFieldAtIndex:0].text;
+    self.destinationCitySetted = YES;
     if(buttonIndex == 0)
     {
+        [self insertUser];
         [HUD show:YES];
         [self performSegueWithIdentifier:@"segueForFbFriends" sender:self];
     }
@@ -107,7 +111,8 @@
     self.currentLocation = newLocation;
     self.apiRider.latitude = self.locationManager.location.coordinate.latitude;
     self.apiRider.longitude = self.locationManager.location.coordinate.longitude;
-    [APIRider insertRider:self.apiRider];
+    self.locationRecovered = YES;
+    [self insertUser];
     [HUD hide:YES];
     if(newLocation.horizontalAccuracy <= 100.0f) { [locationManager stopUpdatingLocation]; }
 }
@@ -138,6 +143,14 @@
         FbFriendsViewController *friendsController = [segue destinationViewController];
         
         friendsController.friendsList = [APIRider getRidersForCity:self.apiRider.city];
+    }
+}
+
+-(void) insertUser
+{
+    @synchronized(self){
+        if(!self.isRiderInserted && self.locationRecovered && self.destinationCitySetted)
+           [APIRider insertRider:self.apiRider];
     }
 }
 
