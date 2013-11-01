@@ -28,17 +28,6 @@
 
 -(void)insertRider:(APIRider *)rider
 {
-    
-    /*
-     @property (nonatomic)int id;
-     @property (nonatomic, strong)NSString *userId;
-     @property (nonatomic, strong)NSString *city;
-     @property (nonatomic, strong)NSString *desiredDate;
-     @property (nonatomic)Boolean isDriver;
-     @property (nonatomic)double latitude;
-     @property (nonatomic)double longitude;
-
-     */
     NSString *jsonRequest = [NSString stringWithFormat:@"{\"Id\":\"%d\",\"UserID\":\"%@\",\"City\":\"%@\",\"desiredDate\":\"%@\",\"isDriver\":\"%@\", \"Latitude\":\"%f\",\"Longitude\":\"%f\"}",
                              rider.id,rider.userId, rider.city,rider.desiredDate,rider.isDriver,rider.latitude,rider.longitude];
     NSLog(@"Request: %@", jsonRequest);
