@@ -8,6 +8,8 @@
 
 #import "HikingViewController.h"
 #import <MapKit/MapKit.h>
+#import <RestKit/RestKit.h>
+#import "APIRider.h"
 
 @interface HikingViewController ()
 
@@ -18,6 +20,7 @@
 @property(nonatomic, strong) NSDictionary *json;
 @property(nonatomic) CLLocationCoordinate2D userLocat;
 
+@property(nonatomic, strong) APIRider *apiRider;
 
 @end
 
@@ -37,12 +40,32 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     [self jsonTestMethod];
+    self.apiRider = [[APIRider alloc] init];
     UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Destino" message:@"Qual seu destino" delegate:nil cancelButtonTitle:@"Wololo" otherButtonTitles:nil];
+    self.apiRider.DesiredDate = @"2013-10-31";
+    self.apiRider.IsDriver = NO;
+    self.apiRider.UserId = @"blabla";
+    self.apiRider.Id = 0;
+    self.apiRider.latitude = 10.0000;
+    self.apiRider.longitude = 13.0000;
     
+    alert.delegate = self;
     alert.alertViewStyle = UIAlertViewStylePlainTextInput;
     [alert show];
 }
 
+-(void)buttonJSONRider
+{
+    [self.apiRider JSONData];
+}
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    self.apiRider.City = [alertView textFieldAtIndex:0].text;
+    if(buttonIndex == 0)
+    {
+        [self buttonJSONRider];
+    }
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
