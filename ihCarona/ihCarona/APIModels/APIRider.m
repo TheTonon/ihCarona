@@ -17,9 +17,9 @@
         self.id = [[array valueForKey:@"Id"]integerValue];
         self.userId = [array valueForKey:@"UserId"];
         self.city = [array valueForKey:@"City"];
-        self.isDriver = [[array valueForKey:@"IsDriver"]boolValue];
-        self.latitude = [[array valueForKey:@"Latitude"]doubleValue];
-        self.longitude = [[array valueForKey:@"Longitude"] doubleValue];
+        self.isDriver = [array valueForKey:@"IsDriver"];
+        self.latitude = [[array valueForKey:@"Latitude"]floatValue];
+        self.longitude = [[array valueForKey:@"Longitude"]floatValue];
         self.desiredDate = [array valueForKey:@"DesiredDate"];
         self.user = [[APIUser alloc] initWithArray:[array valueForKey:@"User"]];
         

@@ -15,9 +15,9 @@
 @property (nonatomic, strong)NSString *userId;
 @property (nonatomic, strong)NSString *city;
 @property (nonatomic, strong)NSString *desiredDate;
-@property (nonatomic)Boolean isDriver;
-@property (nonatomic)double latitude;
-@property (nonatomic)double longitude;
+@property (nonatomic)NSString *isDriver;
+@property (nonatomic)float latitude;
+@property (nonatomic)float longitude;
 @property (nonatomic, strong)APIUser *user;
 
 -(id)initWithArray:(NSArray *) array;
