@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MBProgressHUD.h"
 
 @interface HikingViewController : UIViewController <UIAlertViewDelegate, CLLocationManagerDelegate>
+{
+    MBProgressHUD *HUD;
+}
 
 @end

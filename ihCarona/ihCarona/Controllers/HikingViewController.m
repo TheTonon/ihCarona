@@ -56,14 +56,26 @@
     self.apiRider.id = 0;
     alert.alertViewStyle = UIAlertViewStylePlainTextInput;
     alert.delegate = self;
+    
+    UIActivityIndicatorView *ai = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
+    ai.center = self.view.center;
+    [self.view addSubview:ai];
+    
+    HUD = [[MBProgressHUD alloc] initWithView:self.view];
+    HUD.labelText = @"Resolvendo tretas.";
+    HUD.detailsLabelText = @"Segura os paranauê que já termina.";
+    HUD.mode = MBProgressHUDModeAnnularDeterminate;
+    [self.view addSubview:HUD];
+    
     [alert show];
 }
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
-    self.apiRider.City = [alertView textFieldAtIndex:0].text;
+    self.apiRider.city = [alertView textFieldAtIndex:0].text;
     if(buttonIndex == 0)
-    {        
+    {
+        [HUD show:YES];
         [self performSegueWithIdentifier:@"segueForFbFriends" sender:self];
     }
 }
@@ -96,6 +108,7 @@
     self.apiRider.latitude = self.locationManager.location.coordinate.latitude;
     self.apiRider.longitude = self.locationManager.location.coordinate.longitude;
     [APIRider insertRider:self.apiRider];
+    [HUD hide:YES];
     if(newLocation.horizontalAccuracy <= 100.0f) { [locationManager stopUpdatingLocation]; }
 }
 
