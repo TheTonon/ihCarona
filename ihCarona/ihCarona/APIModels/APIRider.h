@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "APIUser.h"
 
 @interface APIRider : NSObject
 
@@ -17,9 +18,12 @@
 @property (nonatomic)Boolean isDriver;
 @property (nonatomic)double latitude;
 @property (nonatomic)double longitude;
+@property (nonatomic, strong)APIUser *user;
 
--(id)init;
+-(id)initWithArray:(NSArray *) array;
 
 -(void)JSONData;
+
++(NSMutableArray *)getRidersForCity:(NSString *)city;
 
 @end

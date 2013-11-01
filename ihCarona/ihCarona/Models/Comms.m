@@ -9,6 +9,7 @@
 #import "Comms.h"
 #import "Repository.h"
 #import "APIUser.h"
+#import "APIRider.h"
 
 @implementation Comms
 
@@ -50,6 +51,9 @@
                     //Saves user in the database
                     APIUser *user = [[APIUser alloc] initWithFBGraphUser:me];
                     [APIUser insertUser:user];
+                    
+                    
+                    [APIRider getRidersForCity:@"Campinas"];
                 }
             }];
             
