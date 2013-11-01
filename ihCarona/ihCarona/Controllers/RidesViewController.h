@@ -12,7 +12,6 @@
 
 @interface RidesViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
-@property (nonatomic, strong)Rider* theRider;
-
+@property (nonatomic, strong)NSMutableArray *ridersList;
 
 @end

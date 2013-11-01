@@ -15,6 +15,8 @@
  */
 @property (nonatomic, strong)NSMutableArray *friendsList;
 
+@property (nonatomic, strong)NSMutableArray *selectedFriends;
+
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end

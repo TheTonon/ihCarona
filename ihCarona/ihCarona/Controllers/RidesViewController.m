@@ -7,10 +7,10 @@
 //
 
 #import "RidesViewController.h"
+#import "APIRider.h"
 
 @interface RidesViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *ridesTable;
-@property (nonatomic, strong)NSMutableArray *ridersList;
 
 @end
 
@@ -28,17 +28,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
-    NSArray *end = @[@"Rua francisco de barros barao geraldo campinas brasil", @"PUCC Campinas", @"Rua das acacias 303 valinhos brasil"];
-    self.ridersList = [[NSMutableArray alloc]init];
-    for(NSInteger i = 0; i<3; i++){
-        self.theRider = [[Rider alloc]init];
-        
-        self.theRider.riderName = [NSString stringWithFormat: @"Nome %d", i ];
-        self.theRider.riderLocation = end[i];
     
-        [self.ridersList addObject:self.theRider];
-    }
     [self.ridesTable setDelegate:self];
     [self.ridesTable setDataSource:self];
     
@@ -94,9 +84,10 @@
         newCell.textLabel.textColor = textColor;
         newCell.detailTextLabel.textColor = textColor;
         
+        APIRider * rider = [self.ridersList objectAtIndex:[indexPath row]];
         
-        newCell.textLabel.text = [[self.ridersList objectAtIndex:[indexPath row]] riderName];
-        newCell.detailTextLabel.text = [[self.ridersList objectAtIndex:[indexPath row]] riderLocation];
+        newCell.textLabel.text = rider.user.firstName;
+        newCell.detailTextLabel.text = rider.city;
     }
     return newCell;
 }
@@ -116,7 +107,7 @@
 
 -(void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath{
 
-    Rider *move = [self.ridersList objectAtIndex:[sourceIndexPath row]];
+    APIRider *move = [self.ridersList objectAtIndex:[sourceIndexPath row]];
     
     [self.ridersList removeObjectAtIndex:[sourceIndexPath row]];
     [self.ridersList insertObject:move atIndex:[destinationIndexPath row]];
