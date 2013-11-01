@@ -26,11 +26,16 @@
  */
 @property (nonatomic, strong)NSDictionary<FBGraphUser> *user;
 
-
 /**
  *  caronistas selecionados pelo motorista
  */
 @property (nonatomic, strong)NSMutableArray *selectedRides;
+
+
+/**
+ *  cidade a qual o motorista ou carona deseja ir 
+ */
+@property (nonatomic, strong)NSString *destinyCity;
 
 /**
  *  aloca um unico repositorio para toda a aplicacao

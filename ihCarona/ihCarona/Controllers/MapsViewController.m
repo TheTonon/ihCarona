@@ -7,6 +7,7 @@
 //
 
 #import "MapsViewController.h"
+#import "APIRider.h"
 
 @interface MapsViewController ()
 
@@ -19,10 +20,10 @@
 @property (strong, nonatomic) IBOutlet MKMapView *mapView;
 @property(nonatomic, strong) NSMutableArray *mapLocations;
 @property(nonatomic) CLLocationCoordinate2D coordinate;
+@property(nonatomic) int contador;
 
 #pragma mark - Bedelho do Emil
 //(Prepare to segue intruction)
-@property (nonatomic, strong) NSMutableArray *segueIntructions;
 
 #pragma mark - Variáveis de localização
 @property (strong, nonatomic) MKMapItem *destination;
@@ -31,6 +32,8 @@
 @end
 
 @implementation MapsViewController
+
+@synthesize contador;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -51,6 +54,8 @@
     ai.center = self.view.center;
     [self.view addSubview:ai];
     
+    [self setCoordinatesFromSegueInstructions];
+    
     HUD = [[MBProgressHUD alloc] initWithView:self.view];
     HUD.labelText = @"Resolvendo tretas.";
     HUD.detailsLabelText = @"Segura os paranauê que já termina.";
@@ -62,7 +67,7 @@
     self.cont = 0;
     
     
-    [self genMap];
+    //[self genMap];
     [self.view endEditing:YES];
     
 }
@@ -157,6 +162,31 @@ didUpdateUserLocation:
      ];
 }
 
+-(void)setCoordinatesFromSegueInstructions
+{
+    for(APIRider *rider in self.segueIntructions)
+    {
+        CLLocationCoordinate2D coord = CLLocationCoordinate2DMake(rider.latitude, rider.longitude);
+        MKPlacemark *localPlacemark = [[MKPlacemark alloc] initWithCoordinate:coord addressDictionary:nil];
+        MKMapItem *localMapItem = [[MKMapItem alloc] initWithPlacemark:localPlacemark];
+        [self.mapLocations addObject:localMapItem];
+    }
+    do {
+        if(contador == 0)
+        {
+            self.request.source = self.mapLocations[0];
+            self.request.destination = self.mapLocations[1];
+        }
+        else
+        {
+            self.request.source = self.mapLocations[contador];
+            self.request.source = self.mapLocations[contador+1];
+        }
+        
+        [self getDirections];
+    } while (contador < [self.mapLocations count]);
+
+}
 - (void)getDirections
 {
     NSLog(@"ROTA ROTA ROTA");
