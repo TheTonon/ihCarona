@@ -78,7 +78,7 @@
     
     for( NSArray *array in jsonObject)
     {
-        APIRider * rider = [[APIRider alloc]initWithArray:array];
+        APIRider *rider = [[APIRider alloc]initWithArray:array];
         
         [array setValue:rider forKey:[NSString stringWithFormat:@"%i",rider.id]];
         

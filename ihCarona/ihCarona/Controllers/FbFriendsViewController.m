@@ -19,7 +19,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        
+        self.friendsList = [[NSMutableArray alloc]init];
     }
     return self;
 }
