@@ -84,7 +84,7 @@
     return newCell;
 }
 
--(void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     APIRider *rider = [self.friendsList objectAtIndex:[indexPath row]];
     if([tableView cellForRowAtIndexPath:indexPath].accessoryType == UITableViewCellAccessoryCheckmark){
@@ -101,6 +101,7 @@
         [[Repository instance].selectedRides addObject:rider];
     }
 }
+
 #pragma mark - Segue
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
