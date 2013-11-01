@@ -23,6 +23,8 @@
 
 @property (nonatomic, strong)NSDictionary<FBGraphUser> *user;
 
+@property (nonatomic, strong)NSString *destinyCity;
+
 /**
  *  aloca um unico repositorio para toda a aplicacao
  *
