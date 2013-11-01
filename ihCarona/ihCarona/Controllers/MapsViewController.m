@@ -204,6 +204,7 @@ didUpdateUserLocation:
      ^(MKDirectionsResponse *response, NSError *error) {
          [HUD hide:YES];
          NSLog(@"ROTA ROTA ROTA");
+         NSLog(@"%@",error.localizedDescription);
          [self showRoute:response];
      }];
 }
