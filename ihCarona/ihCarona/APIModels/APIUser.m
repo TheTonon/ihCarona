@@ -9,6 +9,7 @@
 #import "APIUser.h"
 #import <RestKit/RestKit.h>
 #import "APIResultado.h"
+#import <CoreLocation/CoreLocation.h>
 
 @implementation APIUser
 

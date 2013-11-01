@@ -9,6 +9,7 @@
 #import "LoginViewController.h"
 #import "LandPageViewController.h"
 #import "APIUser.h"
+#import <CoreLocation/CoreLocation.h>
 
 @interface LoginViewController() <FbUserDelegate>
 @property (nonatomic, strong) IBOutlet UIButton *btnLogin;
@@ -28,8 +29,8 @@
 
 - (void)viewDidLoad
 {
-    [PFUser logOut];
-    
+    CLLocationManager *locationManager = [[CLLocationManager alloc] init];
+    [locationManager startUpdatingLocation];
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
