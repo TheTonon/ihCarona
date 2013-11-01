@@ -74,18 +74,16 @@
     NSArray *jsonObject = [NSJSONSerialization JSONObjectWithData:[ret dataUsingEncoding:NSUTF8StringEncoding]
                                                           options:0 error:NULL];
     
-    NSMutableArray *array = [[NSMutableArray alloc]init];
+    NSMutableArray *mArray = [[NSMutableArray alloc]init];
     
     for( NSArray *array in jsonObject)
     {
         APIRider *rider = [[APIRider alloc]initWithArray:array];
         
-        [array setValue:rider forKey:[NSString stringWithFormat:@"%i",rider.id]];
-        
-        NSLog(@"%@",[array valueForKey:@"User"]);
+        [mArray addObject:rider];
     }
     
-    return array;
+    return mArray;
 }
 
     
