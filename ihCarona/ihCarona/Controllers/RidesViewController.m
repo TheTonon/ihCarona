@@ -58,7 +58,7 @@
         for (Rider *rider in self.ridersList) {
             [passa addObject:rider.riderLocation];
         }
-        goToMaps.ridersLocation = passa;
+        goToMaps.segueIntructions = passa;
     }
     
 }
