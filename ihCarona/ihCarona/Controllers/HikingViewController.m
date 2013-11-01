@@ -20,6 +20,7 @@
 @property(nonatomic, strong) NSString *dateToGo;
 @property(nonatomic, strong) NSDictionary *json;
 @property(nonatomic, strong) APIRider *apiRider;
+@property (strong, nonatomic) IBOutlet MKMapView *mapView;
 @property (strong, nonatomic) CLLocationManager *locationManager;
 @property (strong, nonatomic) CLLocation *currentLocation;
 
@@ -55,7 +56,7 @@
     self.apiRider.isDriver = [Repository instance].isDriver;
     self.apiRider.userId = [Repository instance].user.id;
     self.apiRider.id = 0;
-    self.apiRider.latitude = self.locationManager.location.coordinate.latitude;;
+    self.apiRider.latitude = self.locationManager.location.coordinate.latitude;
     self.apiRider.longitude = self.locationManager.location.coordinate.longitude;
     alert.alertViewStyle = UIAlertViewStylePlainTextInput;
     alert.delegate = self;
