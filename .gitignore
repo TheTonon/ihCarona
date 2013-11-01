@@ -1,2 +1,12 @@
 
 ihCarona/ihCarona.xcodeproj/xcuserdata/guilheme.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+
+.DS_Store
+
+*.xcscheme
+
+*.xcbkptlist
+
+*.xcuserstate
+
+ihCarona/Pods/Pods.xcodeproj/xcuserdata/viniciustonon.xcuserdatad/xcschemes/xcschememanagement.plist
