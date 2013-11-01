@@ -10,13 +10,13 @@
 
 @interface APIRider : NSObject
 
-@property (nonatomic)int Id;
-@property (nonatomic, strong)NSString *UserId;
-@property (nonatomic, strong)NSString *City;
-@property (nonatomic, strong)NSString *DesiredDate;
-@property (nonatomic)Boolean IsDriver;
-@property (nonatomic)NSDecimal Latitude;
-@property (nonatomic)NSDecimal Longitude;
+@property (nonatomic)int id;
+@property (nonatomic, strong)NSString *userId;
+@property (nonatomic, strong)NSString *city;
+@property (nonatomic, strong)NSString *desiredDate;
+@property (nonatomic)Boolean isDriver;
+@property (nonatomic)NSDecimal latitude;
+@property (nonatomic)NSDecimal longitude;
 
 -(id)init;
 @end

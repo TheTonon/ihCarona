@@ -8,13 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-@interface APIUser : NSObject
+@interface APIUser : NSObject<NSURLConnectionDelegate, NSURLConnectionDataDelegate>
 
-@property (nonatomic, strong)NSString *Id;
-@property (nonatomic, strong)NSString *Name;
-@property (nonatomic, strong)NSString *FirstName;
-@property (nonatomic, strong)NSString *LastName;
-@property (nonatomic, strong)NSString *Link;
+@property (nonatomic, strong)NSString *id;
+@property (nonatomic, strong)NSString *name;
+@property (nonatomic, strong)NSString *firstName;
+@property (nonatomic, strong)NSString *lastName;
+@property (nonatomic, strong)NSString *link;
 
 -(id)initWithFBGraphUser:(NSDictionary<FBGraphUser> *) user;
 

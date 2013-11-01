@@ -27,58 +27,16 @@
 
 +(void)insertUser:(APIUser *)user
 {
-    RKObjectMapping *responseMapping = [RKObjectMapping mappingForClass:[APIResultado class]];
-    [responseMapping addAttributeMappingsFromArray:@[@"Result"]];
-    
-    RKResponseDescriptor *responseDescriptor = [RKResponseDescriptor responseDescriptorWithMapping:responseMapping
-                                                                                            method:RKRequestMethodPOST
-                                                                                       pathPattern:nil
-                                                                                           keyPath:nil
-                                                                                       statusCodes:nil];
-    
-    RKObjectMapping *requestMapping = [RKObjectMapping requestMapping];
-    [requestMapping addAttributeMappingsFromArray:@[@"Id", @"Name", @"LastName",@"FirstName",@"Link"]];
-    
-    RKRequestDescriptor *requestDescriptor = [RKRequestDescriptor requestDescriptorWithMapping:requestMapping
-                                                                                   objectClass:[APIUser class]
-                                                                                   rootKeyPath:nil
-                                                                                        method:RKRequestMethodPOST];
-    
-    RKObjectManager *manager = [RKObjectManager managerWithBaseURL:[NSURL URLWithString:@"http://ihcarona.cloudapp.com/"]];
-    [manager addRequestDescriptor:requestDescriptor];
-    [manager addResponseDescriptor:responseDescriptor];
-    
-    manager.requestSerializationMIMEType = RKMIMETypeJSON;
-    
-    [manager postObject:user path:@"User" parameters:nil
-                success:^(RKObjectRequestOperation *operation, RKMappingResult *result)
-     {
-         NSLog(@"SUUUUUUUUUUUUUUUUUUUUCEEEEEEEEESSSSSSSSSOOOOO");
-     }
-                failure:^(RKObjectRequestOperation *operation, NSError *error)
-     {
-         NSLog(@"@@@@@@@@@@@@@@@@@@@@@@@@ ERRRRRRRO");
-     }];
-    /*
-    
-    NSString *jsonRequest = @"{\"Id\":\"user\",\"password\":\"letmein\"}";
+    NSString *jsonRequest = [NSString stringWithFormat:@"{\"Id\":\"%@\",\"Name\":\"%@\",\"FirstName\":\"%@\",\"LastName\":\"%@\",\"Link\":\"%@\"}",
+                             user.id,user.name, user.firstName,user.lastName,user.link];
     NSLog(@"Request: %@", jsonRequest);
     
-    NSURL *url = [NSURL URLWithString:@"https://mydomain.com/Method/"];
+    NSURL *url = [NSURL URLWithString:@"http://ihcarona.cloudapp.net/User"];
     
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:url];
     NSData *requestData = [NSData dataWithBytes:[jsonRequest UTF8String] length:[jsonRequest length]];
 
-    
     NSLog(@"jsonRequest is %@", jsonRequest);
-    
-    NSURL *url = [NSURL URLWithString:@"https://xxxxxxx.com/questions"];
-    
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url
-                                                           cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:60.0];
-    
-    
-    NSData *requestData = [NSData dataWithBytes:[jsonRequest UTF8String] length:[jsonRequest length]];
     
     [request setHTTPMethod:@"POST"];
     [request setValue:@"application/json" forHTTPHeaderField:@"Accept"];
@@ -87,11 +45,23 @@
     [request setHTTPBody: requestData];
     
     NSURLConnection *connection = [[NSURLConnection alloc]initWithRequest:request delegate:self];
-    if (connection) {
-        receivedData = [[NSMutableData data] retain];
-    }
-*/
-    
-    
+ 
+    [connection start];
+
 }
+-(void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data
+{
+    if (connection) {
+        NSLog(@"%@",data);
+        NSLog(@"##########Sucesso!");
+    }
+}
+
+-(void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
+{
+    NSLog(@"%@",error.localizedDescription);
+}
+
+
+
 @end
