@@ -21,6 +21,7 @@
         self.latitude = [[array valueForKey:@"Latitude"]doubleValue];
         self.longitude = [[array valueForKey:@"Longitude"] doubleValue];
         self.desiredDate = [array valueForKey:@"DesiredDate"];
+        self.user = [[APIUser alloc] initWithArray:[array valueForKey:@"User"]];
         
     }
     return self;

@@ -18,5 +18,7 @@
 
 -(id)initWithFBGraphUser:(NSDictionary<FBGraphUser> *) user;
 
+-(id)initWithArray:(NSArray *)array;
+
 +(void)insertUser:(APIUser *)user;
 @end

@@ -16,14 +16,28 @@
 {
     self = [super init];
     if (self) {
-        self.Id = user.id;
-        self.Name = user.name;
-        self.LastName = user.last_name;
-        self.FirstName = user.first_name;
-        self.Link = user.link;
+        self.id = user.id;
+        self.name = user.name;
+        self.lastName = user.last_name;
+        self.firstName = user.first_name;
+        self.link = user.link;
     }
     return self;
 }
+-(id)initWithArray:(NSArray *)array
+{
+    self = [super init];
+    if(self){
+        self.id = [array valueForKey:@"Id"];
+        self.name = [array valueForKey:@"Name"];
+        self.firstName = [array valueForKey:@"FirstName"];
+        self.lastName = [array valueForKey:@"LastName"];
+        self.link = [array valueForKey:@"Link"];
+    }
+    
+    return self;
+}
+
 
 +(void)insertUser:(APIUser *)user
 {
