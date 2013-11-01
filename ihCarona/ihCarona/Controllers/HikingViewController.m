@@ -44,9 +44,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     locationManager = [[CLLocationManager alloc] init];
     locationManager.delegate = self;
     [locationManager startUpdatingLocation];
+    
     self.apiRider = [[APIRider alloc] init];
     UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Destino" message:@"Qual cidade deseja ir" delegate:nil cancelButtonTitle:@"Enviar" otherButtonTitles:nil];
     self.apiRider.desiredDate = @"2013-10-31";
