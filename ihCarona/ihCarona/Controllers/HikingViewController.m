@@ -7,20 +7,18 @@
 //
 
 #import "HikingViewController.h"
-#import <MapKit/MapKit.h>
 #import <RestKit/RestKit.h>
 #import "APIRider.h"
+#import <CoreLocation/CoreLocation.h>
 
 @interface HikingViewController ()
 
 @property(nonatomic, strong) NSString *destination;
 @property(nonatomic, strong) NSString *actualLocation;
 @property(nonatomic, strong) NSString *dateToGo;
-
 @property(nonatomic, strong) NSDictionary *json;
-@property(nonatomic) CLLocationCoordinate2D userLocat;
-
 @property(nonatomic, strong) APIRider *apiRider;
+@property(nonatomic, strong) CLLocationManager *locationManager;
 
 @end
 
@@ -40,14 +38,20 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     [self jsonTestMethod];
+    
+    self.locationManager = [[CLLocationManager alloc] init];
+    self.locationManager.distanceFilter = kCLDistanceFilterNone; // whenever we move
+    self.locationManager.desiredAccuracy = kCLLocationAccuracyBest; // 100 m
+    [self.locationManager startUpdatingLocation];
+    
     self.apiRider = [[APIRider alloc] init];
     UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Destino" message:@"Qual seu destino" delegate:nil cancelButtonTitle:@"Wololo" otherButtonTitles:nil];
     self.apiRider.DesiredDate = @"2013-10-31";
-    self.apiRider.IsDriver = NO;
+    self.apiRider.IsDriver = @"false";
     self.apiRider.UserId = @"blabla";
     self.apiRider.Id = 0;
-    self.apiRider.latitude = 10.0000;
-    self.apiRider.longitude = 13.0000;
+    self.apiRider.latitude = self.locationManager.location.coordinate.latitude;
+    self.apiRider.longitude = self.locationManager.location.coordinate.longitude;
     
     alert.delegate = self;
     alert.alertViewStyle = UIAlertViewStylePlainTextInput;
@@ -56,7 +60,7 @@
 
 -(void)buttonJSONRider
 {
-    [self.apiRider JSONData];
+    [self.apiRider insertRider:self.apiRider];
 }
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
@@ -72,12 +76,17 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - Map Data
-- (void)mapView:(MKMapView *)mapView
-didUpdateUserLocation:
-(MKUserLocation *)userLocation
+#pragma mark - Device Location
+-(void)startLocationManager
 {
-    self.userLocat = userLocation.location.coordinate;
+    self.locationManager = [[CLLocationManager alloc] init];
+    self.locationManager.distanceFilter = kCLDistanceFilterNone; // whenever we move
+    self.locationManager.desiredAccuracy = kCLLocationAccuracyBest; // 100 m
+    [self.locationManager startUpdatingLocation];
+}
+
+- (NSString *)deviceLocation {
+    return [NSString stringWithFormat:@"latitude: %f longitude: %f", self.locationManager.location.coordinate.latitude, self.locationManager.location.coordinate.longitude];
 }
 
 #pragma mark - JSON
