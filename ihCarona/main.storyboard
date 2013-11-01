@@ -187,9 +187,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eay-Jc-l1R">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eay-Jc-l1R">
                                 <rect key="frame" x="270" y="518" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="KyW-HB-mig"/>
+                                    <constraint firstAttribute="height" constant="30" id="awa-Kd-o5o"/>
+                                </constraints>
                                 <state key="normal" backgroundImage="arrowNext">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -209,8 +213,8 @@
                         </subviews>
                         <color key="backgroundColor" red="0.26191010599999998" green="0.44769536459999998" blue="0.47345344389999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="IkF-rk-YvO" firstAttribute="top" secondItem="eay-Jc-l1R" secondAttribute="bottom" constant="20" id="JMg-xl-ZSk"/>
-                            <constraint firstAttribute="trailing" secondItem="eay-Jc-l1R" secondAttribute="trailing" constant="20" id="fPh-mN-5n2"/>
+                            <constraint firstAttribute="trailing" secondItem="eay-Jc-l1R" secondAttribute="trailing" constant="20" id="3o8-ip-U9O"/>
+                            <constraint firstItem="IkF-rk-YvO" firstAttribute="top" secondItem="eay-Jc-l1R" secondAttribute="bottom" constant="20" id="SOM-hB-E5x"/>
                         </constraints>
                     </view>
                     <connections>
