@@ -21,4 +21,7 @@
 @property (nonatomic, strong) NSMutableArray *ridersLocation;
 @property (nonatomic, strong) NSMutableArray *segueIntructions;
 
+
+- (void)getDirections;
+
 @end

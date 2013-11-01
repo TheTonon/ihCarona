@@ -181,14 +181,18 @@ didUpdateUserLocation:
         else
         {
             self.request.source = self.mapLocations[contador];
-            self.request.destination = self.mapLocations[contador+1];
+            if((contador + 1) < [self.mapLocations count])
+            {
+                self.request.destination = self.mapLocations[contador+1];
+            }
         }
-
+        
         [self getDirections];
         contador ++;
     } while (contador < [self.mapLocations count]-1);
     self.request.source = self.request.destination;
     [self locateDesiredAddress:[Repository instance].destinyCity];
+    [self getDirections];
 }
 - (void)getDirections
 {

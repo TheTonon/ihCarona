@@ -46,9 +46,8 @@
 {
     [super viewDidLoad];
     
-    self.locationManager = [[CLLocationManager alloc] init];
-    self.locationManager.delegate = self;
-    [self.locationManager startUpdatingLocation];
+    [self startStandardUpdates];
+    //[self.locationManager startUpdatingLocation];
     
     self.apiRider = [[APIRider alloc] init];
     UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Destino" message:@"Qual cidade deseja ir" delegate:nil cancelButtonTitle:@"Enviar" otherButtonTitles:nil];
@@ -87,8 +86,7 @@
     // already have one.
     if (nil == self.locationManager)
     self.locationManager = [[CLLocationManager alloc] init];
-    
-    self.locationManager.delegate = self.locationManager;
+    self.locationManager.delegate = self;
     self.locationManager.desiredAccuracy = kCLLocationAccuracyKilometer;
     
     // Set a movement threshold for new events.
