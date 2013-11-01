@@ -51,19 +51,16 @@
     self.apiRider.longitude = self.coordinate.longitude;
     NSLog(@"%s", self.coordinate);
     alert.alertViewStyle = UIAlertViewStylePlainTextInput;
+    alert.delegate = self;
     [alert show];
 }
 
--(void)buttonJSONRider
-{
-    [self.apiRider insertRider:self.apiRider];
-}
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
     self.apiRider.City = [alertView textFieldAtIndex:0].text;
     if(buttonIndex == 0)
     {
-        [self buttonJSONRider];
+        [self.apiRider insertRider:self.apiRider];
     }
 }
 - (void)didReceiveMemoryWarning
