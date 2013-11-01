@@ -20,5 +20,4 @@
 
 @property (nonatomic, strong) NSMutableArray *ridersLocation;
 
-
 @end
