@@ -100,7 +100,6 @@
     if(newLocation.horizontalAccuracy <= 100.0f) { [locationManager stopUpdatingLocation]; }
 }
 
-<<<<<<< HEAD
 - (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error {
     if(error.code == kCLErrorDenied) {
         [locationManager stopUpdatingLocation];
@@ -116,10 +115,7 @@
     }
 }
 
-=======
->>>>>>> 97e688a23dd7b091506e2cb91b2411f0d66d76fb
 #pragma mark - UIAlertViewDelegate
-
 
 #pragma mark - segue elements
 
