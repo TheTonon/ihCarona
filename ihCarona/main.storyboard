@@ -187,10 +187,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eay-Jc-l1R">
-                                <rect key="frame" x="254" y="518" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eay-Jc-l1R">
+                                <rect key="frame" x="270" y="518" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title=">>">
+                                <state key="normal" backgroundImage="arrowNext">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -198,7 +198,7 @@
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="WAy-zs-dQM">
-                                <rect key="frame" x="0.0" y="32" width="320" height="489"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="489"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
@@ -209,8 +209,8 @@
                         </subviews>
                         <color key="backgroundColor" red="0.26191010599999998" green="0.44769536459999998" blue="0.47345344389999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="eay-Jc-l1R" secondAttribute="trailing" constant="36" id="2zk-Jx-0ab"/>
-                            <constraint firstItem="IkF-rk-YvO" firstAttribute="top" secondItem="eay-Jc-l1R" secondAttribute="bottom" constant="20" id="XdI-ZU-rmv"/>
+                            <constraint firstItem="IkF-rk-YvO" firstAttribute="top" secondItem="eay-Jc-l1R" secondAttribute="bottom" constant="20" id="JMg-xl-ZSk"/>
+                            <constraint firstAttribute="trailing" secondItem="eay-Jc-l1R" secondAttribute="trailing" constant="20" id="fPh-mN-5n2"/>
                         </constraints>
                     </view>
                     <connections>
@@ -306,6 +306,7 @@
     </scenes>
     <resources>
         <image name="FBLogin.png" width="202" height="44"/>
+        <image name="arrowNext" width="275" height="256"/>
         <image name="ihCarona" width="1024" height="1024"/>
         <image name="ihCaronaHitch-1" width="802" height="877"/>
         <image name="ihCaronaMotorista" width="998" height="998"/>
