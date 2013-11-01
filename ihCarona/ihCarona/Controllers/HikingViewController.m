@@ -68,7 +68,7 @@
     self.apiRider.City = [alertView textFieldAtIndex:0].text;
     if(buttonIndex == 0)
     {
-        [self.apiRider insertRider:self.apiRider];
+        [APIRider insertRider:self.apiRider];
         
         [self performSegueWithIdentifier:@"segueForFbFriends" sender:self];
     }

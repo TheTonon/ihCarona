@@ -22,7 +22,7 @@
 
 -(id)initWithArray:(NSArray *) array;
 
--(void)insertRider:(APIRider *)rider;
++(void)insertRider:(APIRider *)rider;
 
 +(NSMutableArray *)getRidersForCity:(NSString *)city;
 

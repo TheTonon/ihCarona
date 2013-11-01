@@ -27,7 +27,7 @@
     return self;
 }
 
--(void)insertRider:(APIRider *)rider
++(void)insertRider:(APIRider *)rider
 {
     NSString *jsonRequest = [NSString stringWithFormat:@"{\"Id\":\"%d\",\"UserID\":\"%@\",\"City\":\"%@\",\"desiredDate\":\"%@\",\"isDriver\":\"%@\", \"Latitude\":\"%f\",\"Longitude\":\"%f\"}",
                              rider.id,rider.userId, rider.city,rider.desiredDate,rider.isDriver,rider.latitude,rider.longitude];

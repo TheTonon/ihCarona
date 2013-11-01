@@ -56,7 +56,7 @@
         
         NSMutableArray *passa = [[NSMutableArray alloc] init];
         for (Rider *rider in self.ridersList) {
-            [passa addObject:rider.riderLocation];
+            [passa addObject:rider];
         }
         goToMaps.segueIntructions = passa;
     }
