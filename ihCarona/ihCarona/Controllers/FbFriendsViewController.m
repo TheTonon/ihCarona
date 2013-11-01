@@ -88,15 +88,18 @@
 {
     APIRider *rider = [self.friendsList objectAtIndex:[indexPath row]];
     if([tableView cellForRowAtIndexPath:indexPath].accessoryType == UITableViewCellAccessoryCheckmark){
+        /**
+         *  remove o item da lista de selecoes
+         */
         [tableView cellForRowAtIndexPath:indexPath].accessoryType = UITableViewCellAccessoryNone;
         [[Repository instance].selectedRides removeObject:rider];
     }else{
+        /**
+         *  insere o item na lista de selecoes
+         */
         [tableView cellForRowAtIndexPath:indexPath].accessoryType = UITableViewCellAccessoryCheckmark;
         [[Repository instance].selectedRides addObject:rider];
     }
-    
-    NSLog(@"%i",[Repository instance].selectedRides.count);
-    
 }
 #pragma mark - Segue
 
