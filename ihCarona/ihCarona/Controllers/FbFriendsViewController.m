@@ -89,8 +89,7 @@
     APIRider *rider = [self.friendsList objectAtIndex:[indexPath row]];
     if([tableView cellForRowAtIndexPath:indexPath].accessoryType == UITableViewCellAccessoryCheckmark){
         [tableView cellForRowAtIndexPath:indexPath].accessoryType = UITableViewCellAccessoryNone;
-        APIRider *selectedRider = [[Repository instance].selectedRides valueForKey:[NSString stringWithFormat:@"%i",rider.id]];
-        [[Repository instance].selectedRides removeObject:selectedRider];
+        [[Repository instance].selectedRides removeObject:rider];
     }else{
         [tableView cellForRowAtIndexPath:indexPath].accessoryType = UITableViewCellAccessoryCheckmark;
         [[Repository instance].selectedRides addObject:rider];
