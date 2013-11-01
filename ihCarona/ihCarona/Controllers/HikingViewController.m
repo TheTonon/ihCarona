@@ -19,8 +19,6 @@
 @property(nonatomic, strong) NSString *dateToGo;
 @property(nonatomic, strong) NSDictionary *json;
 @property(nonatomic, strong) APIRider *apiRider;
-@property(nonatomic)CLLocationCoordinate2D coordinate;
-@property (strong, nonatomic) IBOutlet MKMapView *mapView;
 @property (strong, nonatomic) CLLocationManager *locationManager;
 @property (strong, nonatomic) CLLocation *currentLocation;
 
@@ -45,7 +43,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.mapView.showsUserLocation = YES;
     locationManager = [[CLLocationManager alloc] init];
     locationManager.delegate = self;
     [locationManager startUpdatingLocation];
@@ -57,7 +54,6 @@
     self.apiRider.id = 0;
     self.apiRider.latitude = self.locationManager.location.coordinate.latitude;;
     self.apiRider.longitude = self.locationManager.location.coordinate.longitude;
-    NSLog(@"%s", self.coordinate);
     alert.alertViewStyle = UIAlertViewStylePlainTextInput;
     alert.delegate = self;
     [alert show];
@@ -78,12 +74,6 @@
 }
 
 #pragma mark - Device Location
-- (void)mapView:(MKMapView *)mapView
-didUpdateUserLocation:
-(MKUserLocation *)userLocation
-{
-    self.coordinate = userLocation.location.coordinate;
-}
 
 - (void)startStandardUpdates
 {
