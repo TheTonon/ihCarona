@@ -18,8 +18,10 @@
 /**
  *  define se o usuário é motorista ou nao
  */
-@property (nonatomic, getter = isDriver) NSString *driver;
+@property (nonatomic,strong ,getter = isDriver) NSString *driver;
 
+
+@property (nonatomic, strong)NSDictionary<FBGraphUser> *user;
 
 /**
  *  aloca um unico repositorio para toda a aplicacao

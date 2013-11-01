@@ -51,9 +51,7 @@
                     //Saves user in the database
                     APIUser *user = [[APIUser alloc] initWithFBGraphUser:me];
                     [APIUser insertUser:user];
-                    
-                    
-                    [APIRider getRidersForCity:@"Campinas"];
+                    [Repository instance].user = me;
                 }
             }];
             

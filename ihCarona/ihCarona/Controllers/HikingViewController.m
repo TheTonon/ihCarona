@@ -20,6 +20,8 @@
 @property(nonatomic, strong) NSDictionary *json;
 @property(nonatomic, strong) APIRider *apiRider;
 @property(nonatomic)CLLocationCoordinate2D coordinate;
+@property (strong, nonatomic) MKMapView *mapView;
+
 
 @end
 
@@ -37,16 +39,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.mapView.showsUserLocation = YES;
     
     self.apiRider = [[APIRider alloc] init];
-    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Destino" message:@"Qual seu destino" delegate:nil cancelButtonTitle:@"Wololo" otherButtonTitles:nil];
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Destino" message:@"Qual cidade deseja ir" delegate:nil cancelButtonTitle:@"Enviar" otherButtonTitles:nil];
     self.apiRider.desiredDate = @"2013-10-31";
     self.apiRider.isDriver = [Repository instance].isDriver;
-    self.apiRider.userId = @"blabla";
+    self.apiRider.userId = [Repository instance].user.id;
     self.apiRider.id = 0;
     self.apiRider.latitude = self.coordinate.latitude;
     self.apiRider.longitude = self.coordinate.longitude;
-    
+    NSLog(@"%s", self.coordinate);
     alert.alertViewStyle = UIAlertViewStylePlainTextInput;
     [alert show];
 }
