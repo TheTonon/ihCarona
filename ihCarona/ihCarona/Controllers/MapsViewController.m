@@ -20,6 +20,7 @@
 @property (strong, nonatomic) IBOutlet MKMapView *mapView;
 @property(nonatomic, strong) NSMutableArray *mapLocations;
 @property(nonatomic) CLLocationCoordinate2D coordinate;
+@property(nonatomic, strong) NSMutableArray *routeInstructions;
 @property(nonatomic) int contador;
 
 #pragma mark - Bedelho do Emil
@@ -54,8 +55,6 @@
     ai.center = self.view.center;
     [self.view addSubview:ai];
     
-    [self setCoordinatesFromSegueInstructions];
-    
     HUD = [[MBProgressHUD alloc] initWithView:self.view];
     HUD.labelText = @"Resolvendo tretas.";
     HUD.detailsLabelText = @"Segura os paranauê que já termina.";
@@ -67,7 +66,7 @@
     self.cont = 0;
     
     
-    //[self genMap];
+    [self setCoordinatesFromSegueInstructions];
     [self.view endEditing:YES];
     
 }
@@ -135,7 +134,7 @@ didUpdateUserLocation:
                          
                          MKMapItem *destinationItem = [[MKMapItem alloc] initWithPlacemark:placemark];
                          self.destination = destinationItem;
-                    
+                         
                          MKMapItem *sourceItem = nil;
                          if(self.cont == 0)
                          {
@@ -145,7 +144,7 @@ didUpdateUserLocation:
                          }
                          else
                          {
-                              sourceItem= [[MKMapItem alloc] initWithPlacemark:self.mapLocations[self.cont - 1]];
+                             sourceItem= [[MKMapItem alloc] initWithPlacemark:self.mapLocations[self.cont - 1]];
                              self.request.source = sourceItem;
                          }
                          
@@ -155,7 +154,7 @@ didUpdateUserLocation:
                          [self getDirections];
                          
                          if(self.cont == 1)
-                            [self coordWithAdress:address];
+                         [self coordWithAdress:address];
                          
                      }
                  }
@@ -174,18 +173,22 @@ didUpdateUserLocation:
     do {
         if(contador == 0)
         {
-            self.request.source = self.mapLocations[0];
+            MKPlacemark *localPlaceMark = [[MKPlacemark alloc] initWithCoordinate:self.coordinate addressDictionary:nil];
+            MKMapItem *sourceItem = [[MKMapItem alloc]initWithPlacemark:localPlaceMark];
+            self.request.source = sourceItem;
             self.request.destination = self.mapLocations[1];
         }
         else
         {
             self.request.source = self.mapLocations[contador];
-            self.request.source = self.mapLocations[contador+1];
+            self.request.destination = self.mapLocations[contador+1];
         }
-        
-        [self getDirections];
-    } while (contador < [self.mapLocations count]);
 
+        [self getDirections];
+        contador ++;
+    } while (contador < [self.mapLocations count]-1);
+    self.request.source = self.request.destination;
+    [self locateDesiredAddress:[Repository instance].destinyCity];
 }
 - (void)getDirections
 {
@@ -204,11 +207,30 @@ didUpdateUserLocation:
          [self showRoute:response];
      }];
 }
+
+-(void)locateDesiredAddress:(NSString *)address
+{
+    CLGeocoder *geocoder = [[CLGeocoder alloc] init];
+    [geocoder geocodeAddressString:address
+                 completionHandler:^(NSArray *placemarks, NSError* error){
+                     NSLog(@"ENTREI NO GEOCODER");
+                     if (placemarks && [placemarks count] > 0) {
+                         CLPlacemark *topResult = [placemarks objectAtIndex:0];
+                         MKPlacemark *placemark = [[MKPlacemark alloc] initWithPlacemark:topResult];
+                         
+                         MKMapItem *destinationItem = [[MKMapItem alloc] initWithPlacemark:placemark];
+                         self.destination = destinationItem;
+                     }
+                 }
+     ];
+}
+
 #pragma mark - Desenho da rota
 -(void)showRoute:(MKDirectionsResponse *)response
 {
     NSLog(@"IM FIRING MY ROUTE!");
-    self.segueIntructions = [[NSMutableArray alloc]init];
+    self.routeInstructions = [[NSMutableArray alloc]init];
+    NSLog(response.routes);
     for (MKRoute *route in response.routes)
     {
         NSLog(@"IM FIRING MY ROUTE! TWICE!");
@@ -219,7 +241,7 @@ didUpdateUserLocation:
         for (MKRouteStep *step in route.steps)
         {
             NSLog(@"%@", step.instructions);
-            [self.segueIntructions addObject:step.instructions];
+            [self.routeInstructions addObject:step.instructions];
         }
     }
 }
@@ -235,7 +257,7 @@ didUpdateUserLocation:
 
 #pragma mark - Bedelho do Emil PrepareToSegue
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-
+    
     if([[segue identifier] isEqualToString:@"segueToInstructions"]){
         InstructionsViewController *goToInstructions = [segue destinationViewController];
         
