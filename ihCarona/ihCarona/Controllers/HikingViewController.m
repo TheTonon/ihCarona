@@ -37,15 +37,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
-    [self jsonTestMethod];
     
     self.apiRider = [[APIRider alloc] init];
     UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Destino" message:@"Qual seu destino" delegate:nil cancelButtonTitle:@"Wololo" otherButtonTitles:nil];
-    self.apiRider.DesiredDate = @"2013-10-31";
-    self.apiRider.IsDriver = @"false";
-    self.apiRider.UserId = @"blabla";
-    self.apiRider.Id = 0;
+    self.apiRider.desiredDate = @"2013-10-31";
+    self.apiRider.isDriver = [Repository instance].isDriver;
+    self.apiRider.userId = @"blabla";
+    self.apiRider.id = 0;
     self.apiRider.latitude = self.coordinate.latitude;
     self.apiRider.longitude = self.coordinate.longitude;
     
@@ -79,21 +77,6 @@ didUpdateUserLocation:
     self.coordinate = userLocation.location.coordinate;
 }
 
-#pragma mark - JSON
-
--(void)jsonTestMethod
-{
-    NSError *error = nil;
-    NSString *url = [NSString stringWithFormat:@"http://s3.amazonaws.com/ihCarona/testData.json"];
-    NSData *jsonData = [NSData dataWithContentsOfURL:[NSURL URLWithString:url]];
-    
-    NSDictionary *retornoJSON = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:&error];
-    if(!error){
-        NSString *nome = [retornoJSON objectForKey:@"nome"];
-        NSString *endereco = [retornoJSON objectForKey:@"descricao"];
-        NSLog(@"Nome: %@, Endereço: %@", nome, endereco);
-    }
-}
 
 #pragma mark - UIAlertViewDelegate
 

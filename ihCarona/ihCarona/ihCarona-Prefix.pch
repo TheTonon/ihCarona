@@ -15,5 +15,6 @@
     #import <Foundation/Foundation.h>
     #import "Parse/Parse.h"
     #import "Comms.h"
+    #import "Repository.h"
 
 #endif

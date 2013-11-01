@@ -7,7 +7,6 @@
 //
 
 #import "FbFriendsViewController.h"
-#import "Repository.h"
 #import "APIUser.h"
 
 @interface FbFriendsViewController ()

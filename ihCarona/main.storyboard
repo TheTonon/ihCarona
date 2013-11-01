@@ -153,7 +153,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="vJJ-3n-fWg" kind="modal" identifier="segueIdMotorista" id="zTO-gg-1EU"/>
+                                    <action selector="motoristaPressed:" destination="WJk-GT-UL4" eventType="touchUpInside" id="Bio-JN-W7t"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nEL-vc-4Mf">
@@ -163,17 +163,20 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="fFB-oH-Vra" kind="modal" id="GKc-9S-Iwf"/>
+                                    <action selector="caronaPressed:" destination="WJk-GT-UL4" eventType="touchUpInside" id="hBi-ll-sk8"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="89F-HZ-LpW"/>
+                    <connections>
+                        <segue destination="fFB-oH-Vra" kind="modal" identifier="segueToHiking" id="H81-n1-ZWf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hWR-fX-bfN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-998" y="620"/>
+            <point key="canvasLocation" x="-992" y="620"/>
         </scene>
         <!--Fb Friends View Controller-->
         <scene sceneID="mxA-Co-72H">

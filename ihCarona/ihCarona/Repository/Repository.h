@@ -18,7 +18,7 @@
 /**
  *  define se o usuário é motorista ou nao
  */
-@property (nonatomic, getter = isDriver) Boolean driver;
+@property (nonatomic, getter = isDriver) NSString *driver;
 
 
 /**

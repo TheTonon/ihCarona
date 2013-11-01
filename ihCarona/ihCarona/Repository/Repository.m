@@ -33,7 +33,7 @@ static Repository *instance = nil;
 - (void) reset
 {
     [self.fbFriends removeAllObjects];
-    self.driver = false;
+    self.driver = @"false";
  }
 
 @end

@@ -23,6 +23,19 @@
     return self;
 }
 
+-(IBAction)motoristaPressed:(id)sender
+{
+    [Repository instance].driver = @"true";
+    [self performSegueWithIdentifier:@"segueToHiking" sender:self];
+}
+
+-(IBAction)caronaPressed:(id)sender
+{
+    [Repository instance].driver =@"false";
+    [self performSegueWithIdentifier:@"segueToHiking" sender:self];
+
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -33,6 +46,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    
 }
 
 @end
