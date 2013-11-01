@@ -66,7 +66,18 @@
 
 +(NSMutableArray *) getRidersForCity:(NSString *)city;
 {
-    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://ihcarona.cloudapp.net/rider?city=%@",city]];
+    NSString * unencodedString = [NSString stringWithFormat:@"http://ihcarona.cloudapp.net/rider?city=%@",city];
+    NSString * encodedString =
+    (NSString *)CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(
+                                                        NULL,
+                                                        (CFStringRef)unencodedString,
+                                                        NULL,
+                                                        (CFStringRef)@" ",
+                                                        kCFStringEncodingUTF8 ));
+    
+    
+    NSURL *url = [NSURL URLWithString:encodedString];
+    
     NSData *data = [NSData dataWithContentsOfURL:url];
     NSString *ret = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     
