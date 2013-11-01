@@ -29,10 +29,11 @@
 {
     [super viewDidLoad];
     
+    self.ridersList = [Repository instance].selectedRides;
+    
     [self.ridesTable setDelegate:self];
     [self.ridesTable setDataSource:self];
-    
-    
+
     #pragma mark - setting list apearence
     [self.ridesTable reloadData];
     

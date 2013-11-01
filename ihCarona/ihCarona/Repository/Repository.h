@@ -21,7 +21,16 @@
 @property (nonatomic,strong ,getter = isDriver) NSString *driver;
 
 
+/**
+ *  Usuario atual logado
+ */
 @property (nonatomic, strong)NSDictionary<FBGraphUser> *user;
+
+
+/**
+ *  caronistas selecionados pelo motorista
+ */
+@property (nonatomic, strong)NSMutableArray *selectedRides;
 
 /**
  *  aloca um unico repositorio para toda a aplicacao

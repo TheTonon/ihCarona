@@ -26,6 +26,7 @@ static Repository *instance = nil;
     self = [super init];
     if (self) {
         self.fbFriends = [[NSMutableDictionary alloc] init];
+        self.selectedRides = [[NSMutableArray alloc]init];
     }
     return self;
 }
@@ -33,6 +34,7 @@ static Repository *instance = nil;
 - (void) reset
 {
     [self.fbFriends removeAllObjects];
+    [self.selectedRides removeAllObjects];
     self.driver = @"false";
  }
 

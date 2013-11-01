@@ -89,12 +89,14 @@
     APIRider *rider = [self.friendsList objectAtIndex:[indexPath row]];
     if([tableView cellForRowAtIndexPath:indexPath].accessoryType == UITableViewCellAccessoryCheckmark){
         [tableView cellForRowAtIndexPath:indexPath].accessoryType = UITableViewCellAccessoryNone;
-        APIRider *selectedRider = [self.selectedFriends valueForKey:[NSString stringWithFormat:@"%i",rider.id]];
-        [self.selectedFriends removeObject:selectedRider];
+        APIRider *selectedRider = [[Repository instance].selectedRides valueForKey:[NSString stringWithFormat:@"%i",rider.id]];
+        [[Repository instance].selectedRides removeObject:selectedRider];
     }else{
         [tableView cellForRowAtIndexPath:indexPath].accessoryType = UITableViewCellAccessoryCheckmark;
-        [self.selectedFriends setValue:rider forKey:[NSString stringWithFormat:@"%i",rider.id]];
+        [[Repository instance].selectedRides addObject:rider];
     }
+    
+    NSLog(@"%i",[Repository instance].selectedRides.count);
     
 }
 #pragma mark - Segue
@@ -102,12 +104,6 @@
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if([[segue identifier] isEqualToString:@"segueForRide"]){
-        RidesViewController *ridesView = [segue destinationViewController];
-        ridesView.ridersList = [[NSMutableArray alloc]init];
-        for(APIRider *rider in self.selectedFriends){
-            [ridesView.ridersList addObject:rider];
-            
-        }
     }
 }
 
