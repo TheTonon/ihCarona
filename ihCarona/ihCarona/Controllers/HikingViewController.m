@@ -75,6 +75,7 @@
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
     self.apiRider.city = [alertView textFieldAtIndex:0].text;
+    [Repository instance].destinyCity= self.apiRider.city;
     self.destinationCitySetted = YES;
     if(buttonIndex == 0)
     {
@@ -150,7 +151,24 @@
 {
     @synchronized(self){
         if(!self.isRiderInserted && self.locationRecovered && self.destinationCitySetted)
-           [APIRider insertRider:self.apiRider];
+        {
+            CLLocation *coord = [[CLLocation alloc] initWithLatitude:self.apiRider.latitude longitude:self.apiRider.longitude];
+            CLGeocoder *geocoder = [[CLGeocoder alloc] init];
+            [geocoder reverseGeocodeLocation:coord completionHandler:^(NSArray *placemarks, NSError *error) {
+                if(!error)
+                {
+                    CLPlacemark *topResult = [placemarks objectAtIndex:0];
+                    self.apiRider.txtAdress = [NSString stringWithFormat:@"%@, %@, %@, %@",
+                                               [topResult thoroughfare],[topResult locality],
+                                               [topResult administrativeArea], [topResult country]];
+                    NSLog(@"SUBA NO CHOPPEIRO");
+                    NSLog(@"%@",self.apiRider.txtAdress);
+                    
+                    [APIRider insertRider:self.apiRider];
+
+                }
+            }];
+        }
     }
 }
 

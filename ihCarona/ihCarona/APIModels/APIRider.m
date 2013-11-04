@@ -24,9 +24,7 @@
         self.longitude = [[array valueForKey:@"Longitude"]floatValue];
         self.desiredDate = [array valueForKey:@"DesiredDate"];
         self.user = [[APIUser alloc] initWithArray:[array valueForKey:@"User"]];
-        self.txtAdress = [array valueForKey:@"Adress"];
-     
-        [self getToTheChoppa];
+        self.txtAdress = [array valueForKey:@"ActualLocation"];
     }
     return self;
 }
@@ -72,11 +70,11 @@
     NSString * unencodedString = [NSString stringWithFormat:@"http://ihcarona.cloudapp.net/rider?city=%@",city];
     NSString * encodedString =
     (NSString *)CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(
-                                                        NULL,
-                                                        (CFStringRef)unencodedString,
-                                                        NULL,
-                                                        (CFStringRef)@" ",
-                                                        kCFStringEncodingUTF8 ));
+                                                                          NULL,
+                                                                          (CFStringRef)unencodedString,
+                                                                          NULL,
+                                                                          (CFStringRef)@" ",
+                                                                          kCFStringEncodingUTF8 ));
     
     
     NSURL *url = [NSURL URLWithString:encodedString];
@@ -99,23 +97,5 @@
     
     return mArray;
 }
-//ReverseGeoLocation da location do usuário, pra garantir a legibilidade das tables.
--(void)getToTheChoppa
-{
-    CLLocation *coord = [[CLLocation alloc] initWithLatitude:self.latitude longitude:self.longitude];
-    CLGeocoder *geocoder = [[CLGeocoder alloc] init];
-    [geocoder reverseGeocodeLocation:coord completionHandler:^(NSArray *placemarks, NSError *error) {
-        if(!error)
-        {
-            CLPlacemark *topResult = [placemarks objectAtIndex:0];
-            self.txtAdress = [NSString stringWithFormat:@"%@ %@,%@ %@",
-                                    [topResult subThoroughfare],[topResult thoroughfare],
-                                    [topResult locality], [topResult administrativeArea]];
-            NSLog(@"SUBA NO CHOPPEIRO");
-            NSLog(@"%@",self.txtAdress);
-        }
-    }];
-}
 
-    
 @end
