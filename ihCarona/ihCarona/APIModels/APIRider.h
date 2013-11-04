@@ -19,6 +19,7 @@
 @property (nonatomic)float latitude;
 @property (nonatomic)float longitude;
 @property (nonatomic, strong)APIUser *user;
+@property (nonatomic, strong)NSString *txtAdress;
 
 -(id)initWithArray:(NSArray *) array;
 

@@ -172,7 +172,7 @@ didUpdateUserLocation:
     }
     do {
         if(contador == 0)
-        {
+        { 
             MKPlacemark *localPlaceMark = [[MKPlacemark alloc] initWithCoordinate:self.coordinate addressDictionary:nil];
             MKMapItem *sourceItem = [[MKMapItem alloc]initWithPlacemark:localPlaceMark];
             self.request.source = sourceItem;
@@ -194,6 +194,7 @@ didUpdateUserLocation:
     [self locateDesiredAddress:[Repository instance].destinyCity];
     [self getDirections];
 }
+
 - (void)getDirections
 {
     NSLog(@"ROTA ROTA ROTA");

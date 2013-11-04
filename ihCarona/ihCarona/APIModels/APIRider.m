@@ -8,6 +8,8 @@
 
 #import "APIRider.h"
 #import <RestKit/RestKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
 
 @implementation APIRider
 - (id)initWithArray:(NSArray *)array
@@ -22,17 +24,18 @@
         self.longitude = [[array valueForKey:@"Longitude"]floatValue];
         self.desiredDate = [array valueForKey:@"DesiredDate"];
         self.user = [[APIUser alloc] initWithArray:[array valueForKey:@"User"]];
-        
+        self.txtAdress = [array valueForKey:@"Adress"];
+     
+        [self getToTheChoppa];
     }
     return self;
 }
 
 +(void)insertRider:(APIRider *)rider
 {
-    NSString *jsonRequest = [NSString stringWithFormat:@"{\"Id\":\"%d\",\"UserID\":\"%@\",\"City\":\"%@\",\"desiredDate\":\"%@\",\"isDriver\":\"%@\", \"Latitude\":\"%f\",\"Longitude\":\"%f\"}",
-                             rider.id,rider.userId, rider.city,rider.desiredDate,rider.isDriver,rider.latitude,rider.longitude];
+    NSString *jsonRequest = [NSString stringWithFormat:@"{\"Id\":\"%d\",\"UserID\":\"%@\",\"City\":\"%@\",\"desiredDate\":\"%@\",\"isDriver\":\"%@\", \"Latitude\":\"%f\",\"Longitude\":\"%f\",\"Adress\":\"%@\"}",
+                             rider.id,rider.userId, rider.city,rider.desiredDate,rider.isDriver,rider.latitude,rider.longitude,rider.txtAdress];
     NSLog(@"Request: %@", jsonRequest);
-    
     NSURL *url = [NSURL URLWithString:@"http://ihcarona.cloudapp.net/Rider"];
     
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:url];
@@ -95,6 +98,23 @@
     }
     
     return mArray;
+}
+//ReverseGeoLocation da location do usuário, pra garantir a legibilidade das tables.
+-(void)getToTheChoppa
+{
+    CLLocation *coord = [[CLLocation alloc] initWithLatitude:self.latitude longitude:self.longitude];
+    CLGeocoder *geocoder = [[CLGeocoder alloc] init];
+    [geocoder reverseGeocodeLocation:coord completionHandler:^(NSArray *placemarks, NSError *error) {
+        if(!error)
+        {
+            CLPlacemark *topResult = [placemarks objectAtIndex:0];
+            self.txtAdress = [NSString stringWithFormat:@"%@ %@,%@ %@",
+                                    [topResult subThoroughfare],[topResult thoroughfare],
+                                    [topResult locality], [topResult administrativeArea]];
+            NSLog(@"SUBA NO CHOPPEIRO");
+            NSLog(@"%@",self.txtAdress);
+        }
+    }];
 }
 
     
