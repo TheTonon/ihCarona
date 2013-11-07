@@ -23,6 +23,8 @@
 @property(nonatomic, strong) NSMutableArray *routeInstructions;
 @property(nonatomic) int contador;
 @property(nonatomic, strong) NSString *desiredCity;
+@property(nonatomic, strong) NSMutableArray *allRoutePolys;
+@property(nonatomic) BOOL readyToDraw;
 
 #pragma mark - Bedelho do Emil
 //(Prepare to segue intruction)
@@ -49,6 +51,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.allRoutePolys = [[NSMutableArray alloc] init];
+    
     _mapView.showsUserLocation = YES;
     _mapView.delegate = self;
     
@@ -102,6 +107,7 @@ didUpdateUserLocation:
         [self coordWithAdress:rider.txtAdress];
     }
     [self coordWithAdress:[Repository instance].destinyCity];
+    self.readyToDraw = YES;
 }
 
 #pragma mark - Aquisição da rota
@@ -117,7 +123,7 @@ didUpdateUserLocation:
                          MKPlacemark *placemark = [[MKPlacemark alloc] initWithPlacemark:topResult];
                          
                          MKCoordinateRegion region = self.mapView.region;
-                         region.center = placemark.region.center;
+                         //region.center = placemark.region.center;
                          region.span.longitudeDelta /= 3000.0;
                          region.span.latitudeDelta /= 3000.0;
                          
@@ -160,11 +166,6 @@ didUpdateUserLocation:
                          {
                              [self coordWithAdress:address];
                          }
-                         
-                         /*if(self.cont == [self.segueIntructions count]-1)
-                         {
-                             [self coordWithAdress:self.desiredCity];
-                         }*/
                      }
                  }
      ];
@@ -185,9 +186,20 @@ didUpdateUserLocation:
          [HUD hide:YES];
          NSLog(@"ROTA ROTA ROTA");
          NSLog(@"%@",error.localizedDescription);
-         [self showRoute:response];
+
+         [self addRouteResponseToArray:response];
      }];
 }
+
+-(void)addRouteResponseToArray:(MKDirectionsResponse *)response
+{
+    for (MKRoute *route in response.routes)
+    {
+        [self.allRoutePolys addObject:route];
+    }
+    [self drawRoute:self.allRoutePolys];
+}
+
 
 #pragma mark - Desenho da rota
 -(void)showRoute:(MKDirectionsResponse *)response
@@ -206,6 +218,15 @@ didUpdateUserLocation:
             NSLog(@"%@", step.instructions);
             [self.routeInstructions addObject:step.instructions];
         }
+    }
+}
+
+-(void)drawRoute:(NSArray *)arrayOfRoutes
+{
+    for (MKRoute* routes in arrayOfRoutes)
+    {
+        [self.mapView
+         addOverlay:routes.polyline level:MKOverlayLevelAboveRoads];
     }
 }
 
