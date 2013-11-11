@@ -35,6 +35,7 @@
 		7AE5866D18227D3400CA7CBA /* APIUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5866C18227D3400CA7CBA /* APIUser.m */; };
 		7AE5867018227D5D00CA7CBA /* APIRider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5866F18227D5D00CA7CBA /* APIRider.m */; };
 		7AE5867318227E5500CA7CBA /* APIRide.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5867218227E5500CA7CBA /* APIRide.m */; };
+		7AEDD5F31830FB0D009CE78F /* APIUserSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEDD5F21830FB0D009CE78F /* APIUserSettings.m */; };
 		9C1D8357F9F84522A9AD5DC9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 575FBAE7E03A4DB1BA957F39 /* libPods.a */; };
 		B01125FB182286C30029F430 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2168AA6F181E7D6A00F08BBA /* Parse.framework */; };
 		B08449B0182CF7AB003685D6 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08449AF182CF7AB003685D6 /* SettingsViewController.m */; };
@@ -111,6 +112,8 @@
 		7AE5866F18227D5D00CA7CBA /* APIRider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIRider.m; sourceTree = "<group>"; };
 		7AE5867118227E5500CA7CBA /* APIRide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIRide.h; sourceTree = "<group>"; };
 		7AE5867218227E5500CA7CBA /* APIRide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIRide.m; sourceTree = "<group>"; };
+		7AEDD5F11830FB0D009CE78F /* APIUserSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIUserSettings.h; sourceTree = "<group>"; };
+		7AEDD5F21830FB0D009CE78F /* APIUserSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIUserSettings.m; sourceTree = "<group>"; };
 		B08449AE182CF7AB003685D6 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		B08449AF182CF7AB003685D6 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		B0878790181561BE001832E4 /* ihCarona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ihCarona.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -237,6 +240,8 @@
 		7AE5866A18227D2300CA7CBA /* APIModels */ = {
 			isa = PBXGroup;
 			children = (
+				7AEDD5F11830FB0D009CE78F /* APIUserSettings.h */,
+				7AEDD5F21830FB0D009CE78F /* APIUserSettings.m */,
 				7AE5866B18227D3400CA7CBA /* APIUser.h */,
 				7AE5866C18227D3400CA7CBA /* APIUser.m */,
 				7AE5866E18227D5D00CA7CBA /* APIRider.h */,
@@ -494,6 +499,7 @@
 				7A191794181AACCD00C4F7EB /* MapsViewController.m in Sources */,
 				7A191798181AACE300C4F7EB /* MBProgressHUD.m in Sources */,
 				B08787A0181561BE001832E4 /* main.m in Sources */,
+				7AEDD5F31830FB0D009CE78F /* APIUserSettings.m in Sources */,
 				2168AA77181EC95100F08BBA /* InstructionsViewController.m in Sources */,
 				7AE5866D18227D3400CA7CBA /* APIUser.m in Sources */,
 				7A6401DA181FE34100A42A16 /* Repository.m in Sources */,
