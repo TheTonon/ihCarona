@@ -53,25 +53,25 @@
     [super viewDidLoad];
     
     self.allRoutePolys = [[NSMutableArray alloc] init];
-    
+    //Seta o delegate do MapView e pede autorização do usuário pra usar a localização dele.
     _mapView.showsUserLocation = YES;
     _mapView.delegate = self;
-    
+    //Load a AlertView do iOS
     UIActivityIndicatorView *ai = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
     ai.center = self.view.center;
     [self.view addSubview:ai];
-    
+    //Loada a AlertUI/MBProgressHUD
     HUD = [[MBProgressHUD alloc] initWithView:self.view];
     HUD.labelText = @"Resolvendo tretas.";
     HUD.detailsLabelText = @"Segura os paranauê que já termina.";
     HUD.mode = MBProgressHUDModeAnnularDeterminate;
     [self.view addSubview:HUD];
-    
+    //Allocs e resets
     self.request = [[MKDirectionsRequest alloc] init];
     self.mapLocations = [[NSMutableArray alloc] init];
     self.cont = 0;
-    
     self.desiredCity = [[Repository instance] destinyCity];
+    //Call no método de geração de trajeto.
     [self genMap];
     [self.view endEditing:YES];
     
@@ -82,7 +82,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+//Centraliza o mapa na localização atual do usuário
 - (void)mapView:(MKMapView *)mapView
 didUpdateUserLocation:
 (MKUserLocation *)userLocation
@@ -93,7 +93,7 @@ didUpdateUserLocation:
 }
 
 #pragma mark - Botões
-
+//Gera o mapa a partir da array de locais dadas pela view anterior.
 -(void)genMap
 {
     self.cont = 0;
@@ -111,6 +111,7 @@ didUpdateUserLocation:
 }
 
 #pragma mark - Aquisição da rota
+//Retorna a geoposição usuário a partir da string de local.
 -(void)coordWithAdress:(NSString *)address
 {
     NSLog(@"GEOCODER");
@@ -170,7 +171,7 @@ didUpdateUserLocation:
                  }
      ];
 }
-
+//Envia request de rota
 - (void)getDirections
 {
     NSLog(@"ROTA ROTA ROTA");
@@ -191,6 +192,7 @@ didUpdateUserLocation:
      }];
 }
 
+// Adiciona a resposta anterior a uma array de rotas.
 -(void)addRouteResponseToArray:(MKDirectionsResponse *)response
 {
     for (MKRoute *route in response.routes)
@@ -202,6 +204,7 @@ didUpdateUserLocation:
 
 
 #pragma mark - Desenho da rota
+//Desenha cada rota individualmente // Deprecated
 -(void)showRoute:(MKDirectionsResponse *)response
 {
     NSLog(@"IM FIRING MY ROUTE!");
@@ -220,26 +223,31 @@ didUpdateUserLocation:
         }
     }
 }
-
+//Desenha as rotas a partir do array criado.
 -(void)drawRoute:(NSArray *)arrayOfRoutes
 {
     for (MKRoute* routes in arrayOfRoutes)
     {
         [self.mapView
          addOverlay:routes.polyline level:MKOverlayLevelAboveRoads];
+        for (MKRouteStep *step in routes.steps)
+        {
+            [self.segueIntructions addObject:step.instructions];
+        }
     }
 }
-
+//Seta informações da linha de desenho da rota como tamanho da linha e cor.
 - (MKOverlayRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id < MKOverlay >)overlay
 {
     MKPolylineRenderer *renderer =
     [[MKPolylineRenderer alloc] initWithOverlay:overlay];
-    renderer.strokeColor = [UIColor blueColor];
+    renderer.strokeColor = [UIColor greenColor];
     renderer.lineWidth = 5.0;
     return renderer;
 }
 
 #pragma mark - Bedelho do Emil PrepareToSegue
+//Segue das instruções.
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     
     if([[segue identifier] isEqualToString:@"segueToInstructions"]){
