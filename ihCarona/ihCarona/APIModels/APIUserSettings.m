@@ -14,6 +14,7 @@
 {
     self = [super init];
     if (self) {
+        //init instructions
         self.instructions = [[NSMutableArray alloc] init];
     }
     return self;

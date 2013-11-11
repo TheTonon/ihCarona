@@ -61,6 +61,7 @@
 
 -(IBAction)salvar:(id)sender
 {
+    //recover the adresses from view
     self.settings.departureAddress= self.txtDeparture.text;
     self.settings.destinationAddress = self.txtDestination.text;
     
