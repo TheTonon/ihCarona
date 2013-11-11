@@ -7,39 +7,28 @@
 //
 
 #import "SettingsViewController.h"
+#import "APIUserSettings.h"
 #import <MapKit/MapKit.h>
 
 @interface SettingsViewController ()
 
-@property (strong, nonatomic) IBOutlet UITextField *textPartida;
-@property (strong, nonatomic) IBOutlet UITextField *textDestino;
-@property (strong, nonatomic) IBOutlet UITextField *textHorario;
+@property (strong, nonatomic) IBOutlet UITextField *txtDeparture;
+@property (strong, nonatomic) IBOutlet UITextField *txtDestination;
+@property (strong, nonatomic) IBOutlet UITextField *txtSchedule;
 
-@property (strong, nonatomic) NSString *textAddressPartida;
-@property (strong, nonatomic) NSString *textAddressDestino;
-@property (strong, nonatomic) NSString *horario;
-
-@property (strong, nonatomic) MKMapItem *mapDestino;
-@property (strong, nonatomic) MKMapItem *mapPartida;
-
-@property (strong, nonatomic) NSMutableArray *arrayOfInstructions;
-
-@property (nonatomic) BOOL donePartida;
-@property (nonatomic) BOOL doneDestino;
+@property (strong, nonatomic) APIUserSettings *settings;
 
 @property (nonatomic, strong) MKDirectionsRequest *request;
 @end
 
 @implementation SettingsViewController
 
-@synthesize textAddressDestino, textAddressPartida, horario, mapDestino, mapPartida, arrayOfInstructions,
-doneDestino, donePartida, request;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        self.settings = [[APIUserSettings alloc]init];
     }
     return self;
 }
@@ -47,17 +36,15 @@ doneDestino, donePartida, request;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    arrayOfInstructions = [[NSMutableArray alloc] init];
-    
+    //initiates loader
     HUD = [[MBProgressHUD alloc] initWithView:self.view];
     HUD.labelText = @"Resolvendo tretas.";
     HUD.detailsLabelText = @"Segura os paranauê que já termina.";
     HUD.mode = MBProgressHUDModeAnnularDeterminate;
     [self.view addSubview:HUD];
     
-    request = [[MKDirectionsRequest alloc] init];
-
-	// Do any additional setup after loading the view.
+    //initiates request
+    self.request = [[MKDirectionsRequest alloc] init];
 }
 
 - (void)didReceiveMemoryWarning
@@ -69,59 +56,66 @@ doneDestino, donePartida, request;
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     [self.view endEditing:YES];
+    
 }
 
 -(IBAction)salvar:(id)sender
 {
-    textAddressPartida = self.textPartida.text;
-    textAddressDestino = self.textDestino.text;
-    horario = self.textHorario.text;
-    NSMutableArray *informations = [[NSMutableArray alloc] init];
-    [informations addObject:textAddressPartida];
-    [informations addObject:textAddressDestino];
-    int contador = 0;
-    for(NSString *information in informations)
-    {
-        [self geocodeUserInformation:informations[contador] comContador:contador];
-        contador ++;
-    }
+    //Recover informations from view
+    self.settings.departureAddress = self.txtDeparture.text;
+    self.settings.destinationAddress = self.txtDestination.text;
+    self.settings.schedule = self.txtSchedule.text;
+
+    //recover address informations
+    [self geocodeUserInformation:self.settings.departureAddress asDestination:NO];
+    [self geocodeUserInformation:self.settings.destinationAddress asDestination:YES];
+    
 }
 
--(void)geocodeUserInformation:(NSString *)address comContador:(int)contador
+/**
+ *  recover a complete adress from a address passed by the user
+ *
+ *  @param address
+ *  @param counter counter description
+ */
+-(void)geocodeUserInformation:(NSString *)address asDestination:(BOOL)isDestination
 {
     [HUD show:YES];
     CLGeocoder *geocoder = [[CLGeocoder alloc] init];
+    //request address informations from Apple
     [geocoder geocodeAddressString:address completionHandler:^(NSArray *placemarks, NSError *error) {
         CLPlacemark *topResult = [placemarks objectAtIndex:0];
         MKPlacemark *mPlacemark = [[MKPlacemark alloc] initWithPlacemark:topResult];
-        mapDestino = [[MKMapItem alloc] initWithPlacemark:mPlacemark];
-        textAddressDestino = [NSString stringWithFormat:@"%@, %@, %@, %@",
-                              [topResult thoroughfare],[topResult locality],
-                              [topResult administrativeArea], [topResult country]];
-        NSLog(@"%@", textAddressDestino);
-        if(contador == 0)
-        {
-            request.source = mapDestino;
+        MKMapItem *mapItem = [[MKMapItem alloc] initWithPlacemark:mPlacemark];
+        
+        NSString * resultAddress = [NSString stringWithFormat:@"%@, %@, %@, %@",
+                                    [topResult thoroughfare],[topResult locality],
+                                    [topResult administrativeArea], [topResult country]];
+        
+        //gets the best result and set as the address
+        if(!isDestination){
+            self.settings.departureAddress = resultAddress;
+            NSLog(@"%@", self.settings.departureAddress);
+            self.request.source = mapItem;
+        }else{
+            self.settings.destinationAddress =resultAddress;
+            self.request.destination = mapItem;
         }
-        else if(contador == 1)
-        {
-            request.destination = mapDestino;
-        }
-        else
-        {
-            NSLog(@"Erro. Qual? o contador passou de 2");
-        }
-        [HUD hide:YES];
+        
         [self getDestinationsForUser];
+
     }];
 }
 
+/**
+ *  recupera a melhor rota para o usuario para os enderecos desejados
+ */
 -(void)getDestinationsForUser
 {
     [HUD show:YES];
-    request.requestsAlternateRoutes = NO;
+    self.request.requestsAlternateRoutes = NO;
     
-    MKDirections *directions = [[MKDirections alloc] initWithRequest:request];
+    MKDirections *directions = [[MKDirections alloc] initWithRequest:self.request];
     [directions calculateDirectionsWithCompletionHandler:
      ^(MKDirectionsResponse *response, NSError *error) {
          NSLog(@"ROTA ROTA ROTA");
@@ -131,6 +125,11 @@ doneDestino, donePartida, request;
      }];
 }
 
+/**
+ *  adiciona as direcoes as instrucoes padrao do usuario
+ *
+ *  @param response resposta de direcoes para a rota
+ */
 -(void)setRouteToArray:(MKDirectionsResponse *)response
 {
     [HUD show:YES];
@@ -138,10 +137,10 @@ doneDestino, donePartida, request;
     {
         for(MKRouteStep *step in route.steps)
         {
-            [arrayOfInstructions addObject:step.instructions];
+            [self.settings.instructions addObject:step.instructions];
         }
     }
-    NSLog(@"%@", arrayOfInstructions.description);
+    NSLog(@"%@", self.settings.instructions.description);
     [HUD hide:YES];
 }
 @end

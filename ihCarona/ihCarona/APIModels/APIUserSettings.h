@@ -10,6 +10,7 @@
 
 @interface APIUserSettings : NSObject
 
+//server properties
 @property (strong, nonatomic) NSString *departureAddress;
 @property (strong, nonatomic) NSString *destinationAddress;
 @property (strong, nonatomic) NSString *schedule;
