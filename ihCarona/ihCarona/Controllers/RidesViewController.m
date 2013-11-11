@@ -55,7 +55,7 @@
         MapsViewController *goToMaps = [segue destinationViewController];
         
         NSMutableArray *passa = [[NSMutableArray alloc] init];
-        for (Rider *rider in self.ridersList) {
+        for (APIRider *rider in self.ridersList) {
             [passa addObject:rider];
         }
         goToMaps.segueIntructions = passa;
