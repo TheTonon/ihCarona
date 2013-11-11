@@ -13,6 +13,7 @@
 
 @property (strong, nonatomic) IBOutlet UITextField *textPartida;
 @property (strong, nonatomic) IBOutlet UITextField *textDestino;
+@property (strong, nonatomic) IBOutlet UITextField *textHorario;
 
 @property (strong, nonatomic) NSString *textAddressPartida;
 @property (strong, nonatomic) NSString *textAddressDestino;
@@ -74,6 +75,7 @@ doneDestino, donePartida, request;
 {
     textAddressPartida = self.textPartida.text;
     textAddressDestino = self.textDestino.text;
+    horario = self.textHorario.text;
     NSMutableArray *informations = [[NSMutableArray alloc] init];
     [informations addObject:textAddressPartida];
     [informations addObject:textAddressDestino];
