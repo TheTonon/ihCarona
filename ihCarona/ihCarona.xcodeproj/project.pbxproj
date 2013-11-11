@@ -16,8 +16,6 @@
 		7A191794181AACCD00C4F7EB /* MapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A19178E181AACCD00C4F7EB /* MapsViewController.m */; };
 		7A191795181AACCD00C4F7EB /* RidesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A191790181AACCD00C4F7EB /* RidesViewController.m */; };
 		7A191798181AACE300C4F7EB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A191797181AACE300C4F7EB /* MBProgressHUD.m */; };
-		7A19179D181AACFA00C4F7EB /* Rider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A19179A181AACFA00C4F7EB /* Rider.m */; };
-		7A19179E181AACFA00C4F7EB /* user.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A19179C181AACFA00C4F7EB /* user.m */; };
 		7A6401DA181FE34100A42A16 /* Repository.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6401D9181FE34100A42A16 /* Repository.m */; };
 		7A7AC9AD181A99D20058F640 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7AC9AB181A99D20058F640 /* FacebookSDK.framework */; };
 		7A7AC9B1181A9AB70058F640 /* Comms.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7AC9B0181A9AB70058F640 /* Comms.m */; };
@@ -86,15 +84,11 @@
 		7A191790181AACCD00C4F7EB /* RidesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RidesViewController.m; sourceTree = "<group>"; };
 		7A191796181AACE300C4F7EB /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		7A191797181AACE300C4F7EB /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		7A191799181AACFA00C4F7EB /* Rider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rider.h; sourceTree = "<group>"; };
-		7A19179A181AACFA00C4F7EB /* Rider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rider.m; sourceTree = "<group>"; };
-		7A19179B181AACFA00C4F7EB /* user.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = user.h; sourceTree = "<group>"; };
-		7A19179C181AACFA00C4F7EB /* user.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = user.m; sourceTree = "<group>"; };
 		7A6401D8181FE34100A42A16 /* Repository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repository.h; sourceTree = "<group>"; };
 		7A6401D9181FE34100A42A16 /* Repository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repository.m; sourceTree = "<group>"; };
 		7A7AC9AB181A99D20058F640 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
-		7A7AC9AF181A9AB70058F640 /* Comms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comms.h; sourceTree = "<group>"; };
-		7A7AC9B0181A9AB70058F640 /* Comms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comms.m; sourceTree = "<group>"; };
+		7A7AC9AF181A9AB70058F640 /* Comms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Comms.h; path = ../Models/Comms.h; sourceTree = "<group>"; };
+		7A7AC9B0181A9AB70058F640 /* Comms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Comms.m; path = ../Models/Comms.m; sourceTree = "<group>"; };
 		7A7AC9B2181A9D670058F640 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		7A7AC9B3181A9D670058F640 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		7A7AC9B4181A9D670058F640 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -207,23 +201,12 @@
 		7A7AC9A5181A99130058F640 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				7A7AC9AF181A9AB70058F640 /* Comms.h */,
+				7A7AC9B0181A9AB70058F640 /* Comms.m */,
 				7A191796181AACE300C4F7EB /* MBProgressHUD.h */,
 				7A191797181AACE300C4F7EB /* MBProgressHUD.m */,
 			);
 			path = Helpers;
-			sourceTree = "<group>";
-		};
-		7A7AC9A6181A99130058F640 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				7A191799181AACFA00C4F7EB /* Rider.h */,
-				7A19179A181AACFA00C4F7EB /* Rider.m */,
-				7A19179B181AACFA00C4F7EB /* user.h */,
-				7A19179C181AACFA00C4F7EB /* user.m */,
-				7A7AC9AF181A9AB70058F640 /* Comms.h */,
-				7A7AC9B0181A9AB70058F640 /* Comms.m */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		7A7AC9BE181A9E760058F640 /* Resources */ = {
@@ -304,7 +287,6 @@
 				7A7AC9BE181A9E760058F640 /* Resources */,
 				7A7AC9A4181A99130058F640 /* Controllers */,
 				7A7AC9A5181A99130058F640 /* Helpers */,
-				7A7AC9A6181A99130058F640 /* Models */,
 				B08787A2181561BE001832E4 /* AppDelegate.h */,
 				B08787A3181561BE001832E4 /* AppDelegate.m */,
 				B08787A5181561BE001832E4 /* Images.xcassets */,
@@ -485,8 +467,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				21FC9C7818227005006ED6CE /* HikingViewController.m in Sources */,
-				7A19179E181AACFA00C4F7EB /* user.m in Sources */,
-				7A19179D181AACFA00C4F7EB /* Rider.m in Sources */,
 				B08449B0182CF7AB003685D6 /* SettingsViewController.m in Sources */,
 				B08787A4181561BE001832E4 /* AppDelegate.m in Sources */,
 				7A191791181AACCD00C4F7EB /* FbFriendsViewController.m in Sources */,
