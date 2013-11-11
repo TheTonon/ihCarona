@@ -32,7 +32,6 @@
     [self.instructionsTable setDelegate:self];
     [self.instructionsTable setDataSource:self];
     [self.instructionsTable reloadData];
-    
 }
 
 - (void)didReceiveMemoryWarning

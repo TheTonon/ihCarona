@@ -67,6 +67,7 @@
     HUD.mode = MBProgressHUDModeAnnularDeterminate;
     [self.view addSubview:HUD];
     //Allocs e resets
+    self.routeInstructions = [[NSMutableArray alloc] init];
     self.request = [[MKDirectionsRequest alloc] init];
     self.mapLocations = [[NSMutableArray alloc] init];
     self.cont = 0;
@@ -232,7 +233,7 @@ didUpdateUserLocation:
          addOverlay:routes.polyline level:MKOverlayLevelAboveRoads];
         for (MKRouteStep *step in routes.steps)
         {
-            [self.segueIntructions addObject:step.instructions];
+            [self.routeInstructions addObject:step.instructions];
         }
     }
 }
@@ -253,7 +254,7 @@ didUpdateUserLocation:
     if([[segue identifier] isEqualToString:@"segueToInstructions"]){
         InstructionsViewController *goToInstructions = [segue destinationViewController];
         
-        goToInstructions.instructions = self.segueIntructions;
+        goToInstructions.instructions = self.routeInstructions;
     }
     
 }
