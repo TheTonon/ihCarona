@@ -51,6 +51,7 @@
 		B08787B9181561BE001832E4 /* ihCaronaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B08787B8181561BE001832E4 /* ihCaronaTests.m */; };
 		B08787C3181561DD001832E4 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08787C2181561DD001832E4 /* main.storyboard */; };
 		B0C1B2321823D165008516C7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C1B2311823D165008516C7 /* CoreLocation.framework */; };
+		B0EAC13A18324CF50007B914 /* FriendFinderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EAC13918324CF50007B914 /* FriendFinderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +129,8 @@
 		B08787B8181561BE001832E4 /* ihCaronaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ihCaronaTests.m; sourceTree = "<group>"; };
 		B08787C2181561DD001832E4 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
 		B0C1B2311823D165008516C7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B0EAC13818324CF50007B914 /* FriendFinderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendFinderViewController.h; sourceTree = "<group>"; };
+		B0EAC13918324CF50007B914 /* FriendFinderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendFinderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +181,8 @@
 		7A7AC9A4181A99130058F640 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B0EAC13818324CF50007B914 /* FriendFinderViewController.h */,
+				B0EAC13918324CF50007B914 /* FriendFinderViewController.m */,
 				7A191787181AACCD00C4F7EB /* FbFriendsViewController.h */,
 				7A191788181AACCD00C4F7EB /* FbFriendsViewController.m */,
 				7A191789181AACCD00C4F7EB /* LandPageViewController.h */,
@@ -472,6 +477,7 @@
 				7A191791181AACCD00C4F7EB /* FbFriendsViewController.m in Sources */,
 				7AE5867018227D5D00CA7CBA /* APIRider.m in Sources */,
 				7A191792181AACCD00C4F7EB /* LandPageViewController.m in Sources */,
+				B0EAC13A18324CF50007B914 /* FriendFinderViewController.m in Sources */,
 				7A191793181AACCD00C4F7EB /* LoginViewController.m in Sources */,
 				7A191795181AACCD00C4F7EB /* RidesViewController.m in Sources */,
 				7A7AC9B1181A9AB70058F640 /* Comms.m in Sources */,

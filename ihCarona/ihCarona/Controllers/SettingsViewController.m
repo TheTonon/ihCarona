@@ -9,12 +9,13 @@
 #import "SettingsViewController.h"
 #import "APIUserSettings.h"
 #import <MapKit/MapKit.h>
+#import "FriendFinderViewController.h"
 
 @interface SettingsViewController ()
 
 @property (strong, nonatomic) IBOutlet UITextField *txtDeparture;
 @property (strong, nonatomic) IBOutlet UITextField *txtDestination;
-@property (strong, nonatomic) IBOutlet UITextField *txtSchedule;
+@property (strong, nonatomic) IBOutlet UIDatePicker *timePicker;
 
 @property (strong, nonatomic) APIUserSettings *settings;
 
@@ -28,7 +29,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.settings = [[APIUserSettings alloc]init];
+        
     }
     return self;
 }
@@ -36,6 +37,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.settings = [[APIUserSettings alloc]init];
     //initiates loader
     HUD = [[MBProgressHUD alloc] initWithView:self.view];
     HUD.labelText = @"Resolvendo tretas.";
@@ -64,8 +66,10 @@
     //Recover informations from view
     self.settings.departureAddress = self.txtDeparture.text;
     self.settings.destinationAddress = self.txtDestination.text;
-    self.settings.schedule = self.txtSchedule.text;
-
+    NSDateFormatter *outputFormatter = [[NSDateFormatter alloc] init];
+    [outputFormatter setDateFormat:@"HH:mm"]; //24hr time format
+    NSString *dateString = [outputFormatter stringFromDate:self.timePicker.date];
+    self.settings.schedule = dateString;
     //recover address informations
     [self geocodeUserInformation:self.settings.departureAddress asDestination:NO];
     [self geocodeUserInformation:self.settings.destinationAddress asDestination:YES];
@@ -143,4 +147,16 @@
     NSLog(@"%@", self.settings.instructions.description);
     [HUD hide:YES];
 }
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if([[segue identifier] isEqualToString:@"segueForFriendFinder"]){
+        
+        FriendFinderViewController *friendFinder = [segue destinationViewController];
+
+        friendFinder.userRoute = self.settings.instructions;
+        
+    }
+}
+
 @end
