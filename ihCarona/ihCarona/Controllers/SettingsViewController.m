@@ -63,6 +63,7 @@
 
 -(IBAction)salvar:(id)sender
 {
+    [self.settings.instructions removeAllObjects];
     //Recover informations from view
     self.settings.departureAddress = self.txtDeparture.text;
     self.settings.destinationAddress = self.txtDestination.text;
@@ -71,9 +72,10 @@
     NSString *dateString = [outputFormatter stringFromDate:self.timePicker.date];
     self.settings.schedule = dateString;
     //recover address informations
+    NSLog(@"GEOCODE SALVAR 1");
     [self geocodeUserInformation:self.settings.departureAddress asDestination:NO];
+    NSLog(@"GEOCODE SALVAR 2");
     [self geocodeUserInformation:self.settings.destinationAddress asDestination:YES];
-    
 }
 
 /**
@@ -108,7 +110,7 @@
         }
         
         [self getDestinationsForUser];
-
+        
     }];
 }
 
@@ -156,7 +158,7 @@
     if([[segue identifier] isEqualToString:@"segueForFriendFinder"]){
         
         FriendFinderViewController *friendFinder = [segue destinationViewController];
-
+        
         friendFinder.userRoute = self.settings.instructions;
         
     }
