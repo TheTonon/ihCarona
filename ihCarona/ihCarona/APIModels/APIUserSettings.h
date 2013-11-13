@@ -18,4 +18,11 @@
 @property (strong, nonatomic) NSMutableArray *instructions;
 
 -(id)init;
+
+/**
+ *  Insert user settings into server
+ *
+ *  @param settings APIUserSettings to be inserted
+ */
++(void)insertSettings:(APIUserSettings *)settings;
 @end

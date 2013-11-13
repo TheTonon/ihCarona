@@ -16,9 +16,28 @@
 @property (nonatomic, strong)NSString *lastName;
 @property (nonatomic, strong)NSString *link;
 
+/**
+ *  instancia um APIUser de um Usuario do Facebook
+ *
+ *  @param user o usuario logado no facebook
+ *
+ *  @return APIUser
+ */
 -(id)initWithFBGraphUser:(NSDictionary<FBGraphUser> *) user;
 
+/**
+ *  instancia um APIUser de um JSONArray
+ *
+ *  @param array JSONArray retornado do ServidorU
+ *
+ *  @return APIUser
+ */
 -(id)initWithArray:(NSArray *)array;
 
+/**
+ *  Envia um User para o Servidor
+ *
+ *  @param user User a ser enviado
+ */
 +(void)insertUser:(APIUser *)user;
 @end
