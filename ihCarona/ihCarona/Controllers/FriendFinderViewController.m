@@ -7,6 +7,9 @@
 //
 
 #import "FriendFinderViewController.h"
+#import "FbFriendsViewController.h"
+#import "APIRider.h"
+#import "APIUserSettings.h"
 
 @interface FriendFinderViewController ()
 
@@ -29,6 +32,13 @@
     NSString *route = [self.userRoute componentsJoinedByString:@","];
     NSLog(route);
 	// Do any additional setup after loading the view.
+}
+
+-(void)getFriendsForRoute
+{
+    FbFriendsViewController *friendsController;
+    
+    //friendsController.friendsList = [APIUserSettings getRouteFrom: toDestination:];
 }
 
 - (void)didReceiveMemoryWarning

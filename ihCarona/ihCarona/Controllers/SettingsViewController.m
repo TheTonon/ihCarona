@@ -84,6 +84,7 @@
  */
 -(void)geocodeUserInformation:(NSString *)address asDestination:(BOOL)isDestination
 {
+    NSLog(@"GEOCODER GEOCODER GEOCODER");
     [HUD show:YES];
     CLGeocoder *geocoder = [[CLGeocoder alloc] init];
     //request address informations from Apple
@@ -116,6 +117,7 @@
  */
 -(void)getDestinationsForUser
 {
+    NSLog(@"Get Destinations for User");
     [HUD show:YES];
     self.request.requestsAlternateRoutes = NO;
     
@@ -136,6 +138,7 @@
  */
 -(void)setRouteToArray:(MKDirectionsResponse *)response
 {
+    NSLog(@"Set Route to Array");
     [HUD show:YES];
     for(MKRoute *route in response.routes)
     {

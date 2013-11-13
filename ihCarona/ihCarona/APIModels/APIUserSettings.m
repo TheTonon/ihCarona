@@ -70,4 +70,12 @@
 {
     NSLog(@"%@",error.localizedDescription);
 }
+
+-(void)getRouteFrom:(NSString *)departure toDestination:(NSString *)destination
+{
+    //Get do server com a cidade de partida
+    //Get do server com a cidade de destino
+    //Mostarar apenas amigos do usuário
+}
+
 @end
