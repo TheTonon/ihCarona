@@ -31,7 +31,7 @@
 
 +(void)insertRider:(APIRider *)rider
 {
-    NSString *jsonRequest = [NSString stringWithFormat:@"{\"Id\":\"%d\",\"UserID\":\"%@\",\"City\":\"%@\",\"desiredDate\":\"%@\",\"isDriver\":\"%@\", \"Latitude\":\"%f\",\"Longitude\":\"%f\",\"ActualLocation\":\"%@\"}",
+    NSString *jsonRequest = [NSString stringWithFormat:@"{\"Id\":\"%d\",\"UserID\":\"%@\",\"City\":\"%@\",\"Date\":\"%@\",\"isDriver\":\"%@\", \"Latitude\":\"%f\",\"Longitude\":\"%f\",\"ActualLocation\":\"%@\"}",
                              rider.id,rider.userId, rider.city,rider.desiredDate,rider.isDriver,rider.latitude,rider.longitude,rider.txtAdress];
     NSLog(@"Request: %@", jsonRequest);
     NSURL *url = [NSURL URLWithString:@"http://ihcarona.cloudapp.net/Rider"];

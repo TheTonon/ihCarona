@@ -23,22 +23,24 @@
 +(void)insertSettings:(APIUserSettings *)settings
 {
     NSString *instructionsJson = @"[";
-    for(NSString *instruction in settings.instructions)
+    for(int i = 0; i< settings.instructions.count; i++)
     {
+        NSString *instruction = [settings.instructions objectAtIndex:i];
         NSString *instructionJson =[NSString stringWithFormat:@"{\"UserId\":\"%@\",\"Instruction\":\"%@\"}",
                                   settings.userId,instruction];
         
         //se for a ultima instrucao nao coloca virgula
-        if([settings.instructions indexOfObject:instruction] == settings.instructions.count -1){
+        
+        NSLog(@"%i   %i",[settings.instructions indexOfObject:instruction] , settings.instructions.count -1);
+        if(i == settings.instructions.count -1){
             instructionsJson = [NSString stringWithFormat:@"%@ %@",instructionsJson, instructionJson];
         }else{
             instructionsJson = [NSString stringWithFormat:@"%@ %@ %@",instructionsJson, instructionJson, @","];
         }
-        
-        instructionsJson = [NSString stringWithFormat:@"%@ %@",instructionsJson, @"]"];
     }
+    instructionsJson = [NSString stringWithFormat:@"%@%@",instructionsJson, @"]"];
     
-    NSString *jsonRequest = [NSString stringWithFormat:@"{\"UserId\":\"%@\",\"DepartureAddress\":\"%@\",\"DestinationAddress\":\"%@\",\"Schedule\":\"%@\",\"Instructions\":\"%@\"}",settings.userId,settings.departureAddress, settings.destinationAddress,settings.schedule,instructionsJson];
+    NSString *jsonRequest = [NSString stringWithFormat:@"{\"UserId\":\"%@\",\"DepartureAddress\":\"%@\",\"DestinationAddress\":\"%@\",\"Schedule\":\"%@\",\"Instructions\":%@}",settings.userId,settings.departureAddress, settings.destinationAddress,settings.schedule,instructionsJson];
     NSLog(@"Request: %@", jsonRequest);
     NSURL *url = [NSURL URLWithString:@"http://ihcarona.cloudapp.net/UserSettings"];
     
