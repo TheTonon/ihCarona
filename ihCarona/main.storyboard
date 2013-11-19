@@ -176,8 +176,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="salvar:" destination="Vi3-79-hUS" eventType="touchUpInside" id="J0G-lu-W4w"/>
-                                    <action selector="salvar:" destination="OYn-G8-ESm" eventType="touchUpInside" id="rwG-QS-i8e"/>
+                                    <action selector="salvar:" destination="OYn-G8-ESm" eventType="touchUpInside" id="MIS-hA-FyT"/>
                                     <segue destination="6Y0-FS-PPM" kind="push" id="L6L-kN-bWb"/>
                                 </connections>
                             </button>

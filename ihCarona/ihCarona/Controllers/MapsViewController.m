@@ -205,25 +205,7 @@ didUpdateUserLocation:
 
 
 #pragma mark - Desenho da rota
-//Desenha cada rota individualmente // Deprecated
--(void)showRoute:(MKDirectionsResponse *)response
-{
-    NSLog(@"IM FIRING MY ROUTE!");
-    self.routeInstructions = [[NSMutableArray alloc]init];
-    for (MKRoute *route in response.routes)
-    {
-        NSLog(@"IM FIRING MY ROUTE! TWICE!");
-        
-        [_mapView
-         addOverlay:route.polyline level:MKOverlayLevelAboveRoads];
-        
-        for (MKRouteStep *step in route.steps)
-        {
-            NSLog(@"%@", step.instructions);
-            [self.routeInstructions addObject:step.instructions];
-        }
-    }
-}
+
 //Desenha as rotas a partir do array criado.
 -(void)drawRoute:(NSArray *)arrayOfRoutes
 {
