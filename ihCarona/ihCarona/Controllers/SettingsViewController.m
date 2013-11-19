@@ -47,6 +47,8 @@
     
     //initiates request
     self.request = [[MKDirectionsRequest alloc] init];
+    
+    //initiate date picker
 }
 
 - (void)didReceiveMemoryWarning
