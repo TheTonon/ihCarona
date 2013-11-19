@@ -42,8 +42,8 @@
     self.settings = [[APIUserSettings alloc]init];
     //initiates loader
     HUD = [[MBProgressHUD alloc] initWithView:self.view];
-    HUD.labelText = @"Resolvendo tretas.";
-    HUD.detailsLabelText = @"Segura os paranauê que já termina.";
+    HUD.labelText = @"Carregando";
+    HUD.detailsLabelText = @"Aguarde alguns instantes";
     HUD.mode = MBProgressHUDModeAnnularDeterminate;
     [self.view addSubview:HUD];
     self.alreadySalved = NO;
