@@ -10,7 +10,7 @@
 #import "APIUserSettings.h"
 #import <MapKit/MapKit.h>
 #import "FriendFinderViewController.h"
-
+#import "Repository.h"
 @interface SettingsViewController ()
 
 @property (strong, nonatomic) IBOutlet UITextField *txtDeparture;
@@ -149,8 +149,16 @@
             [self.settings.instructions addObject:step.instructions];
         }
     }
+    [self saveUserSettings];
+    
     NSLog(@"%@", self.settings.instructions.description);
     [HUD hide:YES];
+}
+
+-(void)saveUserSettings
+{
+    self.settings.userId = [Repository instance].user.id;
+    [APIUserSettings insertSettings:self.settings];
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
