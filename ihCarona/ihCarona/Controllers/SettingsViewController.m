@@ -17,6 +17,8 @@
 @property (strong, nonatomic) IBOutlet UITextField *txtDestination;
 @property (strong, nonatomic) IBOutlet UIDatePicker *timePicker;
 
+@property (nonatomic) BOOL alreadySalved;
+
 @property (strong, nonatomic) APIUserSettings *settings;
 
 @property (nonatomic, strong) MKDirectionsRequest *request;
@@ -44,9 +46,15 @@
     HUD.detailsLabelText = @"Segura os paranauê que já termina.";
     HUD.mode = MBProgressHUDModeAnnularDeterminate;
     [self.view addSubview:HUD];
+    self.alreadySalved = NO;
     
     //initiates request
     self.request = [[MKDirectionsRequest alloc] init];
+}
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    self.alreadySalved = NO;
 }
 
 - (void)didReceiveMemoryWarning
@@ -63,19 +71,23 @@
 
 -(IBAction)salvar:(id)sender
 {
-    [self.settings.instructions removeAllObjects];
-    //Recover informations from view
-    self.settings.departureAddress = self.txtDeparture.text;
-    self.settings.destinationAddress = self.txtDestination.text;
-    NSDateFormatter *outputFormatter = [[NSDateFormatter alloc] init];
-    [outputFormatter setDateFormat:@"HH:mm"]; //24hr time format
-    NSString *dateString = [outputFormatter stringFromDate:self.timePicker.date];
-    self.settings.schedule = dateString;
-    //recover address informations
-    NSLog(@"GEOCODE SALVAR 1");
-    [self geocodeUserInformation:self.settings.departureAddress asDestination:NO];
-    NSLog(@"GEOCODE SALVAR 2");
-    [self geocodeUserInformation:self.settings.destinationAddress asDestination:YES];
+    if(!self.alreadySalved)
+    {
+        [self.settings.instructions removeAllObjects];
+        //Recover informations from view
+        self.settings.departureAddress = self.txtDeparture.text;
+        self.settings.destinationAddress = self.txtDestination.text;
+        NSDateFormatter *outputFormatter = [[NSDateFormatter alloc] init];
+        [outputFormatter setDateFormat:@"HH:mm"]; //24hr time format
+        NSString *dateString = [outputFormatter stringFromDate:self.timePicker.date];
+        self.settings.schedule = dateString;
+        //recover address informations
+        NSLog(@"GEOCODE SALVAR 1");
+        [self geocodeUserInformation:self.settings.departureAddress asDestination:NO];
+        NSLog(@"GEOCODE SALVAR 2");
+        [self geocodeUserInformation:self.settings.destinationAddress asDestination:YES];
+    }
+    self.alreadySalved = YES;
 }
 
 /**
