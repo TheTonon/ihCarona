@@ -52,6 +52,8 @@
                     APIUser *user = [[APIUser alloc] initWithFBGraphUser:me];
                     [APIUser insertUser:user];
                     [Repository instance].user = me;
+                }else{
+                    [PFUser logOut];
                 }
             }];
             
